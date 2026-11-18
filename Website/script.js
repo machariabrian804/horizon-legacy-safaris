@@ -8,6 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
   initFaqAccordion();
   initStickyHeader();
   initDatePicker();
+  initBackToTop();
+  initScrollReveal();
+  initImageFallbacks();
 });
 
 /* --------------------------------------------------------------------------
@@ -329,3 +332,96 @@ function handleBookingSubmit(event) {
 }
 
 window.handleBookingSubmit = handleBookingSubmit;
+
+/* --------------------------------------------------------------------------
+   8. BACK-TO-TOP CONTROL
+   Injected here so every page gets it without editing each document.
+   -------------------------------------------------------------------------- */
+function initBackToTop() {
+  if (document.querySelector('.back-to-top')) return;
+
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'back-to-top';
+  btn.setAttribute('aria-label', 'Back to top');
+  btn.innerHTML =
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" ' +
+    'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+    '<path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></svg>';
+
+  btn.addEventListener('click', () => {
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' });
+  });
+
+  document.body.appendChild(btn);
+
+  let ticking = false;
+  const update = () => {
+    btn.classList.toggle('is-visible', window.scrollY > 600);
+    ticking = false;
+  };
+
+  window.addEventListener('scroll', () => {
+    if (ticking) return;
+    ticking = true;
+    window.requestAnimationFrame(update);
+  }, { passive: true });
+
+  update();
+}
+
+/* --------------------------------------------------------------------------
+   9. SCROLL REVEAL
+   Only elements below the fold are hidden, and only once JS is running, so
+   content is never missing when scripts fail or motion is reduced.
+   -------------------------------------------------------------------------- */
+function initScrollReveal() {
+  if (!('IntersectionObserver' in window)) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  const targets = document.querySelectorAll(
+    '.dest-content-section, .packages-section-wrap, .section-header, ' +
+    '.destination-card, .package-card, .accomm-card'
+  );
+  if (!targets.length) return;
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('is-revealed');
+      observer.unobserve(entry.target);
+    });
+  }, { rootMargin: '0px 0px -10% 0px', threshold: 0 });
+
+  targets.forEach((el) => {
+    if (el.getBoundingClientRect().top < window.innerHeight * 0.85) return;
+    el.classList.add('reveal');
+    observer.observe(el);
+  });
+}
+
+/* --------------------------------------------------------------------------
+   10. IMAGE FALLBACK
+   A failed photograph is replaced by a branded panel instead of a broken
+   icon, so no page ever looks half-built.
+   -------------------------------------------------------------------------- */
+function initImageFallbacks() {
+  const placeholder = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">' +
+    '<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">' +
+    '<stop offset="0" stop-color="#2A211B"/><stop offset="1" stop-color="#7A5F35"/>' +
+    '</linearGradient></defs>' +
+    '<rect width="800" height="500" fill="url(#g)"/>' +
+    '<text x="400" y="258" fill="#E7CE9B" font-family="Georgia, serif" font-size="28" ' +
+    'text-anchor="middle">Horizon Legacy Safaris</text></svg>'
+  );
+
+  document.querySelectorAll('img').forEach((img) => {
+    img.addEventListener('error', () => {
+      if (img.dataset.fallbackApplied === 'true') return;
+      img.dataset.fallbackApplied = 'true';
+      img.src = placeholder;
+    });
+  });
+}
