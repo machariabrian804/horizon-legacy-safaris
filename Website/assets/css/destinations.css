@@ -619,6 +619,45 @@
   border-color: rgb(var(--rgb-gold) / 0.6);
 }
 
+/* Pointer-driven 3D tilt. The grid is only marked .tilt-enabled once the
+   Motion script has run, so nothing here applies without JavaScript. */
+.destinations-grid.tilt-enabled {
+  perspective: 1200px;
+}
+
+.tilt-enabled .dest-card {
+  transform-style: preserve-3d;
+  will-change: transform;
+  transition: box-shadow var(--transition-normal), border-color var(--transition-normal);
+}
+
+.tilt-enabled .dest-card:hover {
+  transform: none;
+}
+
+.tilt-enabled .dest-card.is-untilt {
+  transition: transform 0.5s cubic-bezier(0.22, 1.2, 0.36, 1);
+}
+
+.tilt-enabled .dest-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+  background: radial-gradient(
+    circle at var(--glare-x, 50%) var(--glare-y, 50%),
+    rgb(var(--rgb-white) / 0.22),
+    transparent 55%
+  );
+}
+
+.tilt-enabled .dest-card:hover::after {
+  opacity: 1;
+}
+
 .dest-card-media {
   position: relative;
   width: 100%;

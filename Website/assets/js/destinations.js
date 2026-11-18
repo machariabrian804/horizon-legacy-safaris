@@ -23,6 +23,13 @@
   const reducedMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
   const scrollBehavior = () => (reducedMotionQuery.matches ? 'auto' : 'smooth');
 
+  // This listing is served from both / and /packages/destinations/, so the
+  // grid declares where detail pages live instead of the path being inferred.
+  function detailBasePath() {
+    const grid = document.getElementById('destinationsGrid');
+    return (grid && grid.dataset.detailBase) || '';
+  }
+
   // DOM Elements cache
   let elements = {};
 
@@ -398,7 +405,7 @@
           .join('');
 
         // Dedicated detail page URL
-        const detailUrl = `${dest.slug}/`;
+        const detailUrl = `${detailBasePath()}${dest.slug}/`;
 
         return `
           <article class="dest-card" data-id="${escapeHtml(dest.id)}">
@@ -580,7 +587,7 @@
           <img src="${escapeHtml(dest.cardImage || dest.heroImage)}" alt="${escapeHtml(dest.name)}" class="map-popup-img">
           <span class="map-popup-region">${escapeHtml(dest.region)} • ${escapeHtml(dest.country)}</span>
           <h4 class="map-popup-title">${escapeHtml(dest.name)}</h4>
-          <a href="${dest.slug}/" class="map-popup-btn">Explore &rarr;</a>
+          <a href="${detailBasePath()}${dest.slug}/" class="map-popup-btn">Explore &rarr;</a>
         </div>
       `;
 
