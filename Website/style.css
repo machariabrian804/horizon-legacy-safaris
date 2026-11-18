@@ -2861,3 +2861,16 @@ ul {
     transition: none;
   }
 }
+
+/* --------------------------------------------------------------------------
+   ICON SIZE FALLBACK
+   Icons on destination pages are sized by destinations.css. If that sheet ever
+   fails to load, an SVG with only a viewBox expands to the full container
+   width - which is how a search icon became a page-filling ring. `:where()`
+   keeps specificity at zero, so every existing class rule still wins and this
+   only applies when nothing else sets a size.
+   -------------------------------------------------------------------------- */
+:where(svg[viewBox]:not([width]):not([height])) {
+  width: 1.15em;
+  height: 1.15em;
+}
