@@ -136,6 +136,11 @@ html {
 :focus-visible {
   outline: 2px solid currentColor;
   outline-offset: 3px;
+  /* Several components use `transition: all`, which would animate the ring in
+     from 0px and briefly leave it invisible. Excluding outline keeps the ring
+     instant while preserving their hover transitions. `!important` is needed
+     because those component rules load after this one. */
+  transition-property: background-color, border-color, color, box-shadow, transform, opacity !important;
 }
 
 /* Honour the OS "reduce motion" setting: no smooth scrolling, no looping
