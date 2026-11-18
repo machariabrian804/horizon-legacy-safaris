@@ -1,1 +1,4 @@
-/packages/destinations  /packages/destinations/  301
+# The destination listing lives at / now; keep old links working.
+/packages/destinations            /  301
+/packages/destinations/           /  301
+/packages/destinations/index.html /  301
