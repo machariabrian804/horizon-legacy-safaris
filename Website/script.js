@@ -320,7 +320,7 @@ function handleBookingSubmit(event) {
   }
   message += `\n_Sent via Horizon Legacy Safaris Website Inquiry Form_`;
 
-  const whatsappPhone = '254712345678';
+  const whatsappPhone = '254762251566';
   const whatsappUrl = `https://wa.me/${whatsappPhone}?text=${encodeURIComponent(message)}`;
 
   // Close modal and redirect to WhatsApp
