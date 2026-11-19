@@ -12,6 +12,7 @@ import os
 import json
 import html
 from destinations_dataset import DESTINATIONS, PACKAGES
+from safari_packages_dataset import SAFARI_PACKAGES
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WEBSITE_DIR = os.path.join(BASE_DIR, 'Website')
@@ -47,6 +48,8 @@ def generate_js_data():
 window.DESTINATIONS_DATA = {json.dumps(DESTINATIONS, indent=2, ensure_ascii=False)};
 
 window.PACKAGES_DATA = {json.dumps(PACKAGES, indent=2, ensure_ascii=False)};
+
+window.SAFARI_PACKAGES_DATA = {json.dumps(SAFARI_PACKAGES, indent=2, ensure_ascii=False)};
 
 window.getDestinationBySlug = function(slug) {{
   if (!window.DESTINATIONS_DATA) return null;
@@ -316,7 +319,7 @@ def generate_destination_detail_pages():
         <ul class="nav-list">
           <li><a href="../../../index.html" class="nav-link">Home</a></li>
           <li><a href="/" class="nav-link" style="color: var(--color-primary); font-weight: 700;">Destinations</a></li>
-          <li><a href="/?category=Wildlife+Safaris#discoveryGridAnchor" class="nav-link">Safari Packages</a></li>
+          <li><a href="/safari-packages/" class="nav-link">Safari Packages</a></li>
           <li><a href="/?category=Luxury+Getaways#discoveryGridAnchor" class="nav-link">Getaways</a></li>
           <li><a href="/#about" class="nav-link">About Us</a></li>
           <li><a href="/#contact" class="nav-link">FAQs & Contact</a></li>
@@ -767,6 +770,10 @@ def generate_sitemap():
     ]
     for d in DESTINATIONS:
         urls.append(f"https://horizonlegacysafaris.com/packages/destinations/{d['slug']}/")
+    urls.append("https://horizonlegacysafaris.com/safari-packages/")
+    for pkg in SAFARI_PACKAGES:
+        path = pkg.get("detailPath") or f"/safari-packages/{pkg['slug']}/"
+        urls.append(f"https://horizonlegacysafaris.com{path}")
 
     xml_lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
