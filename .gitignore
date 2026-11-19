@@ -1,2 +1,5 @@
 node_modules/
 .DS_Store
+
+# Local capture artifacts (not part of the site)
+screenshots/

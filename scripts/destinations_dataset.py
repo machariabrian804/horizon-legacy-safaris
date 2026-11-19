@@ -29,13 +29,12 @@ DESTINATIONS = [
             "Beyond the migration, the Mara offers breathtaking year-round safari game drives, sunrise hot air balloon safaris, "
             "and enriching cultural encounters with the traditional Maasai pastoralist communities."
         ),
-        "heroImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=85",
-        "cardImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=800&q=80",
+        "heroImage": "/assets/images/destinations/maasai-mara.jpg",
+        "cardImage": "/assets/images/destinations/maasai-mara-card.jpg",
         "gallery": [
-            {"url": "https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=1000&q=80", "caption": "Lions resting in the golden grasses of Maasai Mara"},
-            {"url": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1000&q=80", "caption": "Dawn hot air balloon safari over the Mara plains"},
-            {"url": "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?auto=format&fit=crop&w=1000&q=80", "caption": "Cheetah perched scanning for prey"},
-            {"url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1000&q=80", "caption": "Elephant family marching towards the Mara River"}
+            {"url": "/assets/images/destinations/maasai-mara.jpg", "caption": "Lion pride resting in the golden Mara grass"},
+            {"url": "/assets/images/destinations/maasai-mara-card.jpg", "caption": "Wildebeest and zebra at a Mara River crossing"},
+            {"url": "/assets/images/destinations/maasai-mara-balloon.jpg", "caption": "Sunrise balloon flight over the Mara"},
         ],
         "coordinates": [-1.4889, 35.1439],
         "highlights": [
@@ -104,13 +103,11 @@ DESTINATIONS = [
             "and over 400 species of birds. Observation Hill provides panoramic 360-degree vistas across the entire park, "
             "where swamp elephants bathe and dust-devil whirlwinds dance across the dried Lake Amboseli bed."
         ),
-        "heroImage": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=1600&q=85",
-        "cardImage": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=800&q=80",
+        "heroImage": "/assets/images/destinations/amboseli.jpg",
+        "cardImage": "/assets/images/destinations/amboseli-card.jpg",
         "gallery": [
-            {"url": "https://images.unsplash.com/photo-1581852017103-68ac6550407b?auto=format&fit=crop&w=1000&q=80", "caption": "Elephant family with Kilimanjaro in the backdrop"},
-            {"url": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=1000&q=80", "caption": "Lioness on morning prowl in Amboseli"},
-            {"url": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1000&q=80", "caption": "Zebras drinking at Amboseli swamp"},
-            {"url": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1000&q=80", "caption": "Golden sunrise over Observation Hill"}
+            {"url": "/assets/images/destinations/amboseli.jpg", "caption": "Elephant herd beneath the snows of Kilimanjaro"},
+            {"url": "/assets/images/destinations/amboseli-card.jpg", "caption": "Elephants crossing the Amboseli plains"},
         ],
         "coordinates": [-2.6527, 37.2606],
         "highlights": [
@@ -173,13 +170,11 @@ DESTINATIONS = [
             "Viewpoints like Baboon Cliff and Lion Hill afford breathtaking panoramas across the sparkling lake, "
             "while Makalia Falls cascades gracefully in the southern woodland basin."
         ),
-        "heroImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=85",
-        "cardImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+        "heroImage": "/assets/images/destinations/lake-nakuru.jpg",
+        "cardImage": "/assets/images/destinations/lake-nakuru-card.jpg",
         "gallery": [
-            {"url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1000&q=80", "caption": "The Encore Hotel Nakuru luxury pool and grounds"},
-            {"url": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1000&q=80", "caption": "White rhino grazing peacefully along Lake Nakuru shore"},
-            {"url": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1000&q=80", "caption": "Flock of flamingos feeding along the alkaline shallows"},
-            {"url": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=1000&q=80", "caption": "Panoramic Rift Valley view from Baboon Cliff"}
+            {"url": "/assets/images/destinations/lake-nakuru.jpg", "caption": "White rhino among flamingos on the Nakuru shoreline"},
+            {"url": "/assets/images/destinations/lake-nakuru-card.jpg", "caption": "Flamingo flock along the alkaline shallows"},
         ],
         "coordinates": [-0.3667, 36.0833],
         "highlights": [
@@ -241,13 +236,11 @@ DESTINATIONS = [
             "On Crescent Island Game Sanctuary, visitors experience one of Kenya's few walking safaris without predators, "
             "strolling freely amidst herds of giraffes, zebras, wildebeests, waterbucks, and gazelles."
         ),
-        "heroImage": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1600&q=85",
-        "cardImage": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=800&q=80",
+        "heroImage": "/assets/images/destinations/lake-naivasha.jpg",
+        "cardImage": "/assets/images/destinations/lake-naivasha-card.jpg",
         "gallery": [
-            {"url": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1000&q=80", "caption": "Giraffes roaming peacefully on Crescent Island"},
-            {"url": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1000&q=80", "caption": "Boat cruise approaching hippos at Lake Naivasha"},
-            {"url": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=1000&q=80", "caption": "African Fish Eagle resting on submerged acacia tree"},
-            {"url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1000&q=80", "caption": "Sunset tranquility over Lake Naivasha waters"}
+            {"url": "/assets/images/destinations/lake-naivasha.jpg", "caption": "Hippos grazing on the Naivasha shoreline"},
+            {"url": "/assets/images/destinations/lake-naivasha-card.jpg", "caption": "Boat drifting among the water hyacinth"},
         ],
         "coordinates": [-0.7667, 36.4333],
         "highlights": [
@@ -305,13 +298,11 @@ DESTINATIONS = [
             "ideal for swimming, windsurfing, and snorkeling. Beyond the beach, travelers can explore ancient sacred Kaya coastal "
             "forests, encounter colobus monkeys in the canopy, swim with whale sharks, or take a dhow safari to Kisite Mpunguti Marine Park."
         ),
-        "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=85",
-        "cardImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+        "heroImage": "/assets/images/destinations/diani-beach.jpg",
+        "cardImage": "/assets/images/destinations/diani-beach-card.jpg",
         "gallery": [
-            {"url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80", "caption": "Powdery white sand shores of Diani Beach"},
-            {"url": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1000&q=80", "caption": "Snorkeling with sea turtles at Kisite Marine Park"},
-            {"url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1000&q=80", "caption": "Luxury private beachfront villa at sunset"},
-            {"url": "https://images.unsplash.com/photo-1510414842594-a61782153f5b?auto=format&fit=crop&w=1000&q=80", "caption": "Traditional wooden dhow sailing the turquoise lagoon"}
+            {"url": "/assets/images/destinations/diani-beach.jpg", "caption": "Powder-white sand and turquoise water at Diani"},
+            {"url": "/assets/images/destinations/diani-beach-card.jpg", "caption": "Beachfront palms on the South Coast"},
         ],
         "coordinates": [-4.2788, 39.5936],
         "highlights": [
@@ -369,12 +360,11 @@ DESTINATIONS = [
             "sheltering rare golden-rumped elephant shrews and Clarke's weavers. Nearby, the mysterious 13th-century Swahili ruins of Gedi "
             "offer a fascinating archaeological journey through ancient mosques, palaces, and coral stone gateways hidden beneath giant baobabs."
         ),
-        "heroImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=85",
-        "cardImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80",
+        "heroImage": "/assets/images/destinations/watamu.jpg",
+        "cardImage": "/assets/images/destinations/watamu-card.jpg",
         "gallery": [
-            {"url": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1000&q=80", "caption": "Crystalline sandbank exposed at low tide in Watamu"},
-            {"url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80", "caption": "Sailing dhow near the coral islands of Watamu Bay"},
-            {"url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1000&q=80", "caption": "Relaxed seaside dining overlooking the lagoon"}
+            {"url": "/assets/images/destinations/watamu.jpg", "caption": "Clear shallows over white sand at Watamu"},
+            {"url": "/assets/images/destinations/watamu-card.jpg", "caption": "Coral rock formations in Watamu Marine Park"},
         ],
         "coordinates": [-3.3500, 40.0167],
         "highlights": [
@@ -498,7 +488,6 @@ DESTINATIONS = [
         "cardImage": "https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=800&q=80",
         "gallery": [
             {"url": "https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=1000&q=80", "caption": "Red-dusted elephants marching through Tsavo savannah"},
-            {"url": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=1000&q=80", "caption": "Mzima Springs crystal-clear water pools"}
         ],
         "coordinates": [-2.9833, 38.4667],
         "highlights": [
@@ -556,11 +545,11 @@ DESTINATIONS = [
             "for community-led conservation, Laikipia is home to Kenya's highest concentration of endangered black rhinos, "
             "reintroduced African wild dogs, and Grevy's zebras, protected across exclusive private ranches and luxury eco-lodges."
         ),
-        "heroImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=85",
-        "cardImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+        "heroImage": "/assets/images/destinations/mount-kenya.jpg",
+        "cardImage": "/assets/images/destinations/mount-kenya-card.jpg",
         "gallery": [
-            {"url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80", "caption": "Mount Kenya peaks rising above alpine moorlands"},
-            {"url": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1000&q=80", "caption": "Rhino sanctuary in Laikipia conservancy"}
+            {"url": "/assets/images/destinations/mount-kenya.jpg", "caption": "Batian peak seen from Point Lenana"},
+            {"url": "/assets/images/destinations/mount-kenya-card.jpg", "caption": "Sunrise on the Lenana summit ridge"},
         ],
         "coordinates": [-0.1521, 37.3084],
         "highlights": [
@@ -618,11 +607,11 @@ DESTINATIONS = [
             "Culturally, the Samburu people—close relatives of the Maasai—retain deeply authentic nomadic traditions, "
             "welcoming respectful visitors to learn about their pastoral heritage, traditional beadwork, and sacred mountain lore."
         ),
-        "heroImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=85",
-        "cardImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=800&q=80",
+        "heroImage": "/assets/images/destinations/samburu.jpg",
+        "cardImage": "/assets/images/destinations/samburu-card.jpg",
         "gallery": [
-            {"url": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1000&q=80", "caption": "Reticulated giraffe roaming Samburu acacia woodlands"},
-            {"url": "https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=1000&q=80", "caption": "Leopard relaxing in doum palm tree near Ewaso Ng'iro river"}
+            {"url": "/assets/images/destinations/samburu.jpg", "caption": "Reticulated giraffe browsing in Samburu"},
+            {"url": "/assets/images/destinations/samburu-card.jpg", "caption": "Giraffe and oxpecker against the Samburu sky"},
         ],
         "coordinates": [0.6167, 37.5333],
         "highlights": [
@@ -680,11 +669,11 @@ DESTINATIONS = [
             "Ol Pejeta also hosts the Jane Goodall Sweetwaters Chimpanzee Sanctuary and high densities of lions, leopards, "
             "cheetahs, and elephants with Mount Kenya's snowy peaks as an ever-present backdrop."
         ),
-        "heroImage": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=1600&q=85",
-        "cardImage": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=800&q=80",
+        "heroImage": "/assets/images/destinations/nanyuki.jpg",
+        "cardImage": "/assets/images/destinations/nanyuki-card.jpg",
         "gallery": [
-            {"url": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=1000&q=80", "caption": "Northern White Rhino under conservation care at Ol Pejeta"},
-            {"url": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1000&q=80", "caption": "Equator crossing demonstration in Nanyuki"}
+            {"url": "/assets/images/destinations/nanyuki.jpg", "caption": "The Laikipia plain beneath Mount Kenya"},
+            {"url": "/assets/images/destinations/nanyuki-card.jpg", "caption": "Golden acacia savannah near Nanyuki"},
         ],
         "coordinates": [0.0167, 37.0722],
         "highlights": [
@@ -804,11 +793,11 @@ DESTINATIONS = [
             "Deep inside the park, the Ol Njorowa Gorge winds through dramatic water-sculpted sandstone canyon walls with natural hot springs. "
             "Nearby, the Olkaria Geothermal Spa offers a relaxing swim in massive, naturally heated mineral pools."
         ),
-        "heroImage": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1600&q=85",
-        "cardImage": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=800&q=80",
+        "heroImage": "/assets/images/destinations/hells-gate.jpg",
+        "cardImage": "/assets/images/destinations/hells-gate-card.jpg",
         "gallery": [
-            {"url": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1000&q=80", "caption": "Dramatic sandstone cliffs of Hell's Gate canyon"},
-            {"url": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1000&q=80", "caption": "Cycling along the main park trail with grazing wildlife"}
+            {"url": "/assets/images/destinations/hells-gate.jpg", "caption": "The eroded gorge at Hell's Gate"},
+            {"url": "/assets/images/destinations/hells-gate-card.jpg", "caption": "Towering rock formations on the valley floor"},
         ],
         "coordinates": [-0.9167, 36.3167],
         "highlights": [
@@ -931,11 +920,11 @@ DESTINATIONS = [
             "and bustling Forodhani night food market. Along the island's coastline, powdery white beaches like Nungwi and Kendwa "
             "offer tide-free swimming in glowing turquoise lagoons, while Mnemba Atoll is East Africa's premier marine sanctuary."
         ),
-        "heroImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=85",
-        "cardImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80",
+        "heroImage": "/assets/images/destinations/zanzibar.jpg",
+        "cardImage": "/assets/images/destinations/zanzibar-card.jpg",
         "gallery": [
-            {"url": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1000&q=80", "caption": "Nungwi beach crystal turquoise waters"},
-            {"url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1000&q=80", "caption": "Historic carved door in UNESCO Stone Town"}
+            {"url": "/assets/images/destinations/zanzibar.jpg", "caption": "Dhows at sunset off Stone Town"},
+            {"url": "/assets/images/destinations/zanzibar-card.jpg", "caption": "Traditional dhow under sail"},
         ],
         "coordinates": [-6.1659, 39.2026],
         "highlights": [
@@ -1115,11 +1104,11 @@ DESTINATIONS = [
             "and an arctic summit zone of glaciers and ice walls. Standing on Uhuru Peak at sunrise as the curvature of the Earth "
             "is revealed is one of life's supreme travel milestones."
         ),
-        "heroImage": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=1600&q=85",
-        "cardImage": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=800&q=80",
+        "heroImage": "/assets/images/destinations/kilimanjaro.jpg",
+        "cardImage": "/assets/images/destinations/kilimanjaro-card.jpg",
         "gallery": [
-            {"url": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=1000&q=80", "caption": "Snow-capped summit of Kilimanjaro above the clouds"},
-            {"url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80", "caption": "Trekkers ascending the alpine desert zone towards Kibo crater"}
+            {"url": "/assets/images/destinations/kilimanjaro.jpg", "caption": "Kilimanjaro rising across the savannah"},
+            {"url": "/assets/images/destinations/kilimanjaro-card.jpg", "caption": "The eastern icefields near the summit"},
         ],
         "coordinates": [-3.0674, 37.3556],
         "highlights": [
@@ -1433,7 +1422,6 @@ DESTINATIONS = [
         "cardImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=800&q=80",
         "gallery": [
             {"url": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1000&q=80", "caption": "Mokoro canoe gliding through Okavango Delta waterways"},
-            {"url": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=1000&q=80", "caption": "Elephant herds crossing Chobe River shallows"}
         ],
         "coordinates": [-19.2833, 22.9000],
         "highlights": [
@@ -1678,7 +1666,6 @@ DESTINATIONS = [
         "cardImage": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
         "gallery": [
             {"url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1000&q=80", "caption": "The thunderous curtain of Victoria Falls with rainbow"},
-            {"url": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=1000&q=80", "caption": "Elephant herd drinking at Hwange National Park waterhole"}
         ],
         "coordinates": [-17.9244, 25.8572],
         "highlights": [
@@ -3279,7 +3266,7 @@ PACKAGES = [
         "price": "From Ksh 20,900 PPS",
         "badge": "Bestseller Package",
         "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
-        "url": "../../../index.html#overview",
+        "url": "/packages/encore-hotel-nakuru/",
         "description": "Escape to Nakuru for an unforgettable luxury getaway at The Encore Hotel with gourmet dining, deluxe rooms, and thrilling Lake Nakuru rhino and flamingo game drives."
     }
 ]

@@ -24,24 +24,20 @@ window.DESTINATIONS_DATA = [
     "tagline": "The Crown Jewel of African Wildlife & the Great Migration",
     "shortDescription": "Witness the spectacle of the Great Wildebeest Migration, abundant Big Five predators, and hot air balloon flights over iconic golden savannah plains.",
     "overview": "Maasai Mara National Reserve is globally celebrated as one of Africa's greatest wildlife reserves. Bordering Tanzania's Serengeti, the Mara encompasses over 1,500 square kilometers of pristine savannah, rolling hills, and acacia-dotted grasslands. It is home to an extraordinary concentration of big cats, including prides of lions, elusive leopards, and swift cheetahs.\n\nBetween July and October, the reserve hosts the world-famous Great Wildebeest Migration, where over two million wildebeest, zebras, and gazelles brave predator-infested Mara River crossings in search of lush pastures. Beyond the migration, the Mara offers breathtaking year-round safari game drives, sunrise hot air balloon safaris, and enriching cultural encounters with the traditional Maasai pastoralist communities.",
-    "heroImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=85",
-    "cardImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=800&q=80",
+    "heroImage": "/assets/images/destinations/maasai-mara.jpg",
+    "cardImage": "/assets/images/destinations/maasai-mara-card.jpg",
     "gallery": [
       {
-        "url": "https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Lions resting in the golden grasses of Maasai Mara"
+        "url": "/assets/images/destinations/maasai-mara.jpg",
+        "caption": "Lion pride resting in the golden Mara grass"
       },
       {
-        "url": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Dawn hot air balloon safari over the Mara plains"
+        "url": "/assets/images/destinations/maasai-mara-card.jpg",
+        "caption": "Wildebeest and zebra at a Mara River crossing"
       },
       {
-        "url": "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Cheetah perched scanning for prey"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Elephant family marching towards the Mara River"
+        "url": "/assets/images/destinations/maasai-mara-balloon.jpg",
+        "caption": "Sunrise balloon flight over the Mara"
       }
     ],
     "coordinates": [
@@ -139,24 +135,16 @@ window.DESTINATIONS_DATA = [
     "tagline": "Land of Giants Beneath the Majestic Mount Kilimanjaro",
     "shortDescription": "Marvel at free-roaming giant elephant herds framed by the snow-capped summit of Mount Kilimanjaro, Africa's highest mountain.",
     "overview": "Amboseli National Park is world-renowned for offering the iconic African safari postcard: massive herds of elephants grazing gracefully with the snow-capped volcanic peak of Mount Kilimanjaro rising dramatically in the background. Covering nearly 400 square kilometers near the Tanzanian border, Amboseli combines dry savannah plains with verdant marshes fed by underground springs from Kilimanjaro.\n\nThis unique hydrology draws an astonishing variety of wildlife, from big tuskers and lions to cheetahs, hippos, and over 400 species of birds. Observation Hill provides panoramic 360-degree vistas across the entire park, where swamp elephants bathe and dust-devil whirlwinds dance across the dried Lake Amboseli bed.",
-    "heroImage": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=1600&q=85",
-    "cardImage": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=800&q=80",
+    "heroImage": "/assets/images/destinations/amboseli.jpg",
+    "cardImage": "/assets/images/destinations/amboseli-card.jpg",
     "gallery": [
       {
-        "url": "https://images.unsplash.com/photo-1581852017103-68ac6550407b?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Elephant family with Kilimanjaro in the backdrop"
+        "url": "/assets/images/destinations/amboseli.jpg",
+        "caption": "Elephant herd beneath the snows of Kilimanjaro"
       },
       {
-        "url": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Lioness on morning prowl in Amboseli"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Zebras drinking at Amboseli swamp"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Golden sunrise over Observation Hill"
+        "url": "/assets/images/destinations/amboseli-card.jpg",
+        "caption": "Elephants crossing the Amboseli plains"
       }
     ],
     "coordinates": [
@@ -243,24 +231,16 @@ window.DESTINATIONS_DATA = [
     "tagline": "Rift Valley Haven for Rhinos, Waterfalls & Flamingos",
     "shortDescription": "Discover Kenya's sanctuary for endangered black and white rhinos, pink flamingo-fringed shores, and picturesque Great Rift Valley lookouts.",
     "overview": "Nestled on the floor of the Great Rift Valley, Lake Nakuru National Park is one of Kenya's most accessible and rewarding wildlife sanctuaries. Famous worldwide for the kaleidoscopic spectacle of flamingos gathering along its alkaline shores, the park is also Kenya's premier sanctuary for both endangered black and white rhinos.\n\nEnclosed within picturesque yellow-barked fever tree woodlands and volcanic cliffs, visitors enjoy sightings of rare Rothschild's giraffes, tree-climbing lions, leopards, waterbucks, and African buffalos. Viewpoints like Baboon Cliff and Lion Hill afford breathtaking panoramas across the sparkling lake, while Makalia Falls cascades gracefully in the southern woodland basin.",
-    "heroImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=85",
-    "cardImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+    "heroImage": "/assets/images/destinations/lake-nakuru.jpg",
+    "cardImage": "/assets/images/destinations/lake-nakuru-card.jpg",
     "gallery": [
       {
-        "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1000&q=80",
-        "caption": "The Encore Hotel Nakuru luxury pool and grounds"
+        "url": "/assets/images/destinations/lake-nakuru.jpg",
+        "caption": "White rhino among flamingos on the Nakuru shoreline"
       },
       {
-        "url": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1000&q=80",
-        "caption": "White rhino grazing peacefully along Lake Nakuru shore"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Flock of flamingos feeding along the alkaline shallows"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Panoramic Rift Valley view from Baboon Cliff"
+        "url": "/assets/images/destinations/lake-nakuru-card.jpg",
+        "caption": "Flamingo flock along the alkaline shallows"
       }
     ],
     "coordinates": [
@@ -349,24 +329,16 @@ window.DESTINATIONS_DATA = [
     "tagline": "Freshwater Serenity, Crescent Island Walks & Hippos",
     "shortDescription": "Glide across freshwater waters dotted with hippos, walk among giraffes and zebras on Crescent Island, and relax in lakeside luxury resorts.",
     "overview": "Lake Naivasha is the highest of the Great Rift Valley lakes, lying at 1,884 meters above sea level. A freshwater oasis fringed by papyrus reeds and magnificent fever trees, Naivasha is a beloved weekend escape for residents and international travelers seeking tranquility and outdoor adventure.\n\nA boat safari on Lake Naivasha brings you up close to basking pods of hippos and swooping African fish eagles. On Crescent Island Game Sanctuary, visitors experience one of Kenya's few walking safaris without predators, strolling freely amidst herds of giraffes, zebras, wildebeests, waterbucks, and gazelles.",
-    "heroImage": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1600&q=85",
-    "cardImage": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=800&q=80",
+    "heroImage": "/assets/images/destinations/lake-naivasha.jpg",
+    "cardImage": "/assets/images/destinations/lake-naivasha-card.jpg",
     "gallery": [
       {
-        "url": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Giraffes roaming peacefully on Crescent Island"
+        "url": "/assets/images/destinations/lake-naivasha.jpg",
+        "caption": "Hippos grazing on the Naivasha shoreline"
       },
       {
-        "url": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Boat cruise approaching hippos at Lake Naivasha"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=1000&q=80",
-        "caption": "African Fish Eagle resting on submerged acacia tree"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Sunset tranquility over Lake Naivasha waters"
+        "url": "/assets/images/destinations/lake-naivasha-card.jpg",
+        "caption": "Boat drifting among the water hyacinth"
       }
     ],
     "coordinates": [
@@ -450,24 +422,16 @@ window.DESTINATIONS_DATA = [
     "tagline": "Voted Africa's Leading Beach Destination on the Indian Ocean",
     "shortDescription": "Relax on pristine powdery white sands, dive vibrant coral reefs, and experience luxury beachfront boutiques on Kenya's South Coast.",
     "overview": "Diani Beach, situated on Kenya's South Coast south of Mombasa, has repeatedly earned the title of Africa's Leading Beach Destination at the World Travel Awards. Stretching over 17 kilometers of dazzling white sand kissed by the warm turquoise waves of the Indian Ocean, Diani is the quintessential tropical paradise.\n\nAn offshore coral barrier reef protects the shoreline from rough waters, creating calm, crystal-clear lagoons ideal for swimming, windsurfing, and snorkeling. Beyond the beach, travelers can explore ancient sacred Kaya coastal forests, encounter colobus monkeys in the canopy, swim with whale sharks, or take a dhow safari to Kisite Mpunguti Marine Park.",
-    "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=85",
-    "cardImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+    "heroImage": "/assets/images/destinations/diani-beach.jpg",
+    "cardImage": "/assets/images/destinations/diani-beach-card.jpg",
     "gallery": [
       {
-        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Powdery white sand shores of Diani Beach"
+        "url": "/assets/images/destinations/diani-beach.jpg",
+        "caption": "Powder-white sand and turquoise water at Diani"
       },
       {
-        "url": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Snorkeling with sea turtles at Kisite Marine Park"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Luxury private beachfront villa at sunset"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1510414842594-a61782153f5b?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Traditional wooden dhow sailing the turquoise lagoon"
+        "url": "/assets/images/destinations/diani-beach-card.jpg",
+        "caption": "Beachfront palms on the South Coast"
       }
     ],
     "coordinates": [
@@ -551,20 +515,16 @@ window.DESTINATIONS_DATA = [
     "tagline": "Crystalline Marine Lagoons, Sandbanks & Ancient Swahili Ruins",
     "shortDescription": "Immerse yourself in Watamu Marine National Park, explore 13th-century Gedi Ruins, and relax on secluded golden sandbanks.",
     "overview": "Watamu is a peaceful coastal village situated approximately 105 km north of Mombasa and 15 km south of Malindi. Renowned for its natural beauty, Watamu boasts a series of picturesque bays, coral islands, and the UNESCO-protected Watamu Marine National Park, which protects sea turtles, coral gardens, and vibrant marine life.\n\nJust inland lies the Arabuko-Sokoke Forest, the largest remaining tract of coastal indigenous forest in East Africa, sheltering rare golden-rumped elephant shrews and Clarke's weavers. Nearby, the mysterious 13th-century Swahili ruins of Gedi offer a fascinating archaeological journey through ancient mosques, palaces, and coral stone gateways hidden beneath giant baobabs.",
-    "heroImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=85",
-    "cardImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80",
+    "heroImage": "/assets/images/destinations/watamu.jpg",
+    "cardImage": "/assets/images/destinations/watamu-card.jpg",
     "gallery": [
       {
-        "url": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Crystalline sandbank exposed at low tide in Watamu"
+        "url": "/assets/images/destinations/watamu.jpg",
+        "caption": "Clear shallows over white sand at Watamu"
       },
       {
-        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Sailing dhow near the coral islands of Watamu Bay"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Relaxed seaside dining overlooking the lagoon"
+        "url": "/assets/images/destinations/watamu-card.jpg",
+        "caption": "Coral rock formations in Watamu Marine Park"
       }
     ],
     "coordinates": [
@@ -734,10 +694,6 @@ window.DESTINATIONS_DATA = [
       {
         "url": "https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=1000&q=80",
         "caption": "Red-dusted elephants marching through Tsavo savannah"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Mzima Springs crystal-clear water pools"
       }
     ],
     "coordinates": [
@@ -820,16 +776,16 @@ window.DESTINATIONS_DATA = [
     "tagline": "Africa's Second-Highest Peak & Premier Private Conservancies",
     "shortDescription": "Trek glacial alpine valleys on Mount Kenya (5,199m) or experience exclusive rhino and wild dog conservation on the Laikipia Plateau.",
     "overview": "Mount Kenya is Africa's second-highest mountain at 5,199 meters and a revered UNESCO World Heritage Site. An extinct stratovolcano that once rivalled Kilimanjaro in height, Mount Kenya features jagged glaciated peaks (Batian, Nelion, and Point Lenana), afro-alpine moorlands, giant lobelias, and emerald tarn lakes.\n\nStretching northwest from the slopes of the mountain lies the magnificent Laikipia Plateau. A visionary model for community-led conservation, Laikipia is home to Kenya's highest concentration of endangered black rhinos, reintroduced African wild dogs, and Grevy's zebras, protected across exclusive private ranches and luxury eco-lodges.",
-    "heroImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=85",
-    "cardImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "heroImage": "/assets/images/destinations/mount-kenya.jpg",
+    "cardImage": "/assets/images/destinations/mount-kenya-card.jpg",
     "gallery": [
       {
-        "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Mount Kenya peaks rising above alpine moorlands"
+        "url": "/assets/images/destinations/mount-kenya.jpg",
+        "caption": "Batian peak seen from Point Lenana"
       },
       {
-        "url": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Rhino sanctuary in Laikipia conservancy"
+        "url": "/assets/images/destinations/mount-kenya-card.jpg",
+        "caption": "Sunrise on the Lenana summit ridge"
       }
     ],
     "coordinates": [
@@ -906,16 +862,16 @@ window.DESTINATIONS_DATA = [
     "tagline": "Home of the 'Samburu Special Five' & the Ewaso Ng'iro River",
     "shortDescription": "Discover rare northern wildlife species, doum palm-fringed riverbanks, and authentic Samburu warrior cultural traditions.",
     "overview": "Located in Kenya's rugged northern frontier district, Samburu National Reserve is a stark, sun-baked landscape of breathtaking beauty. Framed by Mount Ololokwe and nourished by the life-giving waters of the brown Ewaso Ng'iro River, Samburu is famous for its distinct arid-adapted wildlife species known as the 'Samburu Special Five': the Grevy's zebra, reticulated giraffe, Beisa oryx, Somali ostrich, and the long-necked gerenuk.\n\nThe reserve boasts healthy populations of predators, including leopards, lions, and African wild dogs. Culturally, the Samburu people—close relatives of the Maasai—retain deeply authentic nomadic traditions, welcoming respectful visitors to learn about their pastoral heritage, traditional beadwork, and sacred mountain lore.",
-    "heroImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=85",
-    "cardImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=800&q=80",
+    "heroImage": "/assets/images/destinations/samburu.jpg",
+    "cardImage": "/assets/images/destinations/samburu-card.jpg",
     "gallery": [
       {
-        "url": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Reticulated giraffe roaming Samburu acacia woodlands"
+        "url": "/assets/images/destinations/samburu.jpg",
+        "caption": "Reticulated giraffe browsing in Samburu"
       },
       {
-        "url": "https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Leopard relaxing in doum palm tree near Ewaso Ng'iro river"
+        "url": "/assets/images/destinations/samburu-card.jpg",
+        "caption": "Giraffe and oxpecker against the Samburu sky"
       }
     ],
     "coordinates": [
@@ -992,16 +948,16 @@ window.DESTINATIONS_DATA = [
     "tagline": "Equator Gateway & Sanctuary of the Last Northern White Rhinos",
     "shortDescription": "Stand on the equator, visit the world's last two Northern White Rhinos, and see chimpanzees at Sweetwaters Sanctuary in Ol Pejeta.",
     "overview": "Nanyuki is a vibrant safari hub nestled directly on the Equator on the northwestern foot slopes of Mount Kenya. Renowned as the gateway to the world-celebrated Ol Pejeta Conservancy, Nanyuki combines frontier ranching charm with pioneering global wildlife conservation.\n\nOl Pejeta spans 90,000 acres and is the largest black rhino sanctuary in East Africa. Most famously, it is home to Najin and Fatu—the world's last two remaining Northern White Rhinos—guarded 24/7 by armed rangers. Ol Pejeta also hosts the Jane Goodall Sweetwaters Chimpanzee Sanctuary and high densities of lions, leopards, cheetahs, and elephants with Mount Kenya's snowy peaks as an ever-present backdrop.",
-    "heroImage": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=1600&q=85",
-    "cardImage": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=800&q=80",
+    "heroImage": "/assets/images/destinations/nanyuki.jpg",
+    "cardImage": "/assets/images/destinations/nanyuki-card.jpg",
     "gallery": [
       {
-        "url": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Northern White Rhino under conservation care at Ol Pejeta"
+        "url": "/assets/images/destinations/nanyuki.jpg",
+        "caption": "The Laikipia plain beneath Mount Kenya"
       },
       {
-        "url": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Equator crossing demonstration in Nanyuki"
+        "url": "/assets/images/destinations/nanyuki-card.jpg",
+        "caption": "Golden acacia savannah near Nanyuki"
       }
     ],
     "coordinates": [
@@ -1165,16 +1121,16 @@ window.DESTINATIONS_DATA = [
     "tagline": "Cycle Among Wildlife, Towering Cliffs & Geothermal Springs",
     "shortDescription": "Ride bicycles past grazing zebras, hike deep sandstone gorges, and soak in Africa's largest natural geothermal spa pool.",
     "overview": "Named for a narrow break in the sheer red cliffs once carved by a prehistoric tributary of Lake Naivasha, Hell's Gate National Park is one of Kenya's most exhilarating adventure destinations. It is one of the only national parks in Africa where visitors are encouraged to explore on foot or by bicycle alongside herds of zebras, buffalos, gazelles, and giraffes.\n\nTowering volcanic plug formations like Fischer's Tower and Central Tower provide world-class rock climbing. Deep inside the park, the Ol Njorowa Gorge winds through dramatic water-sculpted sandstone canyon walls with natural hot springs. Nearby, the Olkaria Geothermal Spa offers a relaxing swim in massive, naturally heated mineral pools.",
-    "heroImage": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1600&q=85",
-    "cardImage": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=800&q=80",
+    "heroImage": "/assets/images/destinations/hells-gate.jpg",
+    "cardImage": "/assets/images/destinations/hells-gate-card.jpg",
     "gallery": [
       {
-        "url": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Dramatic sandstone cliffs of Hell's Gate canyon"
+        "url": "/assets/images/destinations/hells-gate.jpg",
+        "caption": "The eroded gorge at Hell's Gate"
       },
       {
-        "url": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Cycling along the main park trail with grazing wildlife"
+        "url": "/assets/images/destinations/hells-gate-card.jpg",
+        "caption": "Towering rock formations on the valley floor"
       }
     ],
     "coordinates": [
@@ -1336,16 +1292,16 @@ window.DESTINATIONS_DATA = [
     "tagline": "The Spice Island of Stone Town & Turquoise Atolls",
     "shortDescription": "Wander labyrinthine UNESCO Stone Town alleys, taste exotic spices, and unwind at luxury beach resorts along azure Indian Ocean shallows.",
     "overview": "Zanzibar, also known as Unguja, is an idyllic semi-autonomous archipelago situated 35 km off the coast of mainland Tanzania. For centuries a pivotal trading hub between Arabia, India, and Africa, Zanzibar is rich in sensory wonders—from fragrant cloves and nutmeg to intricately carved teakwood doorways.\n\nStone Town, Zanzibar's cultural heart, is a UNESCO World Heritage Site with winding cobbled streets, the House of Wonders, and bustling Forodhani night food market. Along the island's coastline, powdery white beaches like Nungwi and Kendwa offer tide-free swimming in glowing turquoise lagoons, while Mnemba Atoll is East Africa's premier marine sanctuary.",
-    "heroImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=85",
-    "cardImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80",
+    "heroImage": "/assets/images/destinations/zanzibar.jpg",
+    "cardImage": "/assets/images/destinations/zanzibar-card.jpg",
     "gallery": [
       {
-        "url": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Nungwi beach crystal turquoise waters"
+        "url": "/assets/images/destinations/zanzibar.jpg",
+        "caption": "Dhows at sunset off Stone Town"
       },
       {
-        "url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Historic carved door in UNESCO Stone Town"
+        "url": "/assets/images/destinations/zanzibar-card.jpg",
+        "caption": "Traditional dhow under sail"
       }
     ],
     "coordinates": [
@@ -1595,16 +1551,16 @@ window.DESTINATIONS_DATA = [
     "tagline": "The Roof of Africa & Highest Free-Standing Mountain on Earth",
     "shortDescription": "Summit Africa's iconic 5,895-meter glaciated stratovolcano across five distinct climate zones on a once-in-a-lifetime expedition.",
     "overview": "Mount Kilimanjaro is the highest peak in Africa and the tallest free-standing mountain on Earth, rising majestically to 5,895 meters (19,341 feet) above the golden plains of northern Tanzania. An awe-inspiring dormant stratovolcano, Kilimanjaro is crowned with shimmering glaciers just three degrees south of the equator.\n\nTrekking Kilimanjaro is often described as walking from the Equator to the North Pole in just a few days. Trekkers journey through five distinct ecological climate zones: lush rainforest, heather moorland, alpine desert, and an arctic summit zone of glaciers and ice walls. Standing on Uhuru Peak at sunrise as the curvature of the Earth is revealed is one of life's supreme travel milestones.",
-    "heroImage": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=1600&q=85",
-    "cardImage": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=800&q=80",
+    "heroImage": "/assets/images/destinations/kilimanjaro.jpg",
+    "cardImage": "/assets/images/destinations/kilimanjaro-card.jpg",
     "gallery": [
       {
-        "url": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Snow-capped summit of Kilimanjaro above the clouds"
+        "url": "/assets/images/destinations/kilimanjaro.jpg",
+        "caption": "Kilimanjaro rising across the savannah"
       },
       {
-        "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Trekkers ascending the alpine desert zone towards Kibo crater"
+        "url": "/assets/images/destinations/kilimanjaro-card.jpg",
+        "caption": "The eastern icefields near the summit"
       }
     ],
     "coordinates": [
@@ -2034,10 +1990,6 @@ window.DESTINATIONS_DATA = [
       {
         "url": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1000&q=80",
         "caption": "Mokoro canoe gliding through Okavango Delta waterways"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Elephant herds crossing Chobe River shallows"
       }
     ],
     "coordinates": [
@@ -2370,10 +2322,6 @@ window.DESTINATIONS_DATA = [
       {
         "url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1000&q=80",
         "caption": "The thunderous curtain of Victoria Falls with rainbow"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1589556264800-08ae9e129a8c?auto=format&fit=crop&w=1000&q=80",
-        "caption": "Elephant herd drinking at Hwange National Park waterhole"
       }
     ],
     "coordinates": [
@@ -4567,7 +4515,7 @@ window.PACKAGES_DATA = [
     "price": "From Ksh 20,900 PPS",
     "badge": "Bestseller Package",
     "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
-    "url": "../../../index.html#overview",
+    "url": "/packages/encore-hotel-nakuru/",
     "description": "Escape to Nakuru for an unforgettable luxury getaway at The Encore Hotel with gourmet dining, deluxe rooms, and thrilling Lake Nakuru rhino and flamingo game drives."
   }
 ];
