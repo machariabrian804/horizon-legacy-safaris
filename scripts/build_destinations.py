@@ -320,7 +320,7 @@ def generate_destination_detail_pages():
           <li><a href="../../../index.html" class="nav-link">Home</a></li>
           <li><a href="/" class="nav-link" style="color: var(--color-primary); font-weight: 700;">Destinations</a></li>
           <li><a href="/safari-packages/" class="nav-link">Safari Packages</a></li>
-          <li><a href="/?category=Luxury+Getaways#discoveryGridAnchor" class="nav-link">Getaways</a></li>
+          <li><a href="/safari-packages/#kenya-getaways" class="nav-link">Getaways</a></li>
           <li><a href="/#about" class="nav-link">About Us</a></li>
           <li><a href="/#contact" class="nav-link">FAQs & Contact</a></li>
         </ul>

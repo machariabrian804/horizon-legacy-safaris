@@ -11,7 +11,14 @@ Generates from scripts/safari_packages_dataset.py:
 import os
 import html
 
-from safari_packages_dataset import SAFARI_PACKAGES, SAFARI_PACKAGE_GROUPS
+from safari_packages_dataset import (
+    SAFARI_PACKAGES,
+    SAFARI_PACKAGE_GROUPS,
+    PUBLISHED_PACKAGES,
+    SAMPLE_ITINERARIES,
+    filter_options,
+)
+from safari_catalogue import CATALOGUE_PACKAGES
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WEBSITE_DIR = os.path.join(BASE_DIR, "Website")
@@ -94,7 +101,7 @@ def header(active="packages"):
         link("/", "Home", "home"),
         link("/", "Destinations", "destinations"),
         link("/safari-packages/", "Safari Packages", "packages"),
-        link("/?category=Luxury+Getaways#discoveryGridAnchor", "Getaways", "getaways"),
+        link("/safari-packages/#kenya-getaways", "Getaways", "getaways"),
         link("/#about", "About Us", "about"),
         link("/#contact", "FAQs &amp; Contact", "contact"),
     ])
@@ -331,16 +338,32 @@ def package_href(pkg):
 
 
 def package_card(pkg):
+    href = package_href(pkg)
+    regions = pkg.get("regions") or [pkg["destinationName"]]
+    wa = wa_link(
+        f"Hello Horizon Legacy Safaris, I am interested in the {pkg['title']} package and would like a quotation."
+    )
+    search_blob = " ".join(
+        [pkg["title"], pkg["destinationName"], pkg["country"], pkg["safariType"], " ".join(regions)]
+    ).lower()
     return f"""
-        <a class="dest-card pkg-card" href="{package_href(pkg)}">
+        <div class="dest-card pkg-card"
+             data-country="{html.escape(pkg['country'])}"
+             data-destinations="{html.escape('|'.join(regions))}"
+             data-type="{html.escape(pkg['safariType'])}"
+             data-duration="{html.escape(pkg['durationBucket'])}"
+             data-luxury="{html.escape(pkg['luxuryLevel'])}"
+             data-search="{html.escape(search_blob)}">
+          <a class="pkg-card-cover" href="{href}" aria-label="View {html.escape(pkg['title'])}"></a>
           <div class="dest-card-media">
             <img src="{pkg['cardImage']}" alt="{html.escape(pkg['title'])}" class="dest-card-img" loading="lazy">
             <div class="dest-card-badges">
               <span class="dest-badge-region">{html.escape(pkg['country'])}</span>
-              <span class="dest-badge-country">{html.escape(pkg['season'])}</span>
+              <span class="dest-badge-country">{html.escape(pkg['safariType'])}</span>
             </div>
           </div>
           <div class="dest-card-body">
+            <p class="pkg-card-place">{html.escape(pkg['destinationName'])}</p>
             <h3 class="dest-card-title">{html.escape(pkg['title'])}</h3>
             <p class="dest-card-desc">{html.escape(pkg['cardSummary'])}</p>
             <div class="pkg-card-meta">
@@ -348,16 +371,15 @@ def package_card(pkg):
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                 {html.escape(pkg['duration'])}
               </span>
-              <span class="pkg-meta-item">{html.escape(pkg['priceNote'])}</span>
+              <span class="pkg-meta-item">{html.escape(pkg['luxuryLevel'])}</span>
+              <span class="pkg-meta-item pkg-meta-price">{html.escape(pkg['priceNote'])}</span>
             </div>
-            <div class="dest-card-footer">
-              <span class="pkg-card-link">View Package</span>
-              <span class="dest-btn-explore" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-              </span>
+            <div class="pkg-card-actions">
+              <a class="btn btn-sm btn-outline pkg-card-view" href="{href}">View Package</a>
+              <a class="btn btn-sm btn-whatsapp-solid" href="{wa}" target="_blank" rel="noopener noreferrer">Enquire Now</a>
             </div>
           </div>
-        </a>"""
+        </div>"""
 
 
 # -----------------------------------------------------------------------------
@@ -366,7 +388,7 @@ def package_card(pkg):
 def build_catalogue():
     groups_html = ""
     for group in SAFARI_PACKAGE_GROUPS:
-        pkgs = [p for p in SAFARI_PACKAGES if p["group"] == group]
+        pkgs = [p for p in PUBLISHED_PACKAGES if p["group"] == group]
         if not pkgs:
             continue
         anchor = group.lower().replace(" ", "-")
@@ -393,9 +415,9 @@ def build_catalogue():
     "@context": "https://schema.org",
     "@type": "ItemList",
     "name": "Horizon Legacy Safaris - Safari Packages",
-    "numberOfItems": {len(SAFARI_PACKAGES)},
+    "numberOfItems": {len(PUBLISHED_PACKAGES)},
     "itemListElement": [
-{",".join([f'      {{"@type": "ListItem", "position": {i+1}, "name": "{p["title"]}", "url": "{SITE_URL}/safari-packages/{p["slug"]}/"}}' for i, p in enumerate(SAFARI_PACKAGES)])}
+{",".join([f'      {{"@type": "ListItem", "position": {i+1}, "name": "{p["title"]}", "url": "{SITE_URL}{package_href(p)}"}}' for i, p in enumerate(PUBLISHED_PACKAGES)])}
     ]
   }}
   </script>
@@ -410,10 +432,30 @@ def build_catalogue():
   }}
   </script>"""
 
-    count = len(SAFARI_PACKAGES)
+    concept_count = len(CATALOGUE_PACKAGES)
+    total = len(PUBLISHED_PACKAGES)
+    opts = filter_options()
+
+    country_chips = "\n".join(
+        f'          <button type="button" class="pkg-chip{" is-active" if i == 0 else ""}" data-filter-country="{"all" if i == 0 else html.escape(c)}">{html.escape(c)}</button>'
+        for i, c in enumerate(["All"] + opts["countries"])
+    )
+    destination_options = "\n".join(
+        f'              <option value="{html.escape(d)}">{html.escape(d)}</option>' for d in opts["destinations"]
+    )
+    type_options = "\n".join(
+        f'              <option value="{html.escape(t)}">{html.escape(t)}</option>' for t in opts["types"]
+    )
+    duration_options = "\n".join(
+        f'              <option value="{html.escape(b)}">{html.escape(b)}</option>' for b in opts["durations"]
+    )
+    luxury_options = "\n".join(
+        f'              <option value="{html.escape(l)}">{html.escape(l)}</option>' for l in opts["luxury"]
+    )
+
     page = page_head(
-        f"Safari Packages | {count} Curated Kenya & Uganda Safaris & Getaways | Horizon Legacy",
-        f"Browse all {count} Horizon Legacy safari packages and getaways across Kenya and Uganda, from Amboseli and the Maasai Mara to Samburu, Tsavo, Bwindi gorilla trekking and the Encore Hotel Nakuru getaway. Prices on request.",
+        f"Safari Packages | {concept_count} Kenya, Tanzania, Uganda & Rwanda Safaris | Horizon Legacy",
+        f"Browse {total} Horizon Legacy safari packages across Kenya, Tanzania, Uganda and Rwanda - the Maasai Mara, Amboseli, Samburu, the Serengeti, Ngorongoro, Bwindi and Akagera - plus Rift Valley getaways and a sample seven-day Kenya itinerary. Prices on request.",
         f"{SITE_URL}/safari-packages/",
         "/assets/images/destinations/hero-safari.jpg",
         schema,
@@ -426,23 +468,95 @@ def build_catalogue():
       <div class="destinations-hero-content">
         <div class="hero-pill-badge">
           <span class="pulse-dot"></span>
-          <span>{count} Curated Safari Packages</span>
+          <span>{concept_count} Curated Safari Packages</span>
         </div>
         <h1>Safari Packages</h1>
         <p class="hero-lead">
-          Kenya and Uganda, planned end to end. Every package below is a private journey with a
-          dedicated driver-guide, park fees arranged, and accommodation matched to your travel style.
-          Prices are quoted on request for your dates and party.
+          Kenya, Tanzania, Uganda and Rwanda, planned end to end. Every package below is a private
+          journey with a dedicated driver-guide, park fees arranged, and accommodation matched to
+          your travel style. Prices are quoted on request for your dates and party.
         </p>
         <div class="hero-cta-row">
           <a href="{wa_link('Hello Horizon Legacy Safaris, I would like help choosing a safari package.')}" target="_blank" rel="noopener noreferrer" class="btn btn-hero-primary">Talk to a Specialist</a>
-          <a href="#kenya-safaris-grid" class="btn btn-hero-ghost">Browse Kenya Safaris</a>
+          <a href="#sample-itineraries" class="btn btn-hero-ghost">See a Sample Itinerary</a>
         </div>
-        <p class="pkg-hero-note">Seasonal packages run in the festive and shoulder windows. Ask us for the current seasonal calendar — we publish no fixed departure dates.</p>
+        <p class="pkg-hero-note">No fixed departure dates are published. Seasonal offers and the Encore Hotel Nakuru getaway also live in this catalogue, further down.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pkg-filter-bar" id="catalogue-filters">
+    <div class="container">
+      <div class="pkg-filter-panel">
+        <div class="pkg-filter-top">
+          <div>
+            <span class="pkg-eyebrow">Find your safari</span>
+            <h2 class="pkg-filter-title">Filter {total} packages</h2>
+          </div>
+          <div class="pkg-search-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <label class="sr-only" for="catalogueSearch">Search safari packages</label>
+            <input type="search" id="catalogueSearch" class="pkg-search-input" placeholder="Search by name, park or country..." autocomplete="off">
+          </div>
+        </div>
+
+        <div class="pkg-chip-row" role="group" aria-label="Filter by country">
+          <span class="pkg-filter-label">Country</span>
+{country_chips}
+        </div>
+
+        <div class="pkg-filter-grid">
+          <div class="pkg-filter-field">
+            <label for="filterDestination">Destination</label>
+            <select id="filterDestination">
+              <option value="all">All destinations</option>
+{destination_options}
+            </select>
+          </div>
+          <div class="pkg-filter-field">
+            <label for="filterType">Safari type</label>
+            <select id="filterType">
+              <option value="all">All safari types</option>
+{type_options}
+            </select>
+          </div>
+          <div class="pkg-filter-field">
+            <label for="filterDuration">Duration</label>
+            <select id="filterDuration">
+              <option value="all">Any duration</option>
+{duration_options}
+            </select>
+          </div>
+          <div class="pkg-filter-field">
+            <label for="filterLuxury">Luxury level</label>
+            <select id="filterLuxury">
+              <option value="all">Any level</option>
+{ luxury_options }
+            </select>
+          </div>
+        </div>
+
+        <div class="pkg-filter-foot">
+          <p class="pkg-result-count" id="catalogueCount" aria-live="polite">Showing {total} packages</p>
+          <button type="button" class="pkg-reset-btn" id="catalogueReset" hidden>Clear all filters</button>
+        </div>
       </div>
     </div>
   </section>
 {groups_html}
+
+  <div class="pkg-empty" id="catalogueEmpty" hidden>
+    <div class="container">
+      <h2>No packages match that combination</h2>
+      <p>Try a broader search, or tell us what you are looking for and we will build it around your dates.</p>
+      <div class="pkg-empty-actions">
+        <button type="button" class="btn btn-outline" id="catalogueEmptyReset">Clear all filters</button>
+        <a href="{wa_link('Hello Horizon Legacy Safaris, I could not find a package that fits and would like a tailored suggestion.')}" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp-solid">Ask a Specialist</a>
+      </div>
+    </div>
+  </div>
+
+{sample_itineraries_section()}
 
   <section class="pkg-cta-band">
     <div class="container">
@@ -458,6 +572,8 @@ def build_catalogue():
       </div>
     </div>
   </section>
+
+  <script src="/assets/js/safari-catalogue.js" defer></script>
 """
     page += footer()
     page += floating_whatsapp("Hello Horizon Legacy Safaris, I am browsing your safari packages and would like some help.")
@@ -466,7 +582,7 @@ def build_catalogue():
     os.makedirs(PKG_ROOT, exist_ok=True)
     with open(os.path.join(PKG_ROOT, "index.html"), "w", encoding="utf-8") as f:
         f.write(page)
-    print(f"Generated catalogue: {os.path.join(PKG_ROOT, 'index.html')} ({len(SAFARI_PACKAGES)} packages)")
+    print(f"Generated catalogue: {os.path.join(PKG_ROOT, 'index.html')} ({total} packages)")
 
 
 # -----------------------------------------------------------------------------
@@ -735,13 +851,21 @@ def build_detail(pkg):
 def main():
     build_catalogue()
     built = 0
+    drafts = 0
     for pkg in SAFARI_PACKAGES:
         if pkg.get("detailPath"):
             print(f"Linked existing page for {pkg['slug']}: {pkg['detailPath']}")
             continue
+        if pkg.get("status", "published") != "published":
+            drafts += 1
+            print(f"Skipped draft: {pkg['slug']}")
+            continue
         print("Generated", build_detail(pkg))
         built += 1
-    print(f"SAFARI PACKAGES BUILD COMPLETE — {len(SAFARI_PACKAGES)} listed, {built} detail pages + catalogue")
+    print(
+        f"SAFARI PACKAGES BUILD COMPLETE — {len(PUBLISHED_PACKAGES)} listed ({len(CATALOGUE_PACKAGES)} catalogue concepts), "
+        f"{built} detail pages + catalogue, {drafts} drafts skipped"
+    )
 
 
 if __name__ == "__main__":

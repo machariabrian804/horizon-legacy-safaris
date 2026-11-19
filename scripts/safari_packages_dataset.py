@@ -1,17 +1,30 @@
 # -*- coding: utf-8 -*-
 """
 Horizon Legacy Safaris - Safari Packages Database
-Single source of truth for the 11 safari packages published at /safari-packages/.
+Single source of truth for every package published at /safari-packages/.
+
+Contents:
+  * the 11 seasonal offers published earlier, still live and still linked
+  * the Encore Hotel Nakuru getaway, derived from its bookable PACKAGES record
+  * the 30 researched package concepts, imported from safari_catalogue.py
 
 Content rules for this dataset:
   * No prices are published. Every package carries priceNote = "Price on request"
-    and the pages never render a figure.
+    and the pages never render a figure. Records can carry price=None only.
   * No travel dates, availability calendars, or lodge partnerships are invented.
     Seasons are described generically ("Festive season", "Shoulder season").
   * Accommodation entries describe tiers and locations, not named properties.
 """
 
-from destinations_dataset import PACKAGES as _BOOKABLE_PACKAGES
+from destinations_dataset import PACKAGES as _BOOKABLE_PACKAGES, DESTINATIONS as _DESTINATIONS
+from safari_catalogue import (
+    CATALOGUE_PACKAGES,
+    SAFARI_GROUPS,
+    SAMPLE_ITINERARIES,
+    COUNTRY_ORDER,
+    LUXURY_LEVELS,
+)
+from safari_packages_base import BASE_TRAVEL_INFO, duration_bucket
 
 SAFARI_PACKAGES = [
     # =========================================================================
@@ -1024,6 +1037,9 @@ SAFARI_PACKAGES.append({
     "shortTitle": "Encore Hotel Nakuru Getaway",
     "group": "Kenya Getaways",
     "country": "Kenya",
+    "safariType": "Hotel Getaway",
+    "luxuryLevel": "Luxury",
+    "regions": ["Lake Nakuru"],
     "destinationSlug": _ENCORE["destinationId"],
     "destinationName": "Lake Nakuru",
     "season": "Year-round",
@@ -1102,17 +1118,18 @@ SAFARI_PACKAGES.append({
 # -----------------------------------------------------------------------------
 # CARD BLURBS
 # -----------------------------------------------------------------------------
-# One short, self-contained sentence per package so a card never has to clip a
-# longer paragraph mid-word.
+# One short, self-contained sentence per seasonal package so a card never has to
+# clip a longer paragraph mid-word. The 30 catalogue concepts carry their own
+# cardSummary from safari_packages_base.pkg().
 _CARD_SUMMARIES = {
     "amboseli-festive": "Festive-season elephants beneath Kilimanjaro, with the swamps busy and the light clear.",
     "amboseli-shoulder": "Quieter Amboseli: cleaner air, fewer vehicles at every sighting, elephants relaxed in the swamps.",
-    "maasai-mara-festive": "Big cats, open plains and long festive light — the Mara at its most theatrical.",
+    "maasai-mara-festive": "Big cats, open plains and long festive light - the Mara at its most theatrical.",
     "maasai-mara-shoulder": "Short grass, easier cats and a fraction of the holiday traffic across the Mara.",
     "samburu-festive": "Doum palms, dry-country species and the Ewaso Ng'iro at a gentler festive pace.",
     "samburu-shoulder": "An extra day for Buffalo Springs, a conservancy walk or a slow morning with a river herd.",
     "sand-river-maasai-mara": "Conservancy access on the Sand River: off-road tracking, night drives and walking.",
-    "tsavo-festive": "Tsavo East and West in one trip — red dust, lava ridges and spring-fed pools.",
+    "tsavo-festive": "Tsavo East and West in one trip - red dust, lava ridges and spring-fed pools.",
     "tsavo-seasonal": "A longer Tsavo loop for travellers who are not tied to the holiday calendar.",
     "uganda-gorilla-kigali": "Fly into Kigali, cross into Bwindi and trek the Impenetrable Forest.",
     "uganda-gorilla-trekking": "A compact Uganda-only gorilla trek built around one permit and one forest.",
@@ -1120,9 +1137,88 @@ _CARD_SUMMARIES = {
 }
 
 for _pkg in SAFARI_PACKAGES:
-    _pkg["cardSummary"] = _CARD_SUMMARIES[_pkg["slug"]]
+    if not _pkg.get("cardSummary"):
+        _pkg["cardSummary"] = _CARD_SUMMARIES[_pkg["slug"]]
 
 
-# Convenience lookups used by the builder and the client-side data file.
+# -----------------------------------------------------------------------------
+# THE 30 RESEARCHED CONCEPTS
+# -----------------------------------------------------------------------------
+# The seasonal offers keep their own section at the end of the catalogue so the
+# country sections hold exactly the 30 concepts above.
+for _pkg in SAFARI_PACKAGES:
+    if _pkg["group"] in ("Kenya Safaris", "Uganda Safaris"):
+        _pkg["group"] = "Seasonal & Festive Offers"
+
+SAFARI_PACKAGES.extend(CATALOGUE_PACKAGES)
+
+
+# -----------------------------------------------------------------------------
+# NORMALISATION
+# -----------------------------------------------------------------------------
+# Older records predate some fields. Fill them here rather than editing eleven
+# dicts, and pull destination copy from the destination dataset where a package
+# points at a destination that already has a page.
+_DESTINATION_BY_SLUG = {d["slug"]: d for d in _DESTINATIONS}
+
+_LEGACY_SAFARI_TYPES = {
+    "amboseli": "Elephant Safari",
+    "maasai-mara": "Big Five Wildlife",
+    "samburu": "Special Five Wildlife",
+    "tsavo-national-parks": "Big Five Wildlife",
+    "bwindi-impenetrable-forest": "Primates & Gorillas",
+    "lake-nakuru": "Rift Valley Lakes",
+}
+
+for _pkg in SAFARI_PACKAGES:
+    _dest = _DESTINATION_BY_SLUG.get(_pkg.get("destinationSlug") or "")
+    _pkg.setdefault("country", "Kenya")
+    _pkg.setdefault("regions", [_pkg["destinationName"]])
+    _pkg.setdefault("safariType", _LEGACY_SAFARI_TYPES.get(_pkg.get("destinationSlug"), "Seasonal Offer"))
+    _pkg.setdefault("luxuryLevel", "Mid-range")
+    _pkg.setdefault("durationBucket", duration_bucket(_pkg.get("durationDays", 3)))
+    _pkg.setdefault("status", "published")
+    _pkg.setdefault("validity", _pkg.get("season") or "Year-round - quoted for your dates")
+    _pkg.setdefault("price", None)
+    _pkg.setdefault("travelInfo", list(BASE_TRAVEL_INFO))
+    _pkg.setdefault("activities", list(_dest["activities"]) if _dest else [])
+    if not _pkg.get("destinationOverview"):
+        _pkg["destinationOverview"] = _dest["overview"] if _dest else _pkg.get("summary", "")
+
+
+# -----------------------------------------------------------------------------
+# LOOKUPS AND VOCABULARIES
+# -----------------------------------------------------------------------------
 SAFARI_PACKAGES_BY_SLUG = {p["slug"]: p for p in SAFARI_PACKAGES}
-SAFARI_PACKAGE_GROUPS = ["Kenya Safaris", "Kenya Getaways", "Uganda Safaris"]
+SAFARI_PACKAGE_GROUPS = SAFARI_GROUPS
+
+# Published records only - drafts stay in the data file and never reach a page.
+PUBLISHED_PACKAGES = [p for p in SAFARI_PACKAGES if p.get("status", "published") == "published"]
+
+
+def filter_options():
+    """The values the catalogue filter bar offers, in catalogue order."""
+    countries, destinations, types, buckets, levels = [], [], [], [], []
+    for p in PUBLISHED_PACKAGES:
+        if p["country"] not in countries:
+            countries.append(p["country"])
+        for region in p.get("regions", []):
+            if region not in destinations:
+                destinations.append(region)
+        if p["safariType"] not in types:
+            types.append(p["safariType"])
+        if p["durationBucket"] not in buckets:
+            buckets.append(p["durationBucket"])
+        if p["luxuryLevel"] not in levels:
+            levels.append(p["luxuryLevel"])
+    country_order = [c for c in COUNTRY_ORDER if c in countries]
+    country_order += [c for c in countries if c not in country_order]
+    bucket_order = ["1 Day", "2-3 Days", "4-6 Days", "7-9 Days", "10+ Days"]
+    level_order = [l for l in LUXURY_LEVELS if l in levels]
+    return {
+        "countries": country_order,
+        "destinations": destinations,
+        "types": types,
+        "durations": [b for b in bucket_order if b in buckets],
+        "luxury": level_order,
+    }

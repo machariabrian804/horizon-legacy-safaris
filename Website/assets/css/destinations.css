@@ -1541,6 +1541,63 @@
   border-bottom: 1px solid var(--color-border-light);
 }
 
+/* Slim homepage strip pointing at the full packages catalogue */
+.home-packages-strip {
+  padding: 44px 0;
+  background-color: var(--color-accent-sand);
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.home-packages-strip-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px 40px;
+  flex-wrap: wrap;
+}
+
+.home-packages-strip-copy {
+  max-width: 620px;
+}
+
+.home-packages-strip-title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.3rem, 2.4vw, 1.7rem);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--color-text-main);
+  margin: 0 0 8px;
+}
+
+.home-packages-strip-text {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.home-packages-strip-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px 22px;
+  flex-wrap: wrap;
+}
+
+.home-packages-strip-link {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-gold-deep);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.home-packages-strip-link:hover {
+  color: var(--color-gold-deep-hover);
+  border-bottom-color: currentColor;
+}
+
 .home-why-section {
   padding: 78px 0;
   background-color: var(--color-bg-base);
@@ -1956,7 +2013,7 @@
   margin-bottom: 8px;
 }
 
-.pkg-group { padding: 64px 0 8px; }
+.pkg-group { padding: 64px 0 8px; scroll-margin-top: 110px; }
 
 .pkg-group-head {
   display: flex;
