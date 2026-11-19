@@ -3,9 +3,9 @@
 """
 Horizon Legacy Safaris - Safari Packages Build Generator
 
-Generates from scripts/safari_packages_dataset.py:
-1. Website/safari-packages/index.html          (complete catalogue)
-2. Website/safari-packages/<slug>/index.html   (11 detail pages)
+Builds from the records in scripts/safari_packages_dataset.py:
+1. Website/safari-packages/index.html          (complete catalogue + sample itinerary)
+2. Website/safari-packages/<slug>/index.html   (one detail page per published record)
 """
 
 import os
@@ -442,7 +442,7 @@ def sample_itineraries_section():
         </ul>
       </div>
       <div class="pkg-cta-actions" style="margin-top: 24px;">
-        <a href="{wa_link('Hello Horizon Legacy Safaris, I would like to discuss the seven-day Best of Kenya sample itinerary.')}" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp-solid">Discuss This Route</a>
+        <a href="{wa_link('Hello Horizon Legacy Safaris, I would like to discuss the seven-day Best of Kenya sample itinerary.')}" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp-solid">Enquire About This Itinerary</a>
         <button class="btn btn-primary" onclick="openBookingModal('7-Day Best of Kenya Sample Itinerary')">Request a Quotation</button>
       </div>
     </div>
@@ -546,7 +546,7 @@ def build_catalogue():
         </p>
         <div class="hero-cta-row">
           <a href="{wa_link('Hello Horizon Legacy Safaris, I would like help choosing a safari package.')}" target="_blank" rel="noopener noreferrer" class="btn btn-hero-primary">Talk to a Specialist</a>
-          <a href="#sample-itineraries" class="btn btn-hero-ghost">See a Sample Itinerary</a>
+          <a href="#sample-itineraries" class="btn btn-hero-ghost">See Sample Itineraries</a>
         </div>
         <p class="pkg-hero-note">No fixed departure dates are published. Seasonal offers and the Encore Hotel Nakuru getaway also live in this catalogue, further down.</p>
       </div>

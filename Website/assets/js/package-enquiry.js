@@ -52,7 +52,7 @@
     message += 'Travel Date: ' + travelDate + '\n';
     message += 'Package: ' + packageName + '\n';
     message += 'Travel Style: ' + transportPreference + '\n';
-    message += 'Guests: ' + adultsCount + ' adults | ' + childrenCount + ' children\n';
+    message += 'Guests: ' + adultsCount + ' | ' + childrenCount + '\n';
     if (specialRequests) message += 'Notes/Requests: ' + specialRequests + '\n';
     message += '\n_Sent via Horizon Legacy Safaris Website Inquiry Form_';
 

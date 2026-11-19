@@ -2552,6 +2552,12 @@
   z-index: 1;
 }
 
+.pkg-card-cover:focus-visible {
+  outline: 3px solid var(--color-gold-deep);
+  outline-offset: -4px;
+  border-radius: var(--radius-lg);
+}
+
 .pkg-card-place {
   font-size: 0.75rem;
   font-weight: 700;
@@ -2571,6 +2577,10 @@
   gap: 10px;
   flex-wrap: wrap;
   margin-top: 4px;
+  /* Sit above the full-card cover link so the two buttons stay individually
+     clickable while the rest of the card still opens the package. */
+  position: relative;
+  z-index: 2;
 }
 
 .pkg-card-actions .btn {

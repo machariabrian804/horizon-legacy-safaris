@@ -44,7 +44,7 @@ SAMPLE_ITINERARIES = [
     {
         "slug": "seven-day-best-of-kenya",
         "title": "7-Day Best of Kenya Safari",
-        "kicker": "Sample Itinerary",
+        "kicker": "Sample Safari Itineraries",
         "summary": (
             "A seven-day route that links the elephants of Amboseli with the Rift Valley lakes and "
             "finishes in the Maasai Mara. It is the shape we use most often when a first Kenya trip "
