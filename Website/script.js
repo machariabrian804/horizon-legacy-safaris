@@ -309,8 +309,11 @@ function handleBookingSubmit(event) {
   const childrenCount = document.getElementById('childrenCount').value;
   const specialRequests = document.getElementById('specialRequests').value.trim();
 
+  // Derive the enquiry subject from the selected package/accommodation rather than
+  // a hard-coded property name.
+  const subject = roomCategory && roomCategory.trim() ? roomCategory.trim() : 'Safari Packages';
   // Create formatted WhatsApp inquiry message
-  let message = `*NEW BOOKING INQUIRY - THE ENCORE HOTEL NAKURU (2D1N)*\n\n`;
+  let message = `*NEW BOOKING INQUIRY - ${subject.toUpperCase()}*\n\n`;
   message += `👤 *Client Name:* ${fullName}\n`;
   message += `📞 *Phone/WhatsApp:* ${phoneNumber}\n`;
   if (emailAddress) message += `📧 *Email:* ${emailAddress}\n`;

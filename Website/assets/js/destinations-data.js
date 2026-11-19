@@ -4526,7 +4526,7 @@ window.SAFARI_PACKAGES_DATA = [
     "slug": "amboseli-festive",
     "title": "Amboseli National Park Safari - Festive Season",
     "shortTitle": "Amboseli Festive Safari",
-    "group": "Kenya Safaris",
+    "group": "Seasonal & Festive Offers",
     "country": "Kenya",
     "destinationSlug": "amboseli",
     "destinationName": "Amboseli National Park",
@@ -4610,14 +4610,37 @@ window.SAFARI_PACKAGES_DATA = [
       "Any item not listed under inclusions"
     ],
     "bestFor": "Families and couples travelling over the festive break with three days to spare",
-    "cardSummary": "Festive-season elephants beneath Kilimanjaro, with the swamps busy and the light clear."
+    "cardSummary": "Festive-season elephants beneath Kilimanjaro, with the swamps busy and the light clear.",
+    "regions": [
+      "Amboseli National Park"
+    ],
+    "safariType": "Elephant Safari",
+    "luxuryLevel": "Mid-range",
+    "durationBucket": "2-3 Days",
+    "status": "published",
+    "validity": "Festive season",
+    "price": null,
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "activities": [
+      "Photographic morning game drives beneath Kilimanjaro",
+      "Climbing Observation Hill for swamp birdwatching",
+      "Sunset sundowners with views of the mountain peak",
+      "Maasai cultural community visits",
+      "Night drives in adjacent private wildlife conservancies"
+    ],
+    "destinationOverview": "Amboseli National Park is world-renowned for offering the iconic African safari postcard: massive herds of elephants grazing gracefully with the snow-capped volcanic peak of Mount Kilimanjaro rising dramatically in the background. Covering nearly 400 square kilometers near the Tanzanian border, Amboseli combines dry savannah plains with verdant marshes fed by underground springs from Kilimanjaro.\n\nThis unique hydrology draws an astonishing variety of wildlife, from big tuskers and lions to cheetahs, hippos, and over 400 species of birds. Observation Hill provides panoramic 360-degree vistas across the entire park, where swamp elephants bathe and dust-devil whirlwinds dance across the dried Lake Amboseli bed."
   },
   {
     "id": "amboseli-shoulder",
     "slug": "amboseli-shoulder",
     "title": "Amboseli National Park Safari - Shoulder Season",
     "shortTitle": "Amboseli Shoulder Season Safari",
-    "group": "Kenya Safaris",
+    "group": "Seasonal & Festive Offers",
     "country": "Kenya",
     "destinationSlug": "amboseli",
     "destinationName": "Amboseli National Park",
@@ -4701,14 +4724,37 @@ window.SAFARI_PACKAGES_DATA = [
       "Any item not listed under inclusions"
     ],
     "bestFor": "Photographers and couples who value solitude over the holiday bustle",
-    "cardSummary": "Quieter Amboseli: cleaner air, fewer vehicles at every sighting, elephants relaxed in the swamps."
+    "cardSummary": "Quieter Amboseli: cleaner air, fewer vehicles at every sighting, elephants relaxed in the swamps.",
+    "regions": [
+      "Amboseli National Park"
+    ],
+    "safariType": "Elephant Safari",
+    "luxuryLevel": "Mid-range",
+    "durationBucket": "2-3 Days",
+    "status": "published",
+    "validity": "Shoulder season",
+    "price": null,
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "activities": [
+      "Photographic morning game drives beneath Kilimanjaro",
+      "Climbing Observation Hill for swamp birdwatching",
+      "Sunset sundowners with views of the mountain peak",
+      "Maasai cultural community visits",
+      "Night drives in adjacent private wildlife conservancies"
+    ],
+    "destinationOverview": "Amboseli National Park is world-renowned for offering the iconic African safari postcard: massive herds of elephants grazing gracefully with the snow-capped volcanic peak of Mount Kilimanjaro rising dramatically in the background. Covering nearly 400 square kilometers near the Tanzanian border, Amboseli combines dry savannah plains with verdant marshes fed by underground springs from Kilimanjaro.\n\nThis unique hydrology draws an astonishing variety of wildlife, from big tuskers and lions to cheetahs, hippos, and over 400 species of birds. Observation Hill provides panoramic 360-degree vistas across the entire park, where swamp elephants bathe and dust-devil whirlwinds dance across the dried Lake Amboseli bed."
   },
   {
     "id": "maasai-mara-festive",
     "slug": "maasai-mara-festive",
     "title": "Maasai Mara National Reserve - Festive Season",
     "shortTitle": "Maasai Mara Festive Safari",
-    "group": "Kenya Safaris",
+    "group": "Seasonal & Festive Offers",
     "country": "Kenya",
     "destinationSlug": "maasai-mara",
     "destinationName": "Maasai Mara National Reserve",
@@ -4797,14 +4843,38 @@ window.SAFARI_PACKAGES_DATA = [
       "Gratuities for guides and camp staff"
     ],
     "bestFor": "Families and groups who want the full Mara experience over the holidays",
-    "cardSummary": "Big cats, open plains and long festive light — the Mara at its most theatrical."
+    "cardSummary": "Big cats, open plains and long festive light - the Mara at its most theatrical.",
+    "regions": [
+      "Maasai Mara National Reserve"
+    ],
+    "safariType": "Big Five Wildlife",
+    "luxuryLevel": "Mid-range",
+    "durationBucket": "4-6 Days",
+    "status": "published",
+    "validity": "Festive season",
+    "price": null,
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "activities": [
+      "Early morning & sunset 4x4 game drives",
+      "Hot air balloon safaris over the plains",
+      "Maasai cultural boma visits & traditional dances",
+      "Guided bushwalking safaris with Maasai naturalists",
+      "Bush dinners under the African starlit sky",
+      "Photographic safaris led by wildlife photography guides"
+    ],
+    "destinationOverview": "Maasai Mara National Reserve is globally celebrated as one of Africa's greatest wildlife reserves. Bordering Tanzania's Serengeti, the Mara encompasses over 1,500 square kilometers of pristine savannah, rolling hills, and acacia-dotted grasslands. It is home to an extraordinary concentration of big cats, including prides of lions, elusive leopards, and swift cheetahs.\n\nBetween July and October, the reserve hosts the world-famous Great Wildebeest Migration, where over two million wildebeest, zebras, and gazelles brave predator-infested Mara River crossings in search of lush pastures. Beyond the migration, the Mara offers breathtaking year-round safari game drives, sunrise hot air balloon safaris, and enriching cultural encounters with the traditional Maasai pastoralist communities."
   },
   {
     "id": "maasai-mara-shoulder",
     "slug": "maasai-mara-shoulder",
     "title": "Maasai Mara National Reserve - Shoulder Season",
     "shortTitle": "Maasai Mara Shoulder Safari",
-    "group": "Kenya Safaris",
+    "group": "Seasonal & Festive Offers",
     "country": "Kenya",
     "destinationSlug": "maasai-mara",
     "destinationName": "Maasai Mara National Reserve",
@@ -4888,14 +4958,38 @@ window.SAFARI_PACKAGES_DATA = [
       "Any item not listed under inclusions"
     ],
     "bestFor": "Couples and small groups on a tight calendar who still want big-cat country",
-    "cardSummary": "Short grass, easier cats and a fraction of the holiday traffic across the Mara."
+    "cardSummary": "Short grass, easier cats and a fraction of the holiday traffic across the Mara.",
+    "regions": [
+      "Maasai Mara National Reserve"
+    ],
+    "safariType": "Big Five Wildlife",
+    "luxuryLevel": "Mid-range",
+    "durationBucket": "2-3 Days",
+    "status": "published",
+    "validity": "Shoulder season",
+    "price": null,
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "activities": [
+      "Early morning & sunset 4x4 game drives",
+      "Hot air balloon safaris over the plains",
+      "Maasai cultural boma visits & traditional dances",
+      "Guided bushwalking safaris with Maasai naturalists",
+      "Bush dinners under the African starlit sky",
+      "Photographic safaris led by wildlife photography guides"
+    ],
+    "destinationOverview": "Maasai Mara National Reserve is globally celebrated as one of Africa's greatest wildlife reserves. Bordering Tanzania's Serengeti, the Mara encompasses over 1,500 square kilometers of pristine savannah, rolling hills, and acacia-dotted grasslands. It is home to an extraordinary concentration of big cats, including prides of lions, elusive leopards, and swift cheetahs.\n\nBetween July and October, the reserve hosts the world-famous Great Wildebeest Migration, where over two million wildebeest, zebras, and gazelles brave predator-infested Mara River crossings in search of lush pastures. Beyond the migration, the Mara offers breathtaking year-round safari game drives, sunrise hot air balloon safaris, and enriching cultural encounters with the traditional Maasai pastoralist communities."
   },
   {
     "id": "samburu-festive",
     "slug": "samburu-festive",
     "title": "Samburu National Reserve - Festive Season",
     "shortTitle": "Samburu Festive Safari",
-    "group": "Kenya Safaris",
+    "group": "Seasonal & Festive Offers",
     "country": "Kenya",
     "destinationSlug": "samburu",
     "destinationName": "Samburu National Reserve",
@@ -4979,14 +5073,37 @@ window.SAFARI_PACKAGES_DATA = [
       "Any item not listed under inclusions"
     ],
     "bestFor": "Travellers who want a quieter festive safari with species you cannot see in the Mara",
-    "cardSummary": "Doum palms, dry-country species and the Ewaso Ng'iro at a gentler festive pace."
+    "cardSummary": "Doum palms, dry-country species and the Ewaso Ng'iro at a gentler festive pace.",
+    "regions": [
+      "Samburu National Reserve"
+    ],
+    "safariType": "Special Five Wildlife",
+    "luxuryLevel": "Mid-range",
+    "durationBucket": "2-3 Days",
+    "status": "published",
+    "validity": "Festive season",
+    "price": null,
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "activities": [
+      "Morning & evening game drives along the riverbanks",
+      "Guided bushwalks with Samburu morans (warriors)",
+      "Birdwatching for over 450 arid-zone species",
+      "Sundowners atop granite inselbergs with panoramic views",
+      "Star-gazing in unpolluted African night skies"
+    ],
+    "destinationOverview": "Located in Kenya's rugged northern frontier district, Samburu National Reserve is a stark, sun-baked landscape of breathtaking beauty. Framed by Mount Ololokwe and nourished by the life-giving waters of the brown Ewaso Ng'iro River, Samburu is famous for its distinct arid-adapted wildlife species known as the 'Samburu Special Five': the Grevy's zebra, reticulated giraffe, Beisa oryx, Somali ostrich, and the long-necked gerenuk.\n\nThe reserve boasts healthy populations of predators, including leopards, lions, and African wild dogs. Culturally, the Samburu people—close relatives of the Maasai—retain deeply authentic nomadic traditions, welcoming respectful visitors to learn about their pastoral heritage, traditional beadwork, and sacred mountain lore."
   },
   {
     "id": "samburu-shoulder",
     "slug": "samburu-shoulder",
     "title": "Samburu National Reserve - Shoulder Season",
     "shortTitle": "Samburu Shoulder Season Safari",
-    "group": "Kenya Safaris",
+    "group": "Seasonal & Festive Offers",
     "country": "Kenya",
     "destinationSlug": "samburu",
     "destinationName": "Samburu National Reserve",
@@ -5075,14 +5192,37 @@ window.SAFARI_PACKAGES_DATA = [
       "Any item not listed under inclusions"
     ],
     "bestFor": "Returning safari travellers and birders who want depth over distance",
-    "cardSummary": "An extra day for Buffalo Springs, a conservancy walk or a slow morning with a river herd."
+    "cardSummary": "An extra day for Buffalo Springs, a conservancy walk or a slow morning with a river herd.",
+    "regions": [
+      "Samburu National Reserve"
+    ],
+    "safariType": "Special Five Wildlife",
+    "luxuryLevel": "Mid-range",
+    "durationBucket": "4-6 Days",
+    "status": "published",
+    "validity": "Shoulder season",
+    "price": null,
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "activities": [
+      "Morning & evening game drives along the riverbanks",
+      "Guided bushwalks with Samburu morans (warriors)",
+      "Birdwatching for over 450 arid-zone species",
+      "Sundowners atop granite inselbergs with panoramic views",
+      "Star-gazing in unpolluted African night skies"
+    ],
+    "destinationOverview": "Located in Kenya's rugged northern frontier district, Samburu National Reserve is a stark, sun-baked landscape of breathtaking beauty. Framed by Mount Ololokwe and nourished by the life-giving waters of the brown Ewaso Ng'iro River, Samburu is famous for its distinct arid-adapted wildlife species known as the 'Samburu Special Five': the Grevy's zebra, reticulated giraffe, Beisa oryx, Somali ostrich, and the long-necked gerenuk.\n\nThe reserve boasts healthy populations of predators, including leopards, lions, and African wild dogs. Culturally, the Samburu people—close relatives of the Maasai—retain deeply authentic nomadic traditions, welcoming respectful visitors to learn about their pastoral heritage, traditional beadwork, and sacred mountain lore."
   },
   {
     "id": "sand-river-maasai-mara",
     "slug": "sand-river-maasai-mara",
     "title": "Sand River Maasai Mara Special",
     "shortTitle": "Sand River Maasai Mara Special",
-    "group": "Kenya Safaris",
+    "group": "Seasonal & Festive Offers",
     "country": "Kenya",
     "destinationSlug": "maasai-mara",
     "destinationName": "Maasai Mara National Reserve",
@@ -5171,14 +5311,38 @@ window.SAFARI_PACKAGES_DATA = [
       "Any item not listed under inclusions"
     ],
     "bestFor": "Photographers and repeat Mara visitors who want walking and night drives",
-    "cardSummary": "Conservancy access on the Sand River: off-road tracking, night drives and walking."
+    "cardSummary": "Conservancy access on the Sand River: off-road tracking, night drives and walking.",
+    "regions": [
+      "Maasai Mara National Reserve"
+    ],
+    "safariType": "Big Five Wildlife",
+    "luxuryLevel": "Mid-range",
+    "durationBucket": "4-6 Days",
+    "status": "published",
+    "validity": "Year-round private conservancy",
+    "price": null,
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "activities": [
+      "Early morning & sunset 4x4 game drives",
+      "Hot air balloon safaris over the plains",
+      "Maasai cultural boma visits & traditional dances",
+      "Guided bushwalking safaris with Maasai naturalists",
+      "Bush dinners under the African starlit sky",
+      "Photographic safaris led by wildlife photography guides"
+    ],
+    "destinationOverview": "Maasai Mara National Reserve is globally celebrated as one of Africa's greatest wildlife reserves. Bordering Tanzania's Serengeti, the Mara encompasses over 1,500 square kilometers of pristine savannah, rolling hills, and acacia-dotted grasslands. It is home to an extraordinary concentration of big cats, including prides of lions, elusive leopards, and swift cheetahs.\n\nBetween July and October, the reserve hosts the world-famous Great Wildebeest Migration, where over two million wildebeest, zebras, and gazelles brave predator-infested Mara River crossings in search of lush pastures. Beyond the migration, the Mara offers breathtaking year-round safari game drives, sunrise hot air balloon safaris, and enriching cultural encounters with the traditional Maasai pastoralist communities."
   },
   {
     "id": "tsavo-festive",
     "slug": "tsavo-festive",
     "title": "Tsavo National Park - Festive Season",
     "shortTitle": "Tsavo Festive Safari",
-    "group": "Kenya Safaris",
+    "group": "Seasonal & Festive Offers",
     "country": "Kenya",
     "destinationSlug": "tsavo-national-parks",
     "destinationName": "Tsavo East & Tsavo West National Parks",
@@ -5261,14 +5425,37 @@ window.SAFARI_PACKAGES_DATA = [
       "Any item not listed under inclusions"
     ],
     "bestFor": "Families combining a festive beach stay with a short, big-park safari",
-    "cardSummary": "Tsavo East and West in one trip — red dust, lava ridges and spring-fed pools."
+    "cardSummary": "Tsavo East and West in one trip - red dust, lava ridges and spring-fed pools.",
+    "regions": [
+      "Tsavo East & Tsavo West National Parks"
+    ],
+    "safariType": "Big Five Wildlife",
+    "luxuryLevel": "Mid-range",
+    "durationBucket": "2-3 Days",
+    "status": "published",
+    "validity": "Festive season",
+    "price": null,
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "activities": [
+      "Extensive wilderness game drives across raw landscapes",
+      "Visiting Mzima Springs nature trail with armed rangers",
+      "Exploring the Shetani Lava Flow and volcanic caves",
+      "Sundowners atop Poacher's Lookout with views of Kilimanjaro",
+      "Birdwatching for over 500 species in Ngulia"
+    ],
+    "destinationOverview": "Together, Tsavo East and Tsavo West form one of the largest protected wildlife sanctuaries on the planet, spanning nearly 22,000 square kilometers between Nairobi and the Kenyan coast. Divided by the railway and highway, the two parks offer starkly distinct yet complementary safari landscapes.\n\nTsavo East is celebrated for its vast, rolling semi-arid plains, the 300-km-long Yatta Plateau (the world's longest lava flow), Lugard Falls, and the iconic 'Red Elephants of Tsavo'—magnificent herds stained ochre-red from the volcanic soil. Tsavo West features dramatic volcanic topography, including the jagged Shetani Lava Flow, Roaring Rocks, and Mzima Springs, where fifty million gallons of crystal-clear spring water gush daily into pools with an underwater glass viewing chamber for hippos and fish."
   },
   {
     "id": "tsavo-seasonal",
     "slug": "tsavo-seasonal",
     "title": "Tsavo National Park - Seasonal Safari",
     "shortTitle": "Tsavo Seasonal Safari",
-    "group": "Kenya Safaris",
+    "group": "Seasonal & Festive Offers",
     "country": "Kenya",
     "destinationSlug": "tsavo-national-parks",
     "destinationName": "Tsavo East & Tsavo West National Parks",
@@ -5356,14 +5543,37 @@ window.SAFARI_PACKAGES_DATA = [
       "Any item not listed under inclusions"
     ],
     "bestFor": "Travellers with flexible dates who want both Tsavos plus the quieter corners",
-    "cardSummary": "A longer Tsavo loop for travellers who are not tied to the holiday calendar."
+    "cardSummary": "A longer Tsavo loop for travellers who are not tied to the holiday calendar.",
+    "regions": [
+      "Tsavo East & Tsavo West National Parks"
+    ],
+    "safariType": "Big Five Wildlife",
+    "luxuryLevel": "Mid-range",
+    "durationBucket": "4-6 Days",
+    "status": "published",
+    "validity": "Year-round",
+    "price": null,
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "activities": [
+      "Extensive wilderness game drives across raw landscapes",
+      "Visiting Mzima Springs nature trail with armed rangers",
+      "Exploring the Shetani Lava Flow and volcanic caves",
+      "Sundowners atop Poacher's Lookout with views of Kilimanjaro",
+      "Birdwatching for over 500 species in Ngulia"
+    ],
+    "destinationOverview": "Together, Tsavo East and Tsavo West form one of the largest protected wildlife sanctuaries on the planet, spanning nearly 22,000 square kilometers between Nairobi and the Kenyan coast. Divided by the railway and highway, the two parks offer starkly distinct yet complementary safari landscapes.\n\nTsavo East is celebrated for its vast, rolling semi-arid plains, the 300-km-long Yatta Plateau (the world's longest lava flow), Lugard Falls, and the iconic 'Red Elephants of Tsavo'—magnificent herds stained ochre-red from the volcanic soil. Tsavo West features dramatic volcanic topography, including the jagged Shetani Lava Flow, Roaring Rocks, and Mzima Springs, where fifty million gallons of crystal-clear spring water gush daily into pools with an underwater glass viewing chamber for hippos and fish."
   },
   {
     "id": "uganda-gorilla-kigali",
     "slug": "uganda-gorilla-kigali",
     "title": "Uganda Gorilla Trekking via Kigali",
     "shortTitle": "Gorilla Trekking via Kigali",
-    "group": "Uganda Safaris",
+    "group": "Seasonal & Festive Offers",
     "country": "Uganda",
     "destinationSlug": "bwindi-impenetrable-forest",
     "destinationName": "Bwindi Impenetrable Forest",
@@ -5458,14 +5668,37 @@ window.SAFARI_PACKAGES_DATA = [
       "Any item not listed under inclusions"
     ],
     "bestFor": "Travellers flying into Kigali who want the shortest route to the gorillas",
-    "cardSummary": "Fly into Kigali, cross into Bwindi and trek the Impenetrable Forest."
+    "cardSummary": "Fly into Kigali, cross into Bwindi and trek the Impenetrable Forest.",
+    "regions": [
+      "Bwindi Impenetrable Forest"
+    ],
+    "safariType": "Primates & Gorillas",
+    "luxuryLevel": "Mid-range",
+    "durationBucket": "4-6 Days",
+    "status": "published",
+    "validity": "Year-round",
+    "price": null,
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "activities": [
+      "Mountain Gorilla trekking with Uganda Wildlife Authority rangers",
+      "Gorilla Habituation Experience in Rushaga sector",
+      "Guided rainforest birdwatching and botanical walks",
+      "Batwa cultural heritage forest demonstrations",
+      "Community tea plantation and local craft cooperative visits"
+    ],
+    "destinationOverview": "Bwindi Impenetrable National Park is a biological masterpiece and UNESCO World Heritage Site in southwestern Uganda. Covering 321 square kilometers of rugged, tangled ancient montane and lowland rainforest, Bwindi is one of Africa's oldest and most diverse ecosystems, surviving through the last Ice Age.\n\nBwindi's greatest treasure is that it shelters nearly half of the world's surviving endangered Mountain Gorillas. Trekking through steep, misty valleys draped in moss and giant ferns to spend an unforgettable hour sitting quietly with a habituated gorilla family—watching massive silverbacks, playful infants, and tender mothers—is universally recognized as one of humanity's most profound wildlife encounters."
   },
   {
     "id": "uganda-gorilla-trekking",
     "slug": "uganda-gorilla-trekking",
     "title": "Uganda Gorilla Trekking Safari",
     "shortTitle": "Uganda Gorilla Trekking Safari",
-    "group": "Uganda Safaris",
+    "group": "Seasonal & Festive Offers",
     "country": "Uganda",
     "destinationSlug": "bwindi-impenetrable-forest",
     "destinationName": "Bwindi Impenetrable Forest",
@@ -5554,7 +5787,30 @@ window.SAFARI_PACKAGES_DATA = [
       "Any item not listed under inclusions"
     ],
     "bestFor": "Travellers who want a compact Uganda-only gorilla trip",
-    "cardSummary": "A compact Uganda-only gorilla trek built around one permit and one forest."
+    "cardSummary": "A compact Uganda-only gorilla trek built around one permit and one forest.",
+    "regions": [
+      "Bwindi Impenetrable Forest"
+    ],
+    "safariType": "Primates & Gorillas",
+    "luxuryLevel": "Mid-range",
+    "durationBucket": "4-6 Days",
+    "status": "published",
+    "validity": "Year-round",
+    "price": null,
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "activities": [
+      "Mountain Gorilla trekking with Uganda Wildlife Authority rangers",
+      "Gorilla Habituation Experience in Rushaga sector",
+      "Guided rainforest birdwatching and botanical walks",
+      "Batwa cultural heritage forest demonstrations",
+      "Community tea plantation and local craft cooperative visits"
+    ],
+    "destinationOverview": "Bwindi Impenetrable National Park is a biological masterpiece and UNESCO World Heritage Site in southwestern Uganda. Covering 321 square kilometers of rugged, tangled ancient montane and lowland rainforest, Bwindi is one of Africa's oldest and most diverse ecosystems, surviving through the last Ice Age.\n\nBwindi's greatest treasure is that it shelters nearly half of the world's surviving endangered Mountain Gorillas. Trekking through steep, misty valleys draped in moss and giant ferns to spend an unforgettable hour sitting quietly with a habituated gorilla family—watching massive silverbacks, playful infants, and tender mothers—is universally recognized as one of humanity's most profound wildlife encounters."
   },
   {
     "id": "encore-hotel-nakuru-2d1n",
@@ -5563,6 +5819,11 @@ window.SAFARI_PACKAGES_DATA = [
     "shortTitle": "Encore Hotel Nakuru Getaway",
     "group": "Kenya Getaways",
     "country": "Kenya",
+    "safariType": "Hotel Getaway",
+    "luxuryLevel": "Luxury",
+    "regions": [
+      "Lake Nakuru"
+    ],
     "destinationSlug": "lake-nakuru",
     "destinationName": "Lake Nakuru",
     "season": "Year-round",
@@ -5637,7 +5898,3744 @@ window.SAFARI_PACKAGES_DATA = [
       "Travel and medical insurance"
     ],
     "bestFor": "Couples, families and weekending residents who want comfort without a long drive",
-    "cardSummary": "One night of full-board comfort in Nakuru, with Lake Nakuru's rhinos a short drive away."
+    "cardSummary": "One night of full-board comfort in Nakuru, with Lake Nakuru's rhinos a short drive away.",
+    "durationBucket": "2-3 Days",
+    "status": "published",
+    "validity": "Year-round",
+    "price": null,
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "activities": [
+      "Rhino tracking game drives with experienced safari guides",
+      "Scenic Great Rift Valley escarpment viewpoints",
+      "Birdwatching along the lakeshore with 450+ avian species",
+      "Luxury weekend staycations & fine dining in Nakuru City",
+      "Visiting Hyrax Hill prehistoric site and Menengai Crater"
+    ],
+    "destinationOverview": "Nestled on the floor of the Great Rift Valley, Lake Nakuru National Park is one of Kenya's most accessible and rewarding wildlife sanctuaries. Famous worldwide for the kaleidoscopic spectacle of flamingos gathering along its alkaline shores, the park is also Kenya's premier sanctuary for both endangered black and white rhinos.\n\nEnclosed within picturesque yellow-barked fever tree woodlands and volcanic cliffs, visitors enjoy sightings of rare Rothschild's giraffes, tree-climbing lions, leopards, waterbucks, and African buffalos. Viewpoints like Baboon Cliff and Lion Hill afford breathtaking panoramas across the sparkling lake, while Makalia Falls cascades gracefully in the southern woodland basin."
+  },
+  {
+    "id": "maasai-mara-big-five",
+    "slug": "maasai-mara-big-five",
+    "title": "Maasai Mara Big Five Safari",
+    "shortTitle": "Maasai Mara Big Five",
+    "group": "Kenya Safaris",
+    "country": "Kenya",
+    "destinationName": "Maasai Mara National Reserve",
+    "destinationSlug": "maasai-mara",
+    "destinationOverview": "Maasai Mara National Reserve is globally celebrated as one of Africa's greatest wildlife reserves. Bordering Tanzania's Serengeti, the Mara encompasses over 1,500 square kilometers of pristine savannah, rolling hills, and acacia-dotted grasslands. It is home to an extraordinary concentration of big cats, including prides of lions, elusive leopards, and swift cheetahs.\n\nBetween July and October, the reserve hosts the world-famous Great Wildebeest Migration, where over two million wildebeest, zebras, and gazelles brave predator-infested Mara River crossings in search of lush pastures. Beyond the migration, the Mara offers breathtaking year-round safari game drives, sunrise hot air balloon safaris, and enriching cultural encounters with the traditional Maasai pastoralist communities.",
+    "regions": [
+      "Maasai Mara National Reserve"
+    ],
+    "duration": "4 Days / 3 Nights",
+    "durationDays": 4,
+    "durationBucket": "4-6 Days",
+    "safariType": "Big Five Wildlife",
+    "luxuryLevel": "Mid-range",
+    "tagline": "Four days in the Mara with the Big Five as the brief",
+    "summary": "The Mara holds lion, leopard, elephant, buffalo and rhino in a single reserve, and four days is enough to work the river line, the Talek junctions and the open plains properly. This is a classic game-drive safari with unhurried mornings, a full day in the middle and a guide who reads the grass rather than the radio.",
+    "cardSummary": "Four unhurried Mara days built around big cats, the river line and the Big Five.",
+    "heroImage": "/assets/images/destinations/maasai-mara.jpg",
+    "cardImage": "/assets/images/destinations/maasai-mara.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/maasai-mara.jpg",
+        "caption": "Lion pride on the Mara plains"
+      },
+      {
+        "url": "/assets/images/destinations/maasai-mara-card.jpg",
+        "caption": "Acacia and open savannah in the reserve"
+      },
+      {
+        "url": "/assets/images/destinations/maasai-mara-balloon.jpg",
+        "caption": "First light over the Mara"
+      }
+    ],
+    "highlights": [
+      "Mara River and Talek junction drives for lion, leopard and herd movement",
+      "A full middle day in the reserve rather than two half days",
+      "Black rhino in the Mara Triangle and the Oloololo escarpment views",
+      "Big-cat tracking paced around dawn and late afternoon light",
+      "Picnic breakfast under an acacia with no other vehicle in sight"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Nairobi to the Mara",
+        "detail": "Leave Nairobi after an early breakfast and drive down the escarpment into the Mara, arriving in time for lunch. A late-afternoon drive works the nearest river bend, when elephant and buffalo come down to drink."
+      },
+      {
+        "day": "Day 2",
+        "title": "Full day in the reserve",
+        "detail": "Out at first light with a picnic breakfast, tracking along the Mara River and the Talek junction. Back to camp through the heat of the day, then out again for the golden hour."
+      },
+      {
+        "day": "Day 3",
+        "title": "Plains, kopjes and the Triangle",
+        "detail": "A second full day with a different route: the Oloololo escarpment, the southern plains and the granite kopjes where leopard rest. Sundowners on the way back to camp."
+      },
+      {
+        "day": "Day 4",
+        "title": "Morning drive and return",
+        "detail": "One last dawn drive, breakfast at camp, then the drive back to Nairobi with a picnic stop on the escarpment, arriving late afternoon."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Tented suites inside the reserve or on a bordering conservancy, full board, with private decks facing the plains."
+      },
+      {
+        "tier": "Mid-range",
+        "description": "Comfortable tented camps on the reserve boundary, full board, with en-suite bathrooms and a central mess tent."
+      },
+      {
+        "tier": "Family-friendly",
+        "description": "Camps with family tents or interconnecting rooms and flexible meal times for younger children."
+      }
+    ],
+    "activities": [
+      "Twice-daily game drives in a private 4x4",
+      "Big-cat tracking with your guide at dawn and dusk",
+      "River-line drives for elephant, buffalo and hippo",
+      "Picnic breakfasts and sundowners in the reserve",
+      "Optional hot-air balloon safari at extra cost",
+      "Optional Maasai community visit arranged with local hosts"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "First-time safari travellers who want the Big Five in one reserve without rushing",
+    "startsFrom": "Nairobi",
+    "travelStyle": "Private 4x4 safari",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "luxury-maasai-mara-fly-in",
+    "slug": "luxury-maasai-mara-fly-in",
+    "title": "Luxury Maasai Mara Fly-in Safari",
+    "shortTitle": "Luxury Mara Fly-in",
+    "group": "Kenya Safaris",
+    "country": "Kenya",
+    "destinationName": "Maasai Mara National Reserve",
+    "destinationSlug": "maasai-mara",
+    "destinationOverview": "Maasai Mara National Reserve is globally celebrated as one of Africa's greatest wildlife reserves. Bordering Tanzania's Serengeti, the Mara encompasses over 1,500 square kilometers of pristine savannah, rolling hills, and acacia-dotted grasslands. It is home to an extraordinary concentration of big cats, including prides of lions, elusive leopards, and swift cheetahs.\n\nBetween July and October, the reserve hosts the world-famous Great Wildebeest Migration, where over two million wildebeest, zebras, and gazelles brave predator-infested Mara River crossings in search of lush pastures. Beyond the migration, the Mara offers breathtaking year-round safari game drives, sunrise hot air balloon safaris, and enriching cultural encounters with the traditional Maasai pastoralist communities.",
+    "regions": [
+      "Maasai Mara National Reserve"
+    ],
+    "duration": "3 Days / 2 Nights",
+    "durationDays": 3,
+    "durationBucket": "2-3 Days",
+    "safariType": "Fly-in Luxury",
+    "luxuryLevel": "Luxury",
+    "tagline": "Three days, one short flight, no road transfer at either end",
+    "summary": "A compact luxury Mara trip for travellers with a tight calendar. You fly from Wilson Airport to a reserve airstrip in the morning and are on a game drive within the hour, with two nights in a high-end tented suite and a private vehicle for the whole stay. The point is time: no six-hour drive at either end of a short safari.",
+    "cardSummary": "Fly in after breakfast, game drive before lunch: the Mara without the road transfer.",
+    "heroImage": "/assets/images/destinations/maasai-mara-balloon.jpg",
+    "cardImage": "/assets/images/destinations/maasai-mara-balloon.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/maasai-mara-balloon.jpg",
+        "caption": "First light over the Mara"
+      },
+      {
+        "url": "/assets/images/destinations/maasai-mara.jpg",
+        "caption": "Lion pride on the Mara plains"
+      },
+      {
+        "url": "/assets/images/destinations/maasai-mara-card.jpg",
+        "caption": "Acacia and open savannah in the reserve"
+      }
+    ],
+    "highlights": [
+      "Scheduled light-aircraft flight from Wilson Airport to the Mara airstrip",
+      "Private vehicle and guide for the whole stay, not a shared game drive",
+      "Two nights in a high-end tented suite with full board",
+      "A full day in the reserve with a picnic lunch on the plains",
+      "Optional balloon safari on the middle morning"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Fly in and drive out",
+        "detail": "Check in at Wilson Airport for the morning flight to the Mara. Met at the airstrip, you drive straight into the reserve with a picnic lunch, arriving at camp in the afternoon for a late game drive and dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Full day in the reserve",
+        "detail": "Dawn balloon safari for those who want it, otherwise an early drive with breakfast in the bush. The rest of the day follows the herds and whatever the cats are doing."
+      },
+      {
+        "day": "Day 3",
+        "title": "Morning drive and flight out",
+        "detail": "A final early drive, breakfast at camp, then the transfer to the airstrip for the return flight to Nairobi."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "High-end tented suites on a private conservancy or river frontage, full board, with butler service and outdoor baths."
+      },
+      {
+        "tier": "Luxury family",
+        "description": "Two-bedroom tented suites with a shared deck for families travelling together."
+      },
+      {
+        "tier": "Classic luxury",
+        "description": "Long-established river-side camps with a quieter, older-style feel and full board."
+      }
+    ],
+    "activities": [
+      "Private game drives twice daily",
+      "Bush breakfast and picnic lunch in the reserve",
+      "Optional hot-air balloon safari with a champagne breakfast",
+      "Sundowners at a lookout over the plains",
+      "Guided walking safari where the camp holds a walking licence"
+    ],
+    "inclusions": [
+      "Return scheduled light-aircraft flights Wilson Airport to the Mara airstrip",
+      "Private 4x4 safari vehicle with professional driver-guide for the whole stay",
+      "Two nights full-board luxury tented accommodation",
+      "All reserve entry fees for the itinerary as drawn",
+      "Airstrip transfers and game drives as scheduled",
+      "Bottled drinking water and house beverages as offered by the camp",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Travellers short on time who would rather fly than spend a day on the road",
+    "startsFrom": "Nairobi",
+    "travelStyle": "Private fly-in safari",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "great-migration",
+    "slug": "great-migration",
+    "title": "Great Migration Experience",
+    "shortTitle": "Great Migration",
+    "group": "Kenya Safaris",
+    "country": "Kenya",
+    "destinationName": "Maasai Mara National Reserve",
+    "destinationSlug": "maasai-mara",
+    "destinationOverview": "Maasai Mara National Reserve is globally celebrated as one of Africa's greatest wildlife reserves. Bordering Tanzania's Serengeti, the Mara encompasses over 1,500 square kilometers of pristine savannah, rolling hills, and acacia-dotted grasslands. It is home to an extraordinary concentration of big cats, including prides of lions, elusive leopards, and swift cheetahs.\n\nBetween July and October, the reserve hosts the world-famous Great Wildebeest Migration, where over two million wildebeest, zebras, and gazelles brave predator-infested Mara River crossings in search of lush pastures. Beyond the migration, the Mara offers breathtaking year-round safari game drives, sunrise hot air balloon safaris, and enriching cultural encounters with the traditional Maasai pastoralist communities.",
+    "regions": [
+      "Maasai Mara National Reserve"
+    ],
+    "duration": "5 Days / 4 Nights",
+    "durationDays": 5,
+    "durationBucket": "4-6 Days",
+    "safariType": "Great Migration",
+    "luxuryLevel": "Mid-range",
+    "tagline": "Five days positioned for the herds rather than the itinerary",
+    "summary": "The migration is a moving animal event, not a fixed attraction, so this safari is built with slack in it: four nights in the Mara and route decisions made on the ground as the herds report in. Expect long river sessions when crossings are imminent and quieter predator drives when they are not. We do not promise a crossing on any given day.",
+    "cardSummary": "Four Mara nights with the route set by where the herds actually are.",
+    "heroImage": "/assets/images/destinations/maasai-mara-card.jpg",
+    "cardImage": "/assets/images/destinations/maasai-mara-card.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/maasai-mara-card.jpg",
+        "caption": "Wildebeest herds on the move across the Mara"
+      },
+      {
+        "url": "/assets/images/destinations/maasai-mara.jpg",
+        "caption": "Lion waiting out the migration season"
+      },
+      {
+        "url": "/assets/images/destinations/maasai-mara-balloon.jpg",
+        "caption": "Dawn over the migration plains"
+      }
+    ],
+    "highlights": [
+      "Four nights in the Mara so river crossings are not a one-day gamble",
+      "Dawn-to-dusk positioning at the main crossing points when herds gather",
+      "Predator activity that follows the herds through the reserve",
+      "A guide who will change the day's route on the radio report alone",
+      "Seasonal timing discussed honestly at quotation, without fixed departure claims"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Nairobi to the Mara",
+        "detail": "Drive or fly to the reserve depending on the plan agreed, settle in, then take a late-afternoon drive to read where the herds are holding."
+      },
+      {
+        "day": "Day 2",
+        "title": "Herd tracking",
+        "detail": "An early start toward the river line the herds are using. The day is built around their movement, with a picnic lunch in the vehicle."
+      },
+      {
+        "day": "Day 3",
+        "title": "River crossings and predators",
+        "detail": "Full day out, positioned at a crossing point if the herds are massing, otherwise tracking the cats that follow them."
+      },
+      {
+        "day": "Day 4",
+        "title": "Second full day",
+        "detail": "A different sector of the reserve, usually the Triangle or the southern plains, with a relaxed middle of the day and a late drive back."
+      },
+      {
+        "day": "Day 5",
+        "title": "Morning drive and return",
+        "detail": "A final dawn drive, breakfast at camp and the transfer out to Nairobi."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Tented suites near the river with full board and a private deck."
+      },
+      {
+        "tier": "Mid-range",
+        "description": "Boundary camps with en-suite tents, full board and a pool."
+      },
+      {
+        "tier": "Mobile-style",
+        "description": "Simple seasonal camps that move with the herds, full board, booked well ahead."
+      }
+    ],
+    "activities": [
+      "Migration-season game drives",
+      "River-crossing watch points at dawn and late afternoon",
+      "Big-cat tracking with your guide",
+      "Photographic sessions from a lowered vehicle",
+      "Optional balloon safari at extra cost"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Wildlife travellers who can be flexible on exact dates and want the herds, not a checklist",
+    "startsFrom": "Nairobi",
+    "travelStyle": "Private 4x4 safari",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "amboseli-elephant-safari",
+    "slug": "amboseli-elephant-safari",
+    "title": "Amboseli Elephant Safari",
+    "shortTitle": "Amboseli Elephants",
+    "group": "Kenya Safaris",
+    "country": "Kenya",
+    "destinationName": "Amboseli National Park",
+    "destinationSlug": "amboseli",
+    "destinationOverview": "Amboseli National Park is world-renowned for offering the iconic African safari postcard: massive herds of elephants grazing gracefully with the snow-capped volcanic peak of Mount Kilimanjaro rising dramatically in the background. Covering nearly 400 square kilometers near the Tanzanian border, Amboseli combines dry savannah plains with verdant marshes fed by underground springs from Kilimanjaro.\n\nThis unique hydrology draws an astonishing variety of wildlife, from big tuskers and lions to cheetahs, hippos, and over 400 species of birds. Observation Hill provides panoramic 360-degree vistas across the entire park, where swamp elephants bathe and dust-devil whirlwinds dance across the dried Lake Amboseli bed.",
+    "regions": [
+      "Amboseli National Park"
+    ],
+    "duration": "3 Days / 2 Nights",
+    "durationDays": 3,
+    "durationBucket": "2-3 Days",
+    "safariType": "Elephant Safari",
+    "luxuryLevel": "Mid-range",
+    "tagline": "Big tuskers, swamp light and Kilimanjaro behind them",
+    "summary": "Amboseli's elephants are the reason to come: some of the last great tuskers in Africa moving between the swamps and the dry lake bed, with Kilimanjaro standing over the whole basin. Three days gives you two full shooting windows at the swamps and a mountain view at first light, which is when the summit is usually clean.",
+    "cardSummary": "Two days with Amboseli's tuskers, Kilimanjaro standing over the swamps.",
+    "heroImage": "/assets/images/destinations/amboseli.jpg",
+    "cardImage": "/assets/images/destinations/amboseli.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/amboseli.jpg",
+        "caption": "Elephant herd beneath the snows of Kilimanjaro"
+      },
+      {
+        "url": "/assets/images/destinations/amboseli-card.jpg",
+        "caption": "Elephants crossing the Amboseli plains"
+      },
+      {
+        "url": "/assets/images/destinations/kilimanjaro.jpg",
+        "caption": "Kibo rising beyond the savannah"
+      }
+    ],
+    "highlights": [
+      "Enkongo Narok and Longinye swamps at first and last light",
+      "Big-tusker bulls at close range with a guide who knows the herds",
+      "Kilimanjaro views from Observation Hill and the eastern tracks",
+      "Birdlife across the marshes, including pelican and crowned crane",
+      "Optional Maasai community visit arranged with local hosts"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Nairobi to Amboseli",
+        "detail": "Drive south through the Kapiti plains and Emali, arriving in the park by early afternoon. Check in, then a late drive to the swamps as the herds come in."
+      },
+      {
+        "day": "Day 2",
+        "title": "Full day in the park",
+        "detail": "Dawn drive when the mountain is clearest, breakfast at camp, then out again via Observation Hill and the swamp circuit with a picnic lunch."
+      },
+      {
+        "day": "Day 3",
+        "title": "Morning drive and return",
+        "detail": "One final early drive, breakfast, then the road back to Nairobi with a picnic stop, arriving late afternoon."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Tented suites inside or bordering the park with mountain-facing decks, full board."
+      },
+      {
+        "tier": "Mid-range",
+        "description": "Lodges on the park boundary with pool and family rooms, full board."
+      },
+      {
+        "tier": "Family-friendly",
+        "description": "Lodges with interconnecting rooms and early dinner sittings for children."
+      }
+    ],
+    "activities": [
+      "Swamp game drives for the big-tusker herds",
+      "Kilimanjaro-view morning drives",
+      "Observation Hill panoramas across the dry lake bed",
+      "Birding in the marshes and along the channels",
+      "Optional Maasai village visit",
+      "Optional scenic flight over the park at extra cost"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Elephant lovers and photographers who want one park done properly",
+    "startsFrom": "Nairobi",
+    "travelStyle": "Private 4x4 safari",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "luxury-amboseli-escape",
+    "slug": "luxury-amboseli-escape",
+    "title": "Luxury Amboseli Escape",
+    "shortTitle": "Luxury Amboseli",
+    "group": "Kenya Safaris",
+    "country": "Kenya",
+    "destinationName": "Amboseli National Park",
+    "destinationSlug": "amboseli",
+    "destinationOverview": "Amboseli National Park is world-renowned for offering the iconic African safari postcard: massive herds of elephants grazing gracefully with the snow-capped volcanic peak of Mount Kilimanjaro rising dramatically in the background. Covering nearly 400 square kilometers near the Tanzanian border, Amboseli combines dry savannah plains with verdant marshes fed by underground springs from Kilimanjaro.\n\nThis unique hydrology draws an astonishing variety of wildlife, from big tuskers and lions to cheetahs, hippos, and over 400 species of birds. Observation Hill provides panoramic 360-degree vistas across the entire park, where swamp elephants bathe and dust-devil whirlwinds dance across the dried Lake Amboseli bed.",
+    "regions": [
+      "Amboseli National Park"
+    ],
+    "duration": "3 Days / 2 Nights",
+    "durationDays": 3,
+    "durationBucket": "2-3 Days",
+    "safariType": "Fly-in Luxury",
+    "luxuryLevel": "Luxury",
+    "tagline": "Fly in, slow down, and let the mountain do the rest",
+    "summary": "The same Amboseli wildlife with the logistics taken out: a light-aircraft hop from Wilson Airport, a private vehicle waiting at the airstrip, and two nights in a high-end camp with real space between the game drives. Built for travellers who want the landscape more than the mileage.",
+    "cardSummary": "A short flight and two nights of quiet luxury beneath Kilimanjaro.",
+    "heroImage": "/assets/images/destinations/amboseli-card.jpg",
+    "cardImage": "/assets/images/destinations/amboseli-card.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/amboseli-card.jpg",
+        "caption": "Elephants crossing the Amboseli plains"
+      },
+      {
+        "url": "/assets/images/destinations/amboseli.jpg",
+        "caption": "Elephant herd beneath the snows of Kilimanjaro"
+      },
+      {
+        "url": "/assets/images/destinations/kilimanjaro-card.jpg",
+        "caption": "The eastern icefields of Kilimanjaro"
+      }
+    ],
+    "highlights": [
+      "Scheduled flight from Wilson Airport to the Amboseli airstrip",
+      "Private vehicle and guide throughout the stay",
+      "Two nights in a luxury camp with mountain-facing suites",
+      "Sundowners on the plains with the summit in the background",
+      "Optional spa treatment or private dinner in the bush"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Fly in and settle",
+        "detail": "Morning flight from Wilson, met at the airstrip and driven into the park with a picnic lunch. Afternoon at leisure, then a late drive to the swamps."
+      },
+      {
+        "day": "Day 2",
+        "title": "Full day in the park",
+        "detail": "Dawn drive, breakfast at camp, a long middle-of-day rest, then out again through the swamp circuit for the last light."
+      },
+      {
+        "day": "Day 3",
+        "title": "Morning drive and flight out",
+        "detail": "Final early drive, breakfast, and the transfer to the airstrip for the return flight."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Tented suites with private plunge pools or outdoor baths, full board."
+      },
+      {
+        "tier": "Luxury family",
+        "description": "Two-bedroom suites with a shared deck for families."
+      },
+      {
+        "tier": "Classic luxury",
+        "description": "Older-style lodges on the park edge with a garden and full board."
+      }
+    ],
+    "activities": [
+      "Private morning and evening game drives",
+      "Champagne sundowners on the plains",
+      "Guided birding in the marshes",
+      "Optional massage or spa treatment at camp",
+      "Optional scenic helicopter flight over Kilimanjaro"
+    ],
+    "inclusions": [
+      "Return scheduled light-aircraft flights Wilson Airport to Amboseli",
+      "Private 4x4 safari vehicle with driver-guide for the whole stay",
+      "Two nights full-board luxury accommodation",
+      "All park entry fees for the itinerary as drawn",
+      "Airstrip transfers and game drives as scheduled",
+      "House beverages as offered by the camp",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Couples and solo travellers who want Amboseli without a long road transfer",
+    "startsFrom": "Nairobi",
+    "travelStyle": "Private fly-in safari",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "samburu-special-five",
+    "slug": "samburu-special-five",
+    "title": "Samburu Special Five Safari",
+    "shortTitle": "Samburu Special Five",
+    "group": "Kenya Safaris",
+    "country": "Kenya",
+    "destinationName": "Samburu National Reserve",
+    "destinationSlug": "samburu",
+    "destinationOverview": "Located in Kenya's rugged northern frontier district, Samburu National Reserve is a stark, sun-baked landscape of breathtaking beauty. Framed by Mount Ololokwe and nourished by the life-giving waters of the brown Ewaso Ng'iro River, Samburu is famous for its distinct arid-adapted wildlife species known as the 'Samburu Special Five': the Grevy's zebra, reticulated giraffe, Beisa oryx, Somali ostrich, and the long-necked gerenuk.\n\nThe reserve boasts healthy populations of predators, including leopards, lions, and African wild dogs. Culturally, the Samburu people—close relatives of the Maasai—retain deeply authentic nomadic traditions, welcoming respectful visitors to learn about their pastoral heritage, traditional beadwork, and sacred mountain lore.",
+    "regions": [
+      "Samburu National Reserve"
+    ],
+    "duration": "4 Days / 3 Nights",
+    "durationDays": 4,
+    "durationBucket": "4-6 Days",
+    "safariType": "Special Five Wildlife",
+    "luxuryLevel": "Mid-range",
+    "tagline": "Reticulated giraffe, Grevy's zebra and the dry-country specialists",
+    "summary": "Samburu is where the species list changes. Reticulated giraffe, Grevy's zebra, gerenuk, beisa oryx and Somali ostrich all live here and nowhere else on a typical Kenya circuit. The Ewaso Ng'iro river keeps the reserve green while the surrounding country bakes, which concentrates wildlife along its banks and makes for very good, very uncrowded drives.",
+    "cardSummary": "The five dry-country specialists, along a river that concentrates everything.",
+    "heroImage": "/assets/images/destinations/samburu.jpg",
+    "cardImage": "/assets/images/destinations/samburu.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/samburu.jpg",
+        "caption": "Reticulated giraffe in Samburu National Reserve"
+      },
+      {
+        "url": "/assets/images/destinations/samburu-card.jpg",
+        "caption": "Doum palms along the Ewaso Ng'iro"
+      },
+      {
+        "url": "/assets/images/destinations/laikipia.jpg",
+        "caption": "Dry-country escarpment and game country north of Mount Kenya"
+      }
+    ],
+    "highlights": [
+      "All five Samburu specials: reticulated giraffe, Grevy's zebra, gerenuk, beisa oryx and Somali ostrich",
+      "River-front drives along the Ewaso Ng'iro",
+      "Elephant herds that are studied and relaxed around vehicles",
+      "Buffalo Springs addition for a second reserve on the same trip",
+      "A markedly quieter reserve than the Mara or Amboseli"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Nairobi to Samburu",
+        "detail": "North past Mount Kenya and Isiolo, crossing the equator at Nanyuki, arriving at the reserve in the early afternoon. Late drive along the river."
+      },
+      {
+        "day": "Day 2",
+        "title": "Full day in Samburu",
+        "detail": "Dawn drive for the specials, breakfast at camp, then an afternoon out through the river bends and doum palm groves."
+      },
+      {
+        "day": "Day 3",
+        "title": "Buffalo Springs and community",
+        "detail": "A morning in Buffalo Springs, then a community visit or a relaxed camp afternoon; another late drive before dinner."
+      },
+      {
+        "day": "Day 4",
+        "title": "Morning drive and return",
+        "detail": "Final early drive, breakfast and the road back to Nairobi, arriving in the evening."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "River-front tented suites with private decks, full board."
+      },
+      {
+        "tier": "Mid-range",
+        "description": "Lodges beside the reserve with pool and full board."
+      },
+      {
+        "tier": "Boutique",
+        "description": "Small camps with a handful of tents and a quiet, hosted feel, full board."
+      }
+    ],
+    "activities": [
+      "Special-five species drives",
+      "River-front elephant watching",
+      "Buffalo Springs game drives",
+      "Guided walk with a ranger where permitted",
+      "Optional Samburu community visit",
+      "Birding for dry-country species"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Travellers who have done the Mara and want a different species list",
+    "startsFrom": "Nairobi",
+    "travelStyle": "Private 4x4 safari",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "ol-pejeta-rhino-safari",
+    "slug": "ol-pejeta-rhino-safari",
+    "title": "Ol Pejeta Rhino and Chimpanzee Safari",
+    "shortTitle": "Ol Pejeta Rhino Safari",
+    "group": "Kenya Safaris",
+    "country": "Kenya",
+    "destinationName": "Ol Pejeta Conservancy",
+    "destinationSlug": null,
+    "destinationOverview": "Ol Pejeta is a working conservancy, not just a park, and the visit reflects that: a session with the rhino-monitoring team, black and white rhino at close range, and the chimpanzee sanctuary on the Ewaso Ng'iro. Two nights on the Laikipia plateau, with Mount Kenya visible from much of the conservancy and far fewer vehicles than the Mara.",
+    "regions": [
+      "Ol Pejeta Conservancy"
+    ],
+    "duration": "3 Days / 2 Nights",
+    "durationDays": 3,
+    "durationBucket": "2-3 Days",
+    "safariType": "Conservation Safari",
+    "luxuryLevel": "Mid-range",
+    "tagline": "Rhino conservation, a chimp sanctuary and Mount Kenya on the skyline",
+    "summary": "Ol Pejeta is a working conservancy, not just a park, and the visit reflects that: a session with the rhino-monitoring team, black and white rhino at close range, and the chimpanzee sanctuary on the Ewaso Ng'iro. Two nights on the Laikipia plateau, with Mount Kenya visible from much of the conservancy and far fewer vehicles than the Mara.",
+    "cardSummary": "Rhino monitoring, the chimp sanctuary and open Laikipia plains under Mount Kenya.",
+    "heroImage": "/assets/images/destinations/ol-pejeta.jpg",
+    "cardImage": "/assets/images/destinations/ol-pejeta.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/ol-pejeta.jpg",
+        "caption": "Northern white rhino under guard at Ol Pejeta"
+      },
+      {
+        "url": "/assets/images/destinations/ol-pejeta-plains.jpg",
+        "caption": "Open Laikipia plains inside the conservancy"
+      },
+      {
+        "url": "/assets/images/destinations/laikipia.jpg",
+        "caption": "Escarpment country north of Mount Kenya"
+      }
+    ],
+    "highlights": [
+      "Rhino-monitoring experience with the conservancy's tracking team",
+      "Black and white rhino viewed on foot where conditions allow",
+      "Sweetwaters chimpanzee sanctuary on the Ewaso Ng'iro",
+      "Big Five game drives across open Laikipia grassland",
+      "Mount Kenya views from the conservancy's northern boundary"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Nairobi to Ol Pejeta",
+        "detail": "Drive north through Nanyuki and into the conservancy, arriving for lunch. Afternoon game drive across the western sector with a stop at the rhino enclosure."
+      },
+      {
+        "day": "Day 2",
+        "title": "Full day in the conservancy",
+        "detail": "Morning rhino-monitoring session, then the chimpanzee sanctuary, then an afternoon drive for lion, elephant and buffalo. Night drive where the conservancy permits."
+      },
+      {
+        "day": "Day 3",
+        "title": "Morning drive and return",
+        "detail": "Early drive, breakfast, then the drive back to Nairobi via the Aberdare foothills."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Tented suites on the conservancy with Mount Kenya views, full board."
+      },
+      {
+        "tier": "Mid-range",
+        "description": "Lodges inside or beside the conservancy, full board, with pool."
+      },
+      {
+        "tier": "Family-friendly",
+        "description": "Cottages and family tents with flexible meal times."
+      }
+    ],
+    "activities": [
+      "Rhino-monitoring with the conservancy team",
+      "Chimpanzee sanctuary visit",
+      "Big Five game drives",
+      "Night drive where permitted",
+      "Guided bush walk with an armed ranger",
+      "Optional lion-tracking experience"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Conservation-minded travellers and families with older children",
+    "startsFrom": "Nairobi",
+    "travelStyle": "Private 4x4 safari",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "lake-nakuru-naivasha",
+    "slug": "lake-nakuru-naivasha",
+    "title": "Lake Nakuru and Naivasha Adventure",
+    "shortTitle": "Nakuru & Naivasha",
+    "group": "Kenya Safaris",
+    "country": "Kenya",
+    "destinationName": "Lake Nakuru National Park",
+    "destinationSlug": "lake-nakuru",
+    "destinationOverview": "Nestled on the floor of the Great Rift Valley, Lake Nakuru National Park is one of Kenya's most accessible and rewarding wildlife sanctuaries. Famous worldwide for the kaleidoscopic spectacle of flamingos gathering along its alkaline shores, the park is also Kenya's premier sanctuary for both endangered black and white rhinos.\n\nEnclosed within picturesque yellow-barked fever tree woodlands and volcanic cliffs, visitors enjoy sightings of rare Rothschild's giraffes, tree-climbing lions, leopards, waterbucks, and African buffalos. Viewpoints like Baboon Cliff and Lion Hill afford breathtaking panoramas across the sparkling lake, while Makalia Falls cascades gracefully in the southern woodland basin.",
+    "regions": [
+      "Lake Nakuru National Park"
+    ],
+    "duration": "3 Days / 2 Nights",
+    "durationDays": 3,
+    "durationBucket": "2-3 Days",
+    "safariType": "Rift Valley Lakes",
+    "luxuryLevel": "Comfort",
+    "tagline": "Two Rift Valley lakes, rhino on one shore and hippo on the other",
+    "summary": "A short Rift Valley loop that pairs Nakuru's rhino and flamingo shoreline with Naivasha's water. Nakuru is fenced, compact and reliable for both black and white rhino; Naivasha adds a boat trip past hippo and a walk on Crescent Island among giraffe and zebra with no predators. Good value, good for a first safari, easy on a short break from Nairobi.",
+    "cardSummary": "Rhino at Nakuru, hippo and a boat at Naivasha, all in one Rift Valley loop.",
+    "heroImage": "/assets/images/destinations/lake-nakuru.jpg",
+    "cardImage": "/assets/images/destinations/lake-nakuru.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/lake-nakuru.jpg",
+        "caption": "Lake Nakuru and its shoreline"
+      },
+      {
+        "url": "/assets/images/destinations/lake-naivasha.jpg",
+        "caption": "Boats and hippo water on Lake Naivasha"
+      },
+      {
+        "url": "/assets/images/destinations/lake-nakuru-card.jpg",
+        "caption": "Flamingo-pink water at Lake Nakuru"
+      }
+    ],
+    "highlights": [
+      "Black and white rhino in Lake Nakuru National Park",
+      "Rothschild giraffe and the Baboon Cliff viewpoint",
+      "Boat trip on Lake Naivasha past hippo and fish eagles",
+      "Guided walk on Crescent Island among giraffe, zebra and wildebeest",
+      "Rift Valley escarpment viewpoints on the drive down from Nairobi"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Nairobi to Naivasha",
+        "detail": "Drive down the escarpment with a stop at the viewpoint, then on to Naivasha for lunch. Afternoon boat trip and a walk on Crescent Island."
+      },
+      {
+        "day": "Day 2",
+        "title": "Naivasha to Nakuru",
+        "detail": "Morning drive to Lake Nakuru National Park with a game drive en route to the lodge. Afternoon drive along the shoreline for rhino, giraffe and flamingo."
+      },
+      {
+        "day": "Day 3",
+        "title": "Nakuru and return",
+        "detail": "Early game drive to Baboon Cliff and the northern shore, breakfast, then the drive back to Nairobi arriving early afternoon."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Lakeside lodges with private decks, full board."
+      },
+      {
+        "tier": "Mid-range",
+        "description": "Lodges in or near the park with pool, full board."
+      },
+      {
+        "tier": "Comfort",
+        "description": "Simple lakeside hotels with dinner, bed and breakfast near Naivasha."
+      }
+    ],
+    "activities": [
+      "Game drives in Lake Nakuru National Park",
+      "Boat safari on Lake Naivasha",
+      "Guided walk on Crescent Island",
+      "Baboon Cliff and Rift Valley viewpoints",
+      "Birding for flamingo, pelican and fish eagle",
+      "Optional Hell's Gate cycling add-on"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Short-break travellers, first-time safari visitors and families",
+    "startsFrom": "Nairobi",
+    "travelStyle": "Private 4x4 safari",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "hells-gate-cycling",
+    "slug": "hells-gate-cycling",
+    "title": "Hell's Gate Cycling and Naivasha Safari",
+    "shortTitle": "Hell's Gate Cycling",
+    "group": "Kenya Safaris",
+    "country": "Kenya",
+    "destinationName": "Hell's Gate National Park",
+    "destinationSlug": "hells-gate",
+    "destinationOverview": "Named for a narrow break in the sheer red cliffs once carved by a prehistoric tributary of Lake Naivasha, Hell's Gate National Park is one of Kenya's most exhilarating adventure destinations. It is one of the only national parks in Africa where visitors are encouraged to explore on foot or by bicycle alongside herds of zebras, buffalos, gazelles, and giraffes.\n\nTowering volcanic plug formations like Fischer's Tower and Central Tower provide world-class rock climbing. Deep inside the park, the Ol Njorowa Gorge winds through dramatic water-sculpted sandstone canyon walls with natural hot springs. Nearby, the Olkaria Geothermal Spa offers a relaxing swim in massive, naturally heated mineral pools.",
+    "regions": [
+      "Hell's Gate National Park"
+    ],
+    "duration": "3 Days / 2 Nights",
+    "durationDays": 3,
+    "durationBucket": "2-3 Days",
+    "safariType": "Walking & Cycling",
+    "luxuryLevel": "Comfort",
+    "tagline": "Cycle a gorge, walk a canyon and boat past hippo",
+    "summary": "Hell's Gate is one of the few Kenyan parks you can explore on a bicycle, and that changes the whole feel of a safari: no vehicle roof between you and the cliffs, zebra and giraffe moving off the track ahead of you, and the chance to walk into the gorge with a guide. Paired with a Naivasha boat trip, it makes a very good short, active break out of Nairobi.",
+    "cardSummary": "Bicycles, a gorge walk and a boat on Naivasha instead of another game-drive loop.",
+    "heroImage": "/assets/images/destinations/hells-gate.jpg",
+    "cardImage": "/assets/images/destinations/hells-gate.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/hells-gate.jpg",
+        "caption": "Cliffs and volcanic columns in Hell's Gate"
+      },
+      {
+        "url": "/assets/images/destinations/hells-gate-card.jpg",
+        "caption": "The gorge track inside Hell's Gate National Park"
+      },
+      {
+        "url": "/assets/images/destinations/lake-naivasha.jpg",
+        "caption": "Boats and hippo water on Lake Naivasha"
+      }
+    ],
+    "highlights": [
+      "Cycling through Hell's Gate on a hired bike with a guide",
+      "Guided walk into the gorge and past Fischer's Tower",
+      "Wildlife on the move at eye level: zebra, giraffe, warthog and eland",
+      "Boat trip on Lake Naivasha for hippo and fish eagle",
+      "Steam vents and volcanic scenery you can walk right up to"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Nairobi to Naivasha",
+        "detail": "Drive down the escarpment to Naivasha, drop bags, then an afternoon boat trip on the lake and a walk on Crescent Island."
+      },
+      {
+        "day": "Day 2",
+        "title": "Hell's Gate by bike",
+        "detail": "Morning at the park gate for bikes and a guide, cycling the main tracks toward the gorge. Picnic lunch, then the guided gorge walk before returning to Naivasha."
+      },
+      {
+        "day": "Day 3",
+        "title": "Morning at leisure and return",
+        "detail": "A slow breakfast by the lake, optional visit to a flower farm or the Elsamere conservation centre, then the drive back to Nairobi."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Lakeside lodges with garden suites, full board."
+      },
+      {
+        "tier": "Mid-range",
+        "description": "Lakeside lodges and tented camps, dinner, bed and breakfast."
+      },
+      {
+        "tier": "Comfort",
+        "description": "Simple guesthouses and camps with breakfast included."
+      }
+    ],
+    "activities": [
+      "Guided cycling in Hell's Gate",
+      "Gorge walk and Fischer's Tower",
+      "Lake Naivasha boat safari",
+      "Crescent Island walking safari",
+      "Birding and fish-eagle feeding",
+      "Optional rock climbing or spa afternoon"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Active travellers, couples and families with teenagers",
+    "startsFrom": "Nairobi",
+    "travelStyle": "Private road safari with cycling and walking",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "tsavo-east-west",
+    "slug": "tsavo-east-west",
+    "title": "Tsavo East and West Safari",
+    "shortTitle": "Tsavo East & West",
+    "group": "Kenya Safaris",
+    "country": "Kenya",
+    "destinationName": "Tsavo National Parks",
+    "destinationSlug": "tsavo-national-parks",
+    "destinationOverview": "Together, Tsavo East and Tsavo West form one of the largest protected wildlife sanctuaries on the planet, spanning nearly 22,000 square kilometers between Nairobi and the Kenyan coast. Divided by the railway and highway, the two parks offer starkly distinct yet complementary safari landscapes.\n\nTsavo East is celebrated for its vast, rolling semi-arid plains, the 300-km-long Yatta Plateau (the world's longest lava flow), Lugard Falls, and the iconic 'Red Elephants of Tsavo'—magnificent herds stained ochre-red from the volcanic soil. Tsavo West features dramatic volcanic topography, including the jagged Shetani Lava Flow, Roaring Rocks, and Mzima Springs, where fifty million gallons of crystal-clear spring water gush daily into pools with an underwater glass viewing chamber for hippos and fish.",
+    "regions": [
+      "Tsavo National Parks"
+    ],
+    "duration": "4 Days / 3 Nights",
+    "durationDays": 4,
+    "durationBucket": "4-6 Days",
+    "safariType": "Big Five Wildlife",
+    "luxuryLevel": "Comfort",
+    "tagline": "Red dust, lava ridges and two very different halves of one park",
+    "summary": "Tsavo is enormous, and its two halves behave like different parks. East is open red earth and the Galana river, known for dust-red elephants and the long Yatta plateau. West is denser bush, volcanic hills and Mzima Springs, where hippo can be watched through a glass tank. Four days covers both without rushing the drives between them.",
+    "cardSummary": "Dust-red elephants in the east, Mzima Springs and lava country in the west.",
+    "heroImage": "/assets/images/destinations/tsavo.jpg",
+    "cardImage": "/assets/images/destinations/tsavo.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/tsavo.jpg",
+        "caption": "Tsavo wilderness and red earth"
+      },
+      {
+        "url": "/assets/images/destinations/tsavo-card.jpg",
+        "caption": "Elephants on the move in Tsavo"
+      },
+      {
+        "url": "/assets/images/destinations/taita-hills.jpg",
+        "caption": "Savannah and hills on the Tsavo corridor"
+      }
+    ],
+    "highlights": [
+      "Red-dust elephants along the Galana river in Tsavo East",
+      "Lugard Falls and the Yatta plateau viewpoints",
+      "Mzima Springs and its underwater hippo observation tank",
+      "Shetani lava flows and the Chyulu hills in Tsavo West",
+      "A far quieter safari than the Mara on the same number of days"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Nairobi to Tsavo East",
+        "detail": "Drive via Mtito Andei and the Buchuma gate, arriving for lunch. Afternoon game drive along the Galana river."
+      },
+      {
+        "day": "Day 2",
+        "title": "Full day in Tsavo East",
+        "detail": "Dawn drive for elephant and lion, Lugard Falls and the long waterholes through the middle of the day, sundowners at a viewpoint."
+      },
+      {
+        "day": "Day 3",
+        "title": "Cross to Tsavo West",
+        "detail": "Morning drive, then across to Tsavo West via Manyani. Afternoon at Mzima Springs, then a drive through the Shetani lava flows."
+      },
+      {
+        "day": "Day 4",
+        "title": "Morning drive and return",
+        "detail": "Early drive toward the Chyulu hills or Kilaguni waterhole, breakfast, then the road back to Nairobi."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Lodges with waterhole-facing rooms, full board."
+      },
+      {
+        "tier": "Mid-range",
+        "description": "Safari lodges inside the parks, full board, with pool."
+      },
+      {
+        "tier": "Comfort",
+        "description": "Simple bandas and camps near the gates, dinner, bed and breakfast."
+      }
+    ],
+    "activities": [
+      "Game drives in both Tsavo East and West",
+      "Galana river and Lugard Falls drives",
+      "Mzima Springs and the underwater observation tank",
+      "Shetani lava flow and Chyulu hills excursions",
+      "Birding along the river lines",
+      "Optional night drive where permitted"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Travellers driving between Nairobi and the coast, or wanting a crowd-free Big Five trip",
+    "startsFrom": "Nairobi",
+    "travelStyle": "Private 4x4 safari",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "taita-hills-salt-lick",
+    "slug": "taita-hills-salt-lick",
+    "title": "Taita Hills and Salt Lick Safari",
+    "shortTitle": "Taita Hills Safari",
+    "group": "Kenya Safaris",
+    "country": "Kenya",
+    "destinationName": "Taita Hills Wildlife Sanctuary",
+    "destinationSlug": "tsavo-national-parks",
+    "destinationOverview": "Together, Tsavo East and Tsavo West form one of the largest protected wildlife sanctuaries on the planet, spanning nearly 22,000 square kilometers between Nairobi and the Kenyan coast. Divided by the railway and highway, the two parks offer starkly distinct yet complementary safari landscapes.\n\nTsavo East is celebrated for its vast, rolling semi-arid plains, the 300-km-long Yatta Plateau (the world's longest lava flow), Lugard Falls, and the iconic 'Red Elephants of Tsavo'—magnificent herds stained ochre-red from the volcanic soil. Tsavo West features dramatic volcanic topography, including the jagged Shetani Lava Flow, Roaring Rocks, and Mzima Springs, where fifty million gallons of crystal-clear spring water gush daily into pools with an underwater glass viewing chamber for hippos and fish.",
+    "regions": [
+      "Taita Hills Wildlife Sanctuary"
+    ],
+    "duration": "3 Days / 2 Nights",
+    "durationDays": 3,
+    "durationBucket": "2-3 Days",
+    "safariType": "Big Five Wildlife",
+    "luxuryLevel": "Mid-range",
+    "tagline": "A private sanctuary on the Tsavo corridor, with a waterhole at eye level",
+    "summary": "Between the Taita Hills and the western edge of Tsavo, this private sanctuary is small enough to feel uncrowded and well stocked enough to deliver elephant, lion, buffalo and a good chance of leopard. The draw is the waterhole: a stilted lodge looks straight down onto it, so the middle of the day is spent watching rather than driving. The drive from Nairobi is long, which keeps the sanctuary quiet.",
+    "cardSummary": "A quiet Taita sanctuary with a floodlit waterhole and the Tsavo plains next door.",
+    "heroImage": "/assets/images/destinations/taita-hills.jpg",
+    "cardImage": "/assets/images/destinations/taita-hills.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/taita-hills.jpg",
+        "caption": "Elephants on the Taita Hills savannah"
+      },
+      {
+        "url": "/assets/images/destinations/tsavo-card.jpg",
+        "caption": "Tsavo wilderness on the sanctuary boundary"
+      },
+      {
+        "url": "/assets/images/destinations/tsavo.jpg",
+        "caption": "Open country along the Tsavo corridor"
+      }
+    ],
+    "highlights": [
+      "Game viewing from a stilted lodge above a permanent waterhole",
+      "Elephant, lion and buffalo in a sanctuary that sees few vehicles",
+      "Night viewing at the waterhole, when the reserve comes to you",
+      "Access to the Tsavo West circuit for a full day",
+      "Taita Hills scenery and the road up to the lookout"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Nairobi to the sanctuary",
+        "detail": "Long drive southeast via Voi, arriving in the early afternoon. Check in above the waterhole, then an afternoon game drive across the sanctuary."
+      },
+      {
+        "day": "Day 2",
+        "title": "Full day in the sanctuary",
+        "detail": "Dawn drive, then back to the lodge for the middle of the day with the waterhole in view. Late-afternoon drive and night viewing from the hide."
+      },
+      {
+        "day": "Day 3",
+        "title": "Tsavo West and return",
+        "detail": "Early drive into Tsavo West for Mzima Springs and the lava flows, then the road back to Nairobi with a late arrival."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Stilted suites overlooking the waterhole, full board, with a private viewing deck."
+      },
+      {
+        "tier": "Mid-range",
+        "description": "Waterhole-facing rooms with full board and a shared hide."
+      },
+      {
+        "tier": "Comfort",
+        "description": "Lodge rooms in the sanctuary grounds, full board, without the waterhole frontage."
+      }
+    ],
+    "activities": [
+      "Waterhole game viewing from the lodge",
+      "Dawn and late-afternoon game drives",
+      "Night viewing at the floodlit waterhole",
+      "Full-day Tsavo West excursion",
+      "Birding across the sanctuary",
+      "Optional Taita Hills cultural visit"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Travellers breaking the Nairobi to coast drive, and families who like a waterhole lodge",
+    "startsFrom": "Nairobi",
+    "travelStyle": "Private 4x4 safari",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "aberdare-ark-getaway",
+    "slug": "aberdare-ark-getaway",
+    "title": "Aberdare Forest and The Ark Getaway",
+    "shortTitle": "Aberdare Forest Getaway",
+    "group": "Kenya Safaris",
+    "country": "Kenya",
+    "destinationName": "Aberdare National Park",
+    "destinationSlug": "aberdare-national-park",
+    "destinationOverview": "Aberdare National Park covers the higher reaches of the Aberdare Mountain Range in central Kenya. Characterized by misty afro-alpine moorlands, deep v-shaped valleys, and dense bamboo forests, it is a dramatically different safari experience from Kenya's open savannahs.\n\nThe park is famed for majestic waterfalls such as Karuru Falls (which plunges 273 meters in three tiers), Gura Falls, and Chania Falls. Aberdare shelters rare and elusive wildlife including the endangered bongo antelope, black rhinos, giant forest hogs, and black panthers. Historically, it is where Princess Elizabeth stayed at Treetops Lodge in 1952 and ascended to the British throne upon her father's death.",
+    "regions": [
+      "Aberdare National Park"
+    ],
+    "duration": "3 Days / 2 Nights",
+    "durationDays": 3,
+    "durationBucket": "2-3 Days",
+    "safariType": "Forest & Wildlife",
+    "luxuryLevel": "Mid-range",
+    "tagline": "Moorland, waterfalls and a night watch over a forest waterhole",
+    "summary": "The Aberdares are a different Kenya: cold, high, furred with moss and cut by waterfalls, with elephants moving through bamboo and buffalo crossing the moorland tracks. The pattern of the trip is a night in a tree-hotel-style lodge above a waterhole, so the night shift does the watching while you sleep, and a day up on the high moor after Karuru Falls.",
+    "cardSummary": "Waterfalls, mossy forest and a night spent watching a floodlit waterhole.",
+    "heroImage": "/assets/images/destinations/aberdare.jpg",
+    "cardImage": "/assets/images/destinations/aberdare.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/aberdare.jpg",
+        "caption": "Waterfalls and forested gorges in the Aberdares"
+      },
+      {
+        "url": "/assets/images/destinations/mount-kenya.jpg",
+        "caption": "Mount Kenya seen from the Aberdare highlands"
+      },
+      {
+        "url": "/assets/images/destinations/nanyuki.jpg",
+        "caption": "Highland country along the Aberdare approach"
+      }
+    ],
+    "highlights": [
+      "A night at a waterhole lodge with a ground-level viewing deck",
+      "Karuru and Chania falls on the high moor",
+      "Giant heather, podocarpus forest and bamboo country",
+      "Elephant, buffalo and the rare bongo's highland habitat",
+      "A cool, crowd-free alternative to the savannah parks"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Nairobi to the Aberdares",
+        "detail": "Drive north through Nyeri and up into the forest, arriving for lunch. Afternoon at the lodge watching the waterhole, with an evening talk from the resident naturalist."
+      },
+      {
+        "day": "Day 2",
+        "title": "High moor and waterfalls",
+        "detail": "Morning drive to Karuru Falls and the moorland tracks, back for a late lunch, then the afternoon and night at the waterhole with the floodlights on."
+      },
+      {
+        "day": "Day 3",
+        "title": "Morning in the forest and return",
+        "detail": "Early drive through the bamboo zone, breakfast, then the drive back to Nairobi via the tea country around Nyeri."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Waterhole-facing suites with private balconies, full board."
+      },
+      {
+        "tier": "Mid-range",
+        "description": "Waterhole-facing rooms with full board and a shared viewing deck."
+      },
+      {
+        "tier": "Comfort",
+        "description": "Forest lodge rooms with full board, a short drive from the waterhole."
+      }
+    ],
+    "activities": [
+      "Waterhole watching from the lodge deck",
+      "Karuru and Chania falls excursion",
+      "High-moorland game drives",
+      "Guided forest walk with a ranger",
+      "Night viewing at the floodlit waterhole",
+      "Birding for highland forest species"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Travellers who want forest and mountains between savannah parks",
+    "startsFrom": "Nairobi",
+    "travelStyle": "Private road safari with lodge-based night viewing",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "laikipia-mount-kenya",
+    "slug": "laikipia-mount-kenya",
+    "title": "Laikipia and Mount Kenya Safari",
+    "shortTitle": "Laikipia & Mount Kenya",
+    "group": "Kenya Safaris",
+    "country": "Kenya",
+    "destinationName": "Laikipia Plateau",
+    "destinationSlug": "mount-kenya",
+    "destinationOverview": "Mount Kenya is Africa's second-highest mountain at 5,199 meters and a revered UNESCO World Heritage Site. An extinct stratovolcano that once rivalled Kilimanjaro in height, Mount Kenya features jagged glaciated peaks (Batian, Nelion, and Point Lenana), afro-alpine moorlands, giant lobelias, and emerald tarn lakes.\n\nStretching northwest from the slopes of the mountain lies the magnificent Laikipia Plateau. A visionary model for community-led conservation, Laikipia is home to Kenya's highest concentration of endangered black rhinos, reintroduced African wild dogs, and Grevy's zebras, protected across exclusive private ranches and luxury eco-lodges.",
+    "regions": [
+      "Laikipia Plateau"
+    ],
+    "duration": "5 Days / 4 Nights",
+    "durationDays": 5,
+    "durationBucket": "4-6 Days",
+    "safariType": "Conservation Safari",
+    "luxuryLevel": "Luxury",
+    "tagline": "Big conservancies, rhino country and Africa's second-highest mountain",
+    "summary": "Laikipia is a patchwork of private conservancies and working ranches north of Mount Kenya, run with real conservation intent: rhino densities that rival anywhere in Kenya, wild dog that move between properties, and a landscape that shifts from black cotton soil to cedar forest in an hour. Five days allows for walking, night drives and time on the mountain's forested lower slopes rather than just game drives.",
+    "cardSummary": "Rhino conservancies, night drives and the forested flanks of Mount Kenya.",
+    "heroImage": "/assets/images/destinations/laikipia.jpg",
+    "cardImage": "/assets/images/destinations/laikipia.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/laikipia.jpg",
+        "caption": "Escarpment country on the Laikipia plateau"
+      },
+      {
+        "url": "/assets/images/destinations/mount-kenya.jpg",
+        "caption": "Batian peak on Mount Kenya seen from Point Lenana"
+      },
+      {
+        "url": "/assets/images/destinations/mount-kenya-card.jpg",
+        "caption": "Mount Kenya forest and highland slopes"
+      }
+    ],
+    "highlights": [
+      "Private conservancies with rhino, lion and wild dog",
+      "Night drives, which national parks do not permit",
+      "Guided walking safaris on the plateau",
+      "Cedar forest and moorland on Mount Kenya's lower slopes",
+      "Community-run conservation projects visiting as guests, not as a show"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Nairobi to Laikipia",
+        "detail": "Drive north past Nanyuki, arriving at the conservancy for lunch. Late-afternoon game drive and a night drive on the way back."
+      },
+      {
+        "day": "Day 2",
+        "title": "Conservancy day",
+        "detail": "Dawn drive for rhino and lion, a long lunch, then a guided walk with an armed ranger through the whistling-thorn country."
+      },
+      {
+        "day": "Day 3",
+        "title": "Mount Kenya forest",
+        "detail": "Drive to the mountain's lower slopes for a forest walk and views of the peaks, with lunch at a lodge on the mountain's shoulder."
+      },
+      {
+        "day": "Day 4",
+        "title": "Second conservancy",
+        "detail": "A different property or sector for wild dog and elephant movement, with another night drive if conditions allow."
+      },
+      {
+        "day": "Day 5",
+        "title": "Morning drive and return",
+        "detail": "Early drive, breakfast, then the road back to Nairobi, arriving late afternoon."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Conservancy homesteads and tented suites with full board and private vehicles."
+      },
+      {
+        "tier": "Mid-range",
+        "description": "Camps on the plateau with full board and shared guiding."
+      },
+      {
+        "tier": "Classic",
+        "description": "Old farmhouses converted to guest accommodation, full board."
+      }
+    ],
+    "activities": [
+      "Day and night game drives on private land",
+      "Guided walking safaris",
+      "Rhino and wild dog tracking",
+      "Mount Kenya forest walks",
+      "Lion-tracking with the research team where available",
+      "Optional horse-riding safari at extra cost"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Repeat Kenya travellers and conservation-focused visitors who want walking and night drives",
+    "startsFrom": "Nairobi",
+    "travelStyle": "Private road safari with conservancy stays",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "meru-national-park",
+    "slug": "meru-national-park",
+    "title": "Meru National Park Wilderness Safari",
+    "shortTitle": "Meru Wilderness",
+    "group": "Kenya Safaris",
+    "country": "Kenya",
+    "destinationName": "Meru National Park",
+    "destinationSlug": null,
+    "destinationOverview": "Meru is one of Kenya's least-visited big parks and one of its prettiest: thirteen rivers cut through doum palm and riverine forest, rhino were reintroduced to a fenced sanctuary inside the park, and you can drive for hours without passing another vehicle. The access road keeps crowds away, which is exactly the point of coming. Four days is enough to work the rivers, the Rojewero and the Mulika swamp properly.",
+    "regions": [
+      "Meru National Park"
+    ],
+    "duration": "4 Days / 3 Nights",
+    "durationDays": 4,
+    "durationBucket": "4-6 Days",
+    "safariType": "Wilderness Safari",
+    "luxuryLevel": "Mid-range",
+    "tagline": "Thirteen rivers, no queues and the country that made Born Free famous",
+    "summary": "Meru is one of Kenya's least-visited big parks and one of its prettiest: thirteen rivers cut through doum palm and riverine forest, rhino were reintroduced to a fenced sanctuary inside the park, and you can drive for hours without passing another vehicle. The access road keeps crowds away, which is exactly the point of coming. Four days is enough to work the rivers, the Rojewero and the Mulika swamp properly.",
+    "cardSummary": "Thirteen rivers, reintroduced rhino and drives where nobody else is around.",
+    "heroImage": "/assets/images/destinations/meru-national-park.jpg",
+    "cardImage": "/assets/images/destinations/meru-national-park.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/meru-national-park.jpg",
+        "caption": "Wildlife in Meru National Park"
+      },
+      {
+        "url": "/assets/images/destinations/laikipia.jpg",
+        "caption": "Dry-country game land on the Meru approach"
+      },
+      {
+        "url": "/assets/images/destinations/mount-kenya-card.jpg",
+        "caption": "Mount Kenya on the northern horizon"
+      }
+    ],
+    "highlights": [
+      "The rhino sanctuary inside Meru National Park",
+      "Riverine forest along the Tana tributaries, with good birding",
+      "Elsa's Kopje country, without the Born Free mythology sold as fact",
+      "Very low vehicle traffic compared with the Mara or Amboseli",
+      "A full day on the Mulika swamp circuit"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Nairobi to Meru",
+        "detail": "Drive north via Nanyuki and Isiolo, arriving in the late afternoon. A short evening drive toward the nearest river line."
+      },
+      {
+        "day": "Day 2",
+        "title": "Rivers and rhino",
+        "detail": "Dawn drive to the rhino sanctuary, then the river circuits through the middle of the day with a picnic lunch."
+      },
+      {
+        "day": "Day 3",
+        "title": "Mulika swamp and the north",
+        "detail": "Full day out across the Mulika swamp and the northern boundary, looking for elephant, buffalo and lion."
+      },
+      {
+        "day": "Day 4",
+        "title": "Morning drive and return",
+        "detail": "Final early game drive, breakfast, then the drive back to Nairobi, arriving in the evening."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Small camps on the river with private decks, full board."
+      },
+      {
+        "tier": "Mid-range",
+        "description": "Lodges inside the park with full board and a pool."
+      },
+      {
+        "tier": "Comfort",
+        "description": "Simple camps on the park boundary, dinner, bed and breakfast."
+      }
+    ],
+    "activities": [
+      "Game drives along the park's river systems",
+      "Rhino sanctuary visit",
+      "Mulika swamp circuit",
+      "Birding in riverine forest",
+      "Guided walk where permitted",
+      "Optional visit to the Meru community conservation area"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Travellers who have done the classic circuit and want solitude",
+    "startsFrom": "Nairobi",
+    "travelStyle": "Private 4x4 safari",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "maasai-mara-diani-beach",
+    "slug": "maasai-mara-diani-beach",
+    "title": "Maasai Mara Bush and Diani Beach Escape",
+    "shortTitle": "Mara & Diani Beach",
+    "group": "Kenya Safaris",
+    "country": "Kenya",
+    "destinationName": "Maasai Mara & Diani Beach",
+    "destinationSlug": "maasai-mara",
+    "destinationOverview": "Maasai Mara National Reserve is globally celebrated as one of Africa's greatest wildlife reserves. Bordering Tanzania's Serengeti, the Mara encompasses over 1,500 square kilometers of pristine savannah, rolling hills, and acacia-dotted grasslands. It is home to an extraordinary concentration of big cats, including prides of lions, elusive leopards, and swift cheetahs.\n\nBetween July and October, the reserve hosts the world-famous Great Wildebeest Migration, where over two million wildebeest, zebras, and gazelles brave predator-infested Mara River crossings in search of lush pastures. Beyond the migration, the Mara offers breathtaking year-round safari game drives, sunrise hot air balloon safaris, and enriching cultural encounters with the traditional Maasai pastoralist communities.",
+    "regions": [
+      "Maasai Mara National Reserve",
+      "Diani Beach"
+    ],
+    "duration": "7 Days / 6 Nights",
+    "durationDays": 7,
+    "durationBucket": "7-9 Days",
+    "safariType": "Beach & Bush",
+    "luxuryLevel": "Luxury",
+    "tagline": "Three Mara days, then four on the Indian Ocean",
+    "summary": "The classic Kenyan combination, done in the right order: the Mara while you still have the energy for dawn drives, then Diani to let the dust settle. Three nights in the reserve and three on the south coast, joined by a flight that skips the drive back through Nairobi. It works for honeymoons, and it works for families with older children.",
+    "cardSummary": "Big cats, then white sand: three Mara nights and three on Diani Beach.",
+    "heroImage": "/assets/images/destinations/maasai-mara.jpg",
+    "cardImage": "/assets/images/destinations/maasai-mara.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/maasai-mara.jpg",
+        "caption": "Lion pride on the Mara plains"
+      },
+      {
+        "url": "/assets/images/destinations/diani-beach.jpg",
+        "caption": "White sand and turquoise water at Diani Beach"
+      },
+      {
+        "url": "/assets/images/destinations/diani-beach-card.jpg",
+        "caption": "Palm shade on the south coast"
+      }
+    ],
+    "highlights": [
+      "Three nights of game drives in the Maasai Mara",
+      "A flight from the Mara toward the coast instead of a return to Nairobi",
+      "Three nights on Diani Beach with the Indian Ocean at the door",
+      "Optional dhow trip, reef snorkelling or kite-surfing lessons",
+      "One trip, two completely different paces"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Nairobi to the Mara",
+        "detail": "Early departure for the reserve by road or air, arriving for lunch. Late-afternoon game drive."
+      },
+      {
+        "day": "Day 2",
+        "title": "Full day in the Mara",
+        "detail": "Dawn drive with a picnic breakfast, a rest through the middle of the day, then a long evening drive."
+      },
+      {
+        "day": "Day 3",
+        "title": "Final Mara morning",
+        "detail": "A last early drive, breakfast, then a flight toward the coast and a transfer to Diani. Evening at leisure."
+      },
+      {
+        "day": "Day 4",
+        "title": "Diani Beach",
+        "detail": "A full day on the coast: reef snorkelling, a dhow trip or simply the beach and the pool."
+      },
+      {
+        "day": "Day 5",
+        "title": "Diani Beach",
+        "detail": "Second coastal day, with optional kite-surfing, a marine park visit or a spa afternoon."
+      },
+      {
+        "day": "Day 6",
+        "title": "Diani Beach",
+        "detail": "Third coastal day at your own pace, with dinner by the water."
+      },
+      {
+        "day": "Day 7",
+        "title": "Departure",
+        "detail": "Breakfast, a final swim, then the transfer to Mombasa for your flight or the road back to Nairobi."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Mara tented suites followed by a beachfront suite on Diani, half board on the coast."
+      },
+      {
+        "tier": "Luxury family",
+        "description": "Family tents in the Mara and a two-bedroom beach villa on the coast."
+      },
+      {
+        "tier": "Boutique",
+        "description": "Small Mara camp and a boutique beach hotel, half board on the coast."
+      }
+    ],
+    "activities": [
+      "Mara game drives and big-cat tracking",
+      "Optional balloon safari in the Mara",
+      "Reef snorkelling and diving on the south coast",
+      "Dhow sailing and sunset cruises",
+      "Kite-surfing and paddle-boarding lessons",
+      "Optional marine park or Shimba Hills day trip"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Honeymoons, anniversaries and families who want safari plus beach in one booking",
+    "startsFrom": "Nairobi",
+    "travelStyle": "Private safari with a coastal stay",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "amboseli-tsavo-mombasa",
+    "slug": "amboseli-tsavo-mombasa",
+    "title": "Amboseli, Tsavo and Mombasa Safari",
+    "shortTitle": "Amboseli, Tsavo & Mombasa",
+    "group": "Kenya Safaris",
+    "country": "Kenya",
+    "destinationName": "Amboseli, Tsavo & Mombasa",
+    "destinationSlug": "amboseli",
+    "destinationOverview": "Amboseli National Park is world-renowned for offering the iconic African safari postcard: massive herds of elephants grazing gracefully with the snow-capped volcanic peak of Mount Kilimanjaro rising dramatically in the background. Covering nearly 400 square kilometers near the Tanzanian border, Amboseli combines dry savannah plains with verdant marshes fed by underground springs from Kilimanjaro.\n\nThis unique hydrology draws an astonishing variety of wildlife, from big tuskers and lions to cheetahs, hippos, and over 400 species of birds. Observation Hill provides panoramic 360-degree vistas across the entire park, where swamp elephants bathe and dust-devil whirlwinds dance across the dried Lake Amboseli bed.",
+    "regions": [
+      "Amboseli National Park",
+      "Tsavo National Parks",
+      "Mombasa"
+    ],
+    "duration": "8 Days / 7 Nights",
+    "durationDays": 8,
+    "durationBucket": "7-9 Days",
+    "safariType": "Classic Circuit",
+    "luxuryLevel": "Mid-range",
+    "tagline": "The southern circuit end to end, finishing at the coast",
+    "summary": "A south-bound itinerary that never doubles back: Amboseli for elephants under Kilimanjaro, Tsavo West for Mzima Springs and lava country, then the railway line down to Mombasa for three nights on the coast. It is the most efficient way to see the southern parks and still end with sea air, and the road legs are all in the same direction.",
+    "cardSummary": "Elephants, lava flows and the Indian Ocean, with no backtracking.",
+    "heroImage": "/assets/images/destinations/amboseli-card.jpg",
+    "cardImage": "/assets/images/destinations/amboseli-card.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/amboseli-card.jpg",
+        "caption": "Elephants crossing the Amboseli plains"
+      },
+      {
+        "url": "/assets/images/destinations/tsavo.jpg",
+        "caption": "Tsavo wilderness and red earth"
+      },
+      {
+        "url": "/assets/images/destinations/mombasa.jpg",
+        "caption": "The Mombasa coastline"
+      }
+    ],
+    "highlights": [
+      "Amboseli's swamp elephants against Kilimanjaro",
+      "Mzima Springs and the Shetani lava flows in Tsavo West",
+      "Three nights in Mombasa with the coast at the door",
+      "A one-way route south, with no wasted driving",
+      "Optional Fort Jesus and Old Town walk in Mombasa"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Nairobi to Amboseli",
+        "detail": "Drive south to Amboseli, arriving for lunch, then an afternoon drive to the swamps."
+      },
+      {
+        "day": "Day 2",
+        "title": "Full day in Amboseli",
+        "detail": "Dawn drive for the mountain view, the rest of the day on the swamp circuit with a picnic lunch."
+      },
+      {
+        "day": "Day 3",
+        "title": "Amboseli to Tsavo West",
+        "detail": "Morning drive, then east across the Chyulu hills to Tsavo West. Afternoon at Mzima Springs."
+      },
+      {
+        "day": "Day 4",
+        "title": "Tsavo West to Mombasa",
+        "detail": "Early drive through the lava flows, then the road or rail transfer to Mombasa for three nights on the coast."
+      },
+      {
+        "day": "Day 5",
+        "title": "Mombasa",
+        "detail": "Full day on the coast, with optional Old Town and Fort Jesus walk or a dhow trip."
+      },
+      {
+        "day": "Day 6",
+        "title": "Mombasa",
+        "detail": "Second coastal day: beach, reef or a day trip to Shimba Hills."
+      },
+      {
+        "day": "Day 7",
+        "title": "Mombasa",
+        "detail": "Third coastal day at leisure."
+      },
+      {
+        "day": "Day 8",
+        "title": "Departure",
+        "detail": "Breakfast and transfer to Moi International Airport, or the road back to Nairobi."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Park lodges in Amboseli and Tsavo, then a beachfront suite in Mombasa."
+      },
+      {
+        "tier": "Mid-range",
+        "description": "Lodges with pools in both parks, then a beach hotel on half board."
+      },
+      {
+        "tier": "Comfort",
+        "description": "Simple park bandas and a coastal guesthouse on bed and breakfast."
+      }
+    ],
+    "activities": [
+      "Amboseli swamp and mountain-view drives",
+      "Mzima Springs and lava flow excursion",
+      "Tsavo game drives",
+      "Beach and reef time on the coast",
+      "Fort Jesus and Old Town walk",
+      "Optional Shimba Hills day trip"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Travellers wanting a one-way southern circuit that ends at the sea",
+    "startsFrom": "Nairobi",
+    "travelStyle": "Private 4x4 safari",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "best-of-kenya-grand-safari",
+    "slug": "best-of-kenya-grand-safari",
+    "title": "Best of Kenya Grand Safari",
+    "shortTitle": "Best of Kenya Grand Safari",
+    "group": "Kenya Safaris",
+    "country": "Kenya",
+    "destinationName": "Samburu, Laikipia, Naivasha, Nakuru & the Mara",
+    "destinationSlug": "maasai-mara",
+    "destinationOverview": "Maasai Mara National Reserve is globally celebrated as one of Africa's greatest wildlife reserves. Bordering Tanzania's Serengeti, the Mara encompasses over 1,500 square kilometers of pristine savannah, rolling hills, and acacia-dotted grasslands. It is home to an extraordinary concentration of big cats, including prides of lions, elusive leopards, and swift cheetahs.\n\nBetween July and October, the reserve hosts the world-famous Great Wildebeest Migration, where over two million wildebeest, zebras, and gazelles brave predator-infested Mara River crossings in search of lush pastures. Beyond the migration, the Mara offers breathtaking year-round safari game drives, sunrise hot air balloon safaris, and enriching cultural encounters with the traditional Maasai pastoralist communities.",
+    "regions": [
+      "Samburu National Reserve",
+      "Ol Pejeta Conservancy",
+      "Lake Naivasha",
+      "Lake Nakuru National Park",
+      "Maasai Mara National Reserve"
+    ],
+    "duration": "10 Days / 9 Nights",
+    "durationDays": 10,
+    "durationBucket": "10+ Days",
+    "safariType": "Grand Circuit",
+    "luxuryLevel": "Luxury",
+    "tagline": "Five ecosystems in ten days, in the order that makes them work",
+    "summary": "Ten days is where a Kenya trip stops being a single safari and becomes a proper journey. This route runs north first, through Samburu and Laikipia, then down the Rift Valley to Naivasha and Nakuru, and finishes with three nights in the Mara. It is sequenced so each park adds a different landscape rather than repeating the last one.",
+    "cardSummary": "Samburu, Laikipia, the Rift Valley lakes and the Mara in one ten-day route.",
+    "heroImage": "/assets/images/destinations/samburu.jpg",
+    "cardImage": "/assets/images/destinations/samburu.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/samburu.jpg",
+        "caption": "Reticulated giraffe in Samburu National Reserve"
+      },
+      {
+        "url": "/assets/images/destinations/laikipia.jpg",
+        "caption": "Laikipia plateau country"
+      },
+      {
+        "url": "/assets/images/destinations/maasai-mara.jpg",
+        "caption": "Lion pride on the Mara plains"
+      },
+      {
+        "url": "/assets/images/destinations/lake-nakuru.jpg",
+        "caption": "Lake Nakuru and its shoreline"
+      }
+    ],
+    "highlights": [
+      "Samburu's dry-country species along the Ewaso Ng'iro",
+      "Rhino conservation work on the Laikipia plateau",
+      "Boat and walking safari at Lake Naivasha",
+      "Rhino and Rothschild giraffe at Lake Nakuru",
+      "Three Mara nights with a full day in the reserve"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Nairobi to Samburu",
+        "detail": "North past Mount Kenya to Samburu, arriving in the afternoon for a river drive."
+      },
+      {
+        "day": "Day 2",
+        "title": "Full day in Samburu",
+        "detail": "Dawn drive for the special five, afternoon on the river bends."
+      },
+      {
+        "day": "Day 3",
+        "title": "Samburu to Laikipia",
+        "detail": "South to a Laikipia conservancy, afternoon drive and a night drive."
+      },
+      {
+        "day": "Day 4",
+        "title": "Laikipia",
+        "detail": "Rhino monitoring, a guided walk and a full afternoon out on the conservancy."
+      },
+      {
+        "day": "Day 5",
+        "title": "Laikipia to Naivasha",
+        "detail": "Drive south into the Rift Valley for a boat trip and a walk on Crescent Island."
+      },
+      {
+        "day": "Day 6",
+        "title": "Naivasha to Nakuru",
+        "detail": "Morning at leisure, then into Lake Nakuru National Park for an afternoon drive."
+      },
+      {
+        "day": "Day 7",
+        "title": "Nakuru to the Mara",
+        "detail": "Drive across the Rift and into the Mara for a late-afternoon game drive."
+      },
+      {
+        "day": "Day 8",
+        "title": "Full day in the Mara",
+        "detail": "Dawn-to-dusk game viewing with a picnic lunch on the plains."
+      },
+      {
+        "day": "Day 9",
+        "title": "Second Mara day",
+        "detail": "River-line drives and big-cat tracking, with a relaxed middle of the day."
+      },
+      {
+        "day": "Day 10",
+        "title": "Morning drive and return",
+        "detail": "Final early drive, breakfast, then the road or flight back to Nairobi."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Tented suites and conservancy camps throughout, full board."
+      },
+      {
+        "tier": "Mixed luxury",
+        "description": "Higher-grade camps in Samburu and the Mara, lodges elsewhere, full board."
+      },
+      {
+        "tier": "Classic",
+        "description": "Long-established lodges and camps with full board."
+      }
+    ],
+    "activities": [
+      "Game drives across five ecosystems",
+      "Rhino monitoring on Laikipia",
+      "Boat safari and Crescent Island walk at Naivasha",
+      "Night drives where permitted on private land",
+      "Guided bush walks with armed rangers",
+      "Optional balloon safari in the Mara"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Travellers making one long Kenya trip who want variety rather than one park",
+    "startsFrom": "Nairobi",
+    "travelStyle": "Private 4x4 safari",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "northern-kenya-frontier",
+    "slug": "northern-kenya-frontier",
+    "title": "Northern Kenya Frontier Expedition",
+    "shortTitle": "Northern Kenya Frontier",
+    "group": "Kenya Safaris",
+    "country": "Kenya",
+    "destinationName": "Marsabit & Lake Turkana",
+    "destinationSlug": "marsabit",
+    "destinationOverview": "The far north is Kenya's other country: lava fields and dust roads, a cloud forest on Marsabit's mountain, and Lake Turkana, the largest desert lake on earth, held in by volcanoes. This is a road expedition with long, hot drives on rough tracks, and it is not for a first safari. What it gives back is space, solitude and landscapes no southern park can match.",
+    "regions": [
+      "Marsabit National Park",
+      "Lake Turkana"
+    ],
+    "duration": "8 Days / 7 Nights",
+    "durationDays": 8,
+    "durationBucket": "7-9 Days",
+    "safariType": "Frontier Expedition",
+    "luxuryLevel": "Comfort",
+    "tagline": "Volcanic desert, cloud forest and the Jade Sea",
+    "summary": "The far north is Kenya's other country: lava fields and dust roads, a cloud forest on Marsabit's mountain, and Lake Turkana, the largest desert lake on earth, held in by volcanoes. This is a road expedition with long, hot drives on rough tracks, and it is not for a first safari. What it gives back is space, solitude and landscapes no southern park can match.",
+    "cardSummary": "A road expedition to Marsabit's cloud forest and the shores of Lake Turkana.",
+    "heroImage": "/assets/images/destinations/marsabit.jpg",
+    "cardImage": "/assets/images/destinations/marsabit.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/marsabit.jpg",
+        "caption": "The road up Mount Marsabit"
+      },
+      {
+        "url": "/assets/images/destinations/turkana.jpg",
+        "caption": "The southern shore of Lake Turkana"
+      },
+      {
+        "url": "/assets/images/destinations/samburu-card.jpg",
+        "caption": "Dry-country landscape on the northern route"
+      }
+    ],
+    "highlights": [
+      "Cloud forest on Mount Marsabit and its crater lakes",
+      "The Chalbi desert crossing on the route north",
+      "Lake Turkana's lava shores and Central Island",
+      "Northern Kenya's arid-adapted species and birdlife",
+      "Long, empty roads and very few other travellers"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Nairobi to Samburu",
+        "detail": "North past Isiolo, stopping overnight in Samburu to break the drive and start the species list."
+      },
+      {
+        "day": "Day 2",
+        "title": "Samburu to Marsabit",
+        "detail": "Long drive north through Laisamis, climbing into Marsabit's forest and cooler air by the evening."
+      },
+      {
+        "day": "Day 3",
+        "title": "Marsabit",
+        "detail": "Morning in the national park's forest, then out across the Chalbi desert track toward the lake shore."
+      },
+      {
+        "day": "Day 4",
+        "title": "Lake Turkana",
+        "detail": "Full day at the lake: the shore, the volcanic country and, conditions permitting, a boat out toward Central Island."
+      },
+      {
+        "day": "Day 5",
+        "title": "Lake Turkana",
+        "detail": "Second desert-lake day, with a community stop and a night under a very large sky."
+      },
+      {
+        "day": "Day 6",
+        "title": "Turkana to Marsabit",
+        "detail": "Return across the Chalbi, back up into the forest for the night."
+      },
+      {
+        "day": "Day 7",
+        "title": "Marsabit to Samburu",
+        "detail": "South down the highway with a picnic stop, overnight in Samburu."
+      },
+      {
+        "day": "Day 8",
+        "title": "Samburu to Nairobi",
+        "detail": "Final long day south to Nairobi, arriving in the evening."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Comfort",
+        "description": "Rustic lodges and bandas on the route, full board where available."
+      },
+      {
+        "tier": "Expedition",
+        "description": "Simple camps with basic ablutions and a support vehicle carrying supplies."
+      },
+      {
+        "tier": "Lodge",
+        "description": "The best available lodge in Marsabit and Turkana for the nights in the north."
+      }
+    ],
+    "activities": [
+      "Road expedition driving across northern Kenya",
+      "Marsabit forest and crater lakes walk",
+      "Chalbi desert crossing",
+      "Lake Turkana shoreline and boat excursion",
+      "Community visits arranged locally",
+      "Birding in arid and lake habitats"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a long-distance road expedition on rough tracks. Days 3 to 7 involve several hours of driving.",
+      "Northern Kenya is hot and remote. A support vehicle, extra water and satellite communication are included in the plan.",
+      "Camping or simple lodging is the norm in the far north; luxury options do not exist there.",
+      "Route conditions are checked before departure and the itinerary may change for safety.",
+      "Wildlife sightings are never guaranteed and the region is not a Big Five destination."
+    ],
+    "bestFor": "Experienced travellers and photographers who want remoteness over comfort",
+    "startsFrom": "Nairobi",
+    "travelStyle": "4x4 road expedition with support vehicle",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "maasai-mara-conservancy",
+    "slug": "maasai-mara-conservancy",
+    "title": "Maasai Mara Private Conservancy Safari",
+    "shortTitle": "Mara Private Conservancy",
+    "group": "Kenya Safaris",
+    "country": "Kenya",
+    "destinationName": "Maasai Mara Conservancies",
+    "destinationSlug": "maasai-mara",
+    "destinationOverview": "Maasai Mara National Reserve is globally celebrated as one of Africa's greatest wildlife reserves. Bordering Tanzania's Serengeti, the Mara encompasses over 1,500 square kilometers of pristine savannah, rolling hills, and acacia-dotted grasslands. It is home to an extraordinary concentration of big cats, including prides of lions, elusive leopards, and swift cheetahs.\n\nBetween July and October, the reserve hosts the world-famous Great Wildebeest Migration, where over two million wildebeest, zebras, and gazelles brave predator-infested Mara River crossings in search of lush pastures. Beyond the migration, the Mara offers breathtaking year-round safari game drives, sunrise hot air balloon safaris, and enriching cultural encounters with the traditional Maasai pastoralist communities.",
+    "regions": [
+      "Maasai Mara Conservancies"
+    ],
+    "duration": "3 Days / 2 Nights",
+    "durationDays": 3,
+    "durationBucket": "2-3 Days",
+    "safariType": "Private Conservancy",
+    "luxuryLevel": "Luxury",
+    "tagline": "Off-road tracking, night drives and walking, away from the crowds",
+    "summary": "The conservancies bordering the Mara are leased from Maasai landowners and run on rules the national reserve cannot offer: off-road tracking when a cat is working, night drives, and walking safaris with an armed guide. Wildlife density is comparable, vehicle numbers are far lower, and the fees go directly to the landowner communities.",
+    "cardSummary": "Off-road tracking, night drives and walking in a community-run Mara conservancy.",
+    "heroImage": "/assets/images/destinations/maasai-mara-card.jpg",
+    "cardImage": "/assets/images/destinations/maasai-mara-card.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/maasai-mara-card.jpg",
+        "caption": "Savannah inside a Mara conservancy"
+      },
+      {
+        "url": "/assets/images/destinations/maasai-mara.jpg",
+        "caption": "Lion pride on the Mara plains"
+      },
+      {
+        "url": "/assets/images/destinations/maasai-mara-balloon.jpg",
+        "caption": "First light over the Mara"
+      }
+    ],
+    "highlights": [
+      "Off-road game tracking, which the national reserve does not allow",
+      "Night drives for leopard, serval and hunting lion",
+      "Guided walking safaris with an armed conservancy ranger",
+      "A fraction of the vehicles at every sighting",
+      "Conservancy fees that support landowner communities directly"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Nairobi to the conservancy",
+        "detail": "Drive or fly to the conservancy boundary, arriving for lunch. Afternoon game drive, then a night drive after dinner."
+      },
+      {
+        "day": "Day 2",
+        "title": "Full conservancy day",
+        "detail": "Dawn drive with off-road tracking, a bush breakfast, then a guided walk in the late morning. Afternoon drive and a second night drive."
+      },
+      {
+        "day": "Day 3",
+        "title": "Walking and departure",
+        "detail": "Early walk with a ranger, breakfast, then the transfer back to Nairobi or the airstrip."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Conservancy tented suites with private decks and full board."
+      },
+      {
+        "tier": "Luxury family",
+        "description": "Family tents with a shared living tent and flexible meal times."
+      },
+      {
+        "tier": "Boutique",
+        "description": "Small camps with six to eight tents and hosted dining."
+      }
+    ],
+    "activities": [
+      "Off-road game tracking",
+      "Night drives in the conservancy",
+      "Guided walking safari",
+      "Bush breakfast and sundowners",
+      "Community and landowner visit arranged locally",
+      "Optional balloon safari at extra cost"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Photographers and travellers who want a quieter Mara with walking and night drives",
+    "startsFrom": "Nairobi",
+    "travelStyle": "Private 4x4 safari",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "nairobi-national-park-day-safari",
+    "slug": "nairobi-national-park-day-safari",
+    "title": "Nairobi National Park Day Safari",
+    "shortTitle": "Nairobi Day Safari",
+    "group": "Kenya Safaris",
+    "country": "Kenya",
+    "destinationName": "Nairobi National Park",
+    "destinationSlug": "nairobi-national-park",
+    "destinationOverview": "The only national park inside a capital city, and a genuinely good half day: black rhino, lion, buffalo and giraffe on open plains with Nairobi's towers on the horizon. It works as a long layover, a first morning in Kenya, or a rest day before a wedding. The park is small, so it is a game drive rather than a wilderness day, and we say so.",
+    "regions": [
+      "Nairobi National Park"
+    ],
+    "duration": "1 Day",
+    "durationDays": 1,
+    "durationBucket": "1 Day",
+    "safariType": "Day Safari",
+    "luxuryLevel": "Comfort",
+    "tagline": "Rhino against the skyline, back in the city by dinner",
+    "summary": "The only national park inside a capital city, and a genuinely good half day: black rhino, lion, buffalo and giraffe on open plains with Nairobi's towers on the horizon. It works as a long layover, a first morning in Kenya, or a rest day before a wedding. The park is small, so it is a game drive rather than a wilderness day, and we say so.",
+    "cardSummary": "A morning of rhino, lion and giraffe inside Nairobi, back by early afternoon.",
+    "heroImage": "/assets/images/destinations/nairobi-national-park.jpg",
+    "cardImage": "/assets/images/destinations/nairobi-national-park.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/nairobi-national-park.jpg",
+        "caption": "Giraffe in Nairobi National Park"
+      },
+      {
+        "url": "/assets/images/destinations/maasai-mara-card.jpg",
+        "caption": "Open savannah on the park's eastern boundary"
+      }
+    ],
+    "highlights": [
+      "Black rhino in the park's eastern sector",
+      "Lion and buffalo on the Athi plains, with the city skyline behind",
+      "Giraffe, zebra and eland close to the main gate",
+      "Optional visit to the elephant orphanage or the Giraffe Centre nearby",
+      "Half-day format that fits a layover or a business trip"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Nairobi National Park, morning to early afternoon",
+        "detail": "Collected from your hotel or the airport at first light, then into the park through the main gate. The morning covers the rhino sanctuary, the Athi basin and the viewpoints above the Mbagathi river. Picnic breakfast or lunch in the park, then a return transfer by early afternoon. Optional add-on: the elephant orphanage or the Giraffe Centre, both a short drive away."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "No overnight",
+        "description": "This is a day safari. We can add a Nairobi hotel night before or after if you need one."
+      }
+    ],
+    "activities": [
+      "Morning game drive in Nairobi National Park",
+      "Rhino sanctuary and Athi basin drives",
+      "Picnic breakfast or lunch in the park",
+      "Optional elephant orphanage visit",
+      "Optional Giraffe Centre visit",
+      "Hotel or airport transfers"
+    ],
+    "inclusions": [
+      "Private safari vehicle with professional driver-guide",
+      "Nairobi National Park entry fees for the day",
+      "Picnic breakfast or lunch in the park",
+      "Bottled drinking water in the vehicle",
+      "Hotel or airport pickup and return transfer",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "Any overnight accommodation unless added",
+      "Elephant orphanage or Giraffe Centre entry fees",
+      "Alcoholic drinks and personal expenses",
+      "Gratuities for your guide",
+      "Travel insurance",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "A single morning covers the park comfortably. Afternoon departures can also be arranged.",
+      "Nairobi National Park is fenced and close to the city, so this is a game drive rather than a wilderness day.",
+      "Park fees are quoted at the official rate current at the time of booking.",
+      "Wildlife sightings are never guaranteed; the park is small and the morning is the best window."
+    ],
+    "bestFor": "Layovers, first or last days in Kenya, and short business trips",
+    "startsFrom": "Nairobi",
+    "travelStyle": "Private half-day game drive",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "serengeti-migration",
+    "slug": "serengeti-migration",
+    "title": "Serengeti Great Migration Safari",
+    "shortTitle": "Serengeti Migration",
+    "group": "Tanzania Safaris",
+    "country": "Tanzania",
+    "destinationName": "Serengeti National Park",
+    "destinationSlug": "serengeti",
+    "destinationOverview": "Derived from the Maasai word 'Siringet' meaning 'endless plains', Serengeti National Park is a UNESCO World Heritage Site spanning nearly 15,000 square kilometers of golden grassland in northern Tanzania. It forms the southern portion of the greater Serengeti-Mara ecosystem.\n\nThe Serengeti hosts the Great Migration year-round, following an ancient cyclical rhythm from the southern calving grounds in Ndutu through the central Seronera predator territory and across the crocodile-filled Grumeti and Mara rivers. With over 3,000 resident lions, the Serengeti boasts the largest lion population in Africa.",
+    "regions": [
+      "Serengeti National Park"
+    ],
+    "duration": "6 Days / 5 Nights",
+    "durationDays": 6,
+    "durationBucket": "4-6 Days",
+    "safariType": "Great Migration",
+    "luxuryLevel": "Mid-range",
+    "tagline": "The long plains, the herds and nowhere else to be",
+    "summary": "The Serengeti is roughly fourteen thousand square kilometres of grass and granite, and the migration moves across it through the year. Six days gives you time to follow the herds rather than chase them: river crossings in the north when the season is right, calving grounds in the south-east when it is not, and lion, cheetah and leopard working the same country throughout.",
+    "cardSummary": "Six days across the Serengeti with the route set by the herds.",
+    "heroImage": "/assets/images/destinations/serengeti.jpg",
+    "cardImage": "/assets/images/destinations/serengeti.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/serengeti.jpg",
+        "caption": "Wildebeest crossing the Serengeti plains"
+      },
+      {
+        "url": "/assets/images/destinations/serengeti-plains.jpg",
+        "caption": "The migration herds spread across the grassland"
+      },
+      {
+        "url": "/assets/images/destinations/ngorongoro.jpg",
+        "caption": "The highlands above the Serengeti"
+      }
+    ],
+    "highlights": [
+      "Herd tracking across the central and northern Serengeti",
+      "Seronera's resident lion, leopard and cheetah",
+      "River-crossing watch points when the herds are in the north",
+      "Granite kopjes and the Moru kopjes rock art country",
+      "A full day with no set route beyond following the wildlife"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arusha to the central Serengeti",
+        "detail": "Collect in Arusha, drive via the Ngorongoro highlands and into the park, with a game drive en route to camp at Seronera. Evening drive."
+      },
+      {
+        "day": "Day 2",
+        "title": "Seronera",
+        "detail": "Full day in the central Serengeti: the river lines, the kopjes and the big-cat territories around the Seronera valley."
+      },
+      {
+        "day": "Day 3",
+        "title": "Central to the north or south",
+        "detail": "Move with the herds, north toward the Mara river if the season is right, or south toward the short-grass plains when they are not."
+      },
+      {
+        "day": "Day 4",
+        "title": "North or south",
+        "detail": "Full day in whichever sector the herds are using, with a picnic lunch and an unhurried pace."
+      },
+      {
+        "day": "Day 5",
+        "title": "Return toward the central plains",
+        "detail": "A last morning drive in the herd sector, then south toward the Naabi gate area."
+      },
+      {
+        "day": "Day 6",
+        "title": "Serengeti to Arusha",
+        "detail": "Early game drive out of the park, then the drive back to Arusha, arriving in the evening."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Tented suites in the park's central and northern sectors, full board."
+      },
+      {
+        "tier": "Mid-range",
+        "description": "Public campsites and seasonal camps, full board."
+      },
+      {
+        "tier": "Mobile-style",
+        "description": "Camps that move with the herds, full board, booked well ahead."
+      }
+    ],
+    "activities": [
+      "Migration-season game drives",
+      "River-crossing watch points in season",
+      "Big-cat tracking around the kopjes",
+      "Picnic lunches in the park",
+      "Optional balloon safari at extra cost",
+      "Birding along the Seronera river"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Wildlife travellers who can be flexible on dates and want the herds",
+    "startsFrom": "Arusha",
+    "travelStyle": "Private 4x4 safari with a campsite or lodge base",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "ngorongoro-crater",
+    "slug": "ngorongoro-crater",
+    "title": "Ngorongoro Crater Wildlife Safari",
+    "shortTitle": "Ngorongoro Crater",
+    "group": "Tanzania Safaris",
+    "country": "Tanzania",
+    "destinationName": "Ngorongoro Crater",
+    "destinationSlug": "ngorongoro",
+    "destinationOverview": "The Ngorongoro Crater is a geological and biological marvel often referred to as the 'Eighth Wonder of the World'. Formed three million years ago when a massive volcano collapsed upon itself, the crater is the world's largest intact, unfilled caldera, measuring 20 kilometers across and 600 meters deep.\n\nInside this self-contained natural amphitheater thrives an astonishing density of over 25,000 large mammals. It is one of the few places in East Africa where visitors can easily witness the Big Five in a single morning, including critically endangered black rhinos, giant tuskers, and dense prides of dark-maned lions.",
+    "regions": [
+      "Ngorongoro Crater"
+    ],
+    "duration": "3 Days / 2 Nights",
+    "durationDays": 3,
+    "durationBucket": "2-3 Days",
+    "safariType": "Big Five Wildlife",
+    "luxuryLevel": "Mid-range",
+    "tagline": "A collapsed volcano, a full floor of wildlife, one honest day inside it",
+    "summary": "The crater is a caldera roughly twenty kilometres across with a self-contained population of lion, elephant, buffalo, black rhino and flamingo on the floor. It is also one of the busiest sites in East Africa, so this short break is built to get you down early and out ahead of the midday convoy, with the surrounding highlands and a Maasai area on the second day.",
+    "cardSummary": "Early descent into the crater for rhino, lion and flamingo, before the crowds.",
+    "heroImage": "/assets/images/destinations/ngorongoro.jpg",
+    "cardImage": "/assets/images/destinations/ngorongoro.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/ngorongoro.jpg",
+        "caption": "The crater floor and Lake Magadi"
+      },
+      {
+        "url": "/assets/images/destinations/ngorongoro-plains.jpg",
+        "caption": "Zebra and buffalo on the crater floor"
+      },
+      {
+        "url": "/assets/images/destinations/tarangire.jpg",
+        "caption": "Elephant country on the drive between parks"
+      }
+    ],
+    "highlights": [
+      "An early descent into the crater, ahead of the main convoy",
+      "Black rhino and lion on the crater floor",
+      "Flamingo and soda lake scenery at Lake Magadi",
+      "Crater-rim viewpoints across the caldera",
+      "Highland forest and a Maasai area visit on the second day"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arusha to the crater rim",
+        "detail": "Drive via Karatu and up through the highland forest to the rim, arriving for lunch. Afternoon at leisure with the caldera below."
+      },
+      {
+        "day": "Day 2",
+        "title": "Down into the crater",
+        "detail": "Early descent through the forest, then a full morning on the floor working the rhino areas and the Lerai forest. Picnic lunch by the lake, back up by mid-afternoon."
+      },
+      {
+        "day": "Day 3",
+        "title": "Highlands and return",
+        "detail": "Morning in the highlands or a Maasai area visit, then the drive back to Arusha, arriving in the afternoon."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Crater-rim lodges with caldera views, full board."
+      },
+      {
+        "tier": "Mid-range",
+        "description": "Rim and highland lodges, full board."
+      },
+      {
+        "tier": "Comfort",
+        "description": "Highland guesthouses near Karatu, dinner, bed and breakfast."
+      }
+    ],
+    "activities": [
+      "Crater floor game drive",
+      "Crater-rim viewpoint stops",
+      "Lake Magadi flamingo viewing",
+      "Highland forest walk",
+      "Maasai area visit arranged locally",
+      "Optional visit to a coffee farm near Karatu"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Short trips out of Arusha and travellers adding Tanzania to a Kenya safari",
+    "startsFrom": "Arusha",
+    "travelStyle": "Private 4x4 safari",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "tarangire-ngorongoro",
+    "slug": "tarangire-ngorongoro",
+    "title": "Tarangire and Ngorongoro Safari",
+    "shortTitle": "Tarangire & Ngorongoro",
+    "group": "Tanzania Safaris",
+    "country": "Tanzania",
+    "destinationName": "Tarangire \\u0026 Ngorongoro",
+    "destinationSlug": "ngorongoro",
+    "destinationOverview": "The Ngorongoro Crater is a geological and biological marvel often referred to as the 'Eighth Wonder of the World'. Formed three million years ago when a massive volcano collapsed upon itself, the crater is the world's largest intact, unfilled caldera, measuring 20 kilometers across and 600 meters deep.\n\nInside this self-contained natural amphitheater thrives an astonishing density of over 25,000 large mammals. It is one of the few places in East Africa where visitors can easily witness the Big Five in a single morning, including critically endangered black rhinos, giant tuskers, and dense prides of dark-maned lions.",
+    "regions": [
+      "Tarangire National Park",
+      "Ngorongoro Crater"
+    ],
+    "duration": "4 Days / 3 Nights",
+    "durationDays": 4,
+    "durationBucket": "4-6 Days",
+    "safariType": "Big Five Wildlife",
+    "luxuryLevel": "Mid-range",
+    "tagline": "Baobabs and elephant herds, then down into the caldera",
+    "summary": "Tarangire is the park people underestimate: huge elephant herds in the dry months, ancient baobabs, and a river valley that pulls wildlife in from the surrounding steppe. Combined with the Ngorongoro crater it makes a compact northern-circuit trip with two very different landscapes, and it avoids the long haul up to the Serengeti if your time is short.",
+    "cardSummary": "Tarangire's baobabs and elephant herds, paired with the Ngorongoro crater floor.",
+    "heroImage": "/assets/images/destinations/tarangire.jpg",
+    "cardImage": "/assets/images/destinations/tarangire.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/tarangire.jpg",
+        "caption": "Elephants in Tarangire National Park"
+      },
+      {
+        "url": "/assets/images/destinations/ngorongoro.jpg",
+        "caption": "The crater floor and Lake Magadi"
+      },
+      {
+        "url": "/assets/images/destinations/ngorongoro-plains.jpg",
+        "caption": "Zebra and buffalo on the crater floor"
+      }
+    ],
+    "highlights": [
+      "Large elephant herds along the Tarangire river in the dry months",
+      "Ancient baobabs and the park's swampy river valley",
+      "Crater floor access for black rhino and lion",
+      "Highland forest on the crater rim",
+      "A short northern circuit without the Serengeti drive"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arusha to Tarangire",
+        "detail": "Drive south via Makuyuni and into the park, arriving for lunch. Afternoon game drive along the river."
+      },
+      {
+        "day": "Day 2",
+        "title": "Tarangire to the crater highlands",
+        "detail": "Morning drive in Tarangire, then north through Karatu and up to the crater rim for the night."
+      },
+      {
+        "day": "Day 3",
+        "title": "Ngorongoro Crater",
+        "detail": "Early descent into the crater, full morning on the floor, picnic lunch by the lake, back up in the afternoon."
+      },
+      {
+        "day": "Day 4",
+        "title": "Highlands and return",
+        "detail": "Morning drive back toward Arusha with a stop near Lake Manyara, arriving in the afternoon."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Lodge and rim accommodation with full board throughout."
+      },
+      {
+        "tier": "Mid-range",
+        "description": "Park lodges and highland camps, full board."
+      },
+      {
+        "tier": "Comfort",
+        "description": "Guesthouses near Karatu, dinner, bed and breakfast."
+      }
+    ],
+    "activities": [
+      "Tarangire river-valley game drives",
+      "Elephant herd viewing in the dry season",
+      "Crater floor game drive",
+      "Highland viewpoints",
+      "Maasai area visit arranged locally",
+      "Birding in the Tarangire swamps"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Short northern-circuit trips and travellers who want two landscapes in four days",
+    "startsFrom": "Arusha",
+    "travelStyle": "Private 4x4 safari",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "tanzania-northern-luxury",
+    "slug": "tanzania-northern-luxury",
+    "title": "Tanzania Northern Circuit Luxury Safari",
+    "shortTitle": "Northern Circuit Luxury",
+    "group": "Tanzania Safaris",
+    "country": "Tanzania",
+    "destinationName": "Tarangire, Serengeti \\u0026 Ngorongoro",
+    "destinationSlug": "serengeti",
+    "destinationOverview": "Derived from the Maasai word 'Siringet' meaning 'endless plains', Serengeti National Park is a UNESCO World Heritage Site spanning nearly 15,000 square kilometers of golden grassland in northern Tanzania. It forms the southern portion of the greater Serengeti-Mara ecosystem.\n\nThe Serengeti hosts the Great Migration year-round, following an ancient cyclical rhythm from the southern calving grounds in Ndutu through the central Seronera predator territory and across the crocodile-filled Grumeti and Mara rivers. With over 3,000 resident lions, the Serengeti boasts the largest lion population in Africa.",
+    "regions": [
+      "Tarangire National Park",
+      "Serengeti National Park",
+      "Ngorongoro Crater"
+    ],
+    "duration": "8 Days / 7 Nights",
+    "durationDays": 8,
+    "durationBucket": "7-9 Days",
+    "safariType": "Fly-in Luxury",
+    "luxuryLevel": "Luxury",
+    "tagline": "The northern circuit at its own pace, with light-aircraft hops",
+    "summary": "Tarangire, the Serengeti and the Ngorongoro crater, joined by light aircraft rather than long road transfers. The savings in time go into the parks: two nights in Tarangire, three in the Serengeti moving between sectors, and a crater-rim night before an early descent. High-end camps throughout, with a private vehicle in each park.",
+    "cardSummary": "Tarangire, the Serengeti and the crater, joined by light aircraft.",
+    "heroImage": "/assets/images/destinations/serengeti-plains.jpg",
+    "cardImage": "/assets/images/destinations/serengeti-plains.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/serengeti-plains.jpg",
+        "caption": "The migration herds spread across the grassland"
+      },
+      {
+        "url": "/assets/images/destinations/ngorongoro.jpg",
+        "caption": "The crater floor and Lake Magadi"
+      },
+      {
+        "url": "/assets/images/destinations/tarangire.jpg",
+        "caption": "Elephants in Tarangire National Park"
+      }
+    ],
+    "highlights": [
+      "Light-aircraft transfers between Arusha, Tarangire, the Serengeti and the crater highlands",
+      "Two Serengeti sectors rather than one static camp",
+      "High-end tented suites throughout",
+      "Crater descent from a rim lodge, early in the morning",
+      "Tarangire's elephant herds at the start of the trip"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arusha to Tarangire",
+        "detail": "Light-aircraft hop or a short road transfer into Tarangire, arriving for lunch. Afternoon game drive along the river."
+      },
+      {
+        "day": "Day 2",
+        "title": "Full day in Tarangire",
+        "detail": "Dawn drive for elephant and baobab country, a long lunch, then an evening drive."
+      },
+      {
+        "day": "Day 3",
+        "title": "Tarangire to the Serengeti",
+        "detail": "Fly from the Tarangire airstrip to the Serengeti, met and driven to camp with a game drive en route."
+      },
+      {
+        "day": "Day 4",
+        "title": "Serengeti",
+        "detail": "Full day following the herds in the sector they are using."
+      },
+      {
+        "day": "Day 5",
+        "title": "Serengeti",
+        "detail": "Second full day, moving camp or driving a different circuit for big cats."
+      },
+      {
+        "day": "Day 6",
+        "title": "Serengeti to the crater highlands",
+        "detail": "Morning game drive, then a flight or drive to the crater highlands for the night."
+      },
+      {
+        "day": "Day 7",
+        "title": "Ngorongoro Crater",
+        "detail": "Early descent into the crater, full morning on the floor, back up for the afternoon."
+      },
+      {
+        "day": "Day 8",
+        "title": "Departure",
+        "detail": "Drive or fly back to Arusha for your onward connection."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "High-end tented suites in Tarangire and the Serengeti, rim lodge at the crater, full board."
+      },
+      {
+        "tier": "Luxury family",
+        "description": "Two-bedroom tents and a rim suite for families, full board."
+      },
+      {
+        "tier": "Classic luxury",
+        "description": "Long-established camps with full board and a private vehicle."
+      }
+    ],
+    "activities": [
+      "Game drives in three parks",
+      "Light-aircraft transfers between sectors",
+      "Big-cat tracking in the Serengeti",
+      "Crater floor game drive",
+      "Bush breakfasts and sundowners",
+      "Optional balloon safari over the Serengeti"
+    ],
+    "inclusions": [
+      "Internal light-aircraft flights within Tanzania as scheduled",
+      "Private 4x4 vehicle and driver-guide in each park",
+      "Seven nights full-board luxury accommodation",
+      "All park, crater and concession fees for the itinerary as drawn",
+      "Airstrip transfers and game drives as scheduled",
+      "House beverages as offered by the camps",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Travellers who want the full northern circuit without long road days",
+    "startsFrom": "Arusha",
+    "travelStyle": "Private fly-in safari",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "tanzania-zanzibar",
+    "slug": "tanzania-zanzibar",
+    "title": "Tanzania Safari and Zanzibar Beach Holiday",
+    "shortTitle": "Tanzania & Zanzibar",
+    "group": "Tanzania Safaris",
+    "country": "Tanzania",
+    "destinationName": "Serengeti, Ngorongoro \\u0026 Zanzibar",
+    "destinationSlug": "zanzibar",
+    "destinationOverview": "Zanzibar, also known as Unguja, is an idyllic semi-autonomous archipelago situated 35 km off the coast of mainland Tanzania. For centuries a pivotal trading hub between Arabia, India, and Africa, Zanzibar is rich in sensory wonders—from fragrant cloves and nutmeg to intricately carved teakwood doorways.\n\nStone Town, Zanzibar's cultural heart, is a UNESCO World Heritage Site with winding cobbled streets, the House of Wonders, and bustling Forodhani night food market. Along the island's coastline, powdery white beaches like Nungwi and Kendwa offer tide-free swimming in glowing turquoise lagoons, while Mnemba Atoll is East Africa's premier marine sanctuary.",
+    "regions": [
+      "Serengeti National Park",
+      "Ngorongoro Crater",
+      "Zanzibar"
+    ],
+    "duration": "9 Days / 8 Nights",
+    "durationDays": 9,
+    "durationBucket": "7-9 Days",
+    "safariType": "Beach & Bush",
+    "luxuryLevel": "Luxury",
+    "tagline": "Migration country, a crater morning, then the Indian Ocean",
+    "summary": "Five days on the northern safari circuit and four on Zanzibar, joined by a short flight from Arusha. The safari half covers Tarangire, the Serengeti and the Ngorongoro crater; the coastal half is Stone Town's lanes and then a beach on the north or east coast. It is the most popular Tanzanian combination for a reason, and it works for honeymoons and for families with older children alike.",
+    "cardSummary": "Serengeti and the crater, then four nights on Zanzibar.",
+    "heroImage": "/assets/images/destinations/zanzibar.jpg",
+    "cardImage": "/assets/images/destinations/zanzibar.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/serengeti.jpg",
+        "caption": "Wildebeest crossing the Serengeti plains"
+      },
+      {
+        "url": "/assets/images/destinations/ngorongoro.jpg",
+        "caption": "The crater floor and Lake Magadi"
+      },
+      {
+        "url": "/assets/images/destinations/zanzibar.jpg",
+        "caption": "Dhow sailing at sunset off Stone Town"
+      },
+      {
+        "url": "/assets/images/destinations/zanzibar-card.jpg",
+        "caption": "Turquoise water off the Zanzibar coast"
+      }
+    ],
+    "highlights": [
+      "Serengeti game drives and big-cat country",
+      "An early descent into the Ngorongoro crater",
+      "A flight from Arusha to Zanzibar instead of a long transfer",
+      "Stone Town's alleys, doors and waterfront at sunset",
+      "Three nights of beach time on the coast"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arusha to Tarangire",
+        "detail": "Drive into Tarangire for lunch and an afternoon game drive."
+      },
+      {
+        "day": "Day 2",
+        "title": "Tarangire to the Serengeti",
+        "detail": "Morning drive, then on through the highlands into the Serengeti for the evening."
+      },
+      {
+        "day": "Day 3",
+        "title": "Serengeti",
+        "detail": "Full day following the herds and the cats."
+      },
+      {
+        "day": "Day 4",
+        "title": "Serengeti to the crater highlands",
+        "detail": "Morning game drive, then south to the crater rim for the night."
+      },
+      {
+        "day": "Day 5",
+        "title": "Crater and flight to Zanzibar",
+        "detail": "Early descent into the crater, then transfer to Arusha for the afternoon flight to Zanzibar. Transfer to Stone Town or the coast."
+      },
+      {
+        "day": "Day 6",
+        "title": "Zanzibar",
+        "detail": "Stone Town walking tour in the morning, then transfer to the beach for the afternoon."
+      },
+      {
+        "day": "Day 7",
+        "title": "Zanzibar",
+        "detail": "Full beach day: reef, dhow or simply the sand."
+      },
+      {
+        "day": "Day 8",
+        "title": "Zanzibar",
+        "detail": "Second beach day with optional spice-farm or snorkelling excursion."
+      },
+      {
+        "day": "Day 9",
+        "title": "Departure",
+        "detail": "Breakfast and transfer to Zanzibar airport for your flight home."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Tented suites on safari and a beachfront suite on Zanzibar, half board on the coast."
+      },
+      {
+        "tier": "Luxury family",
+        "description": "Family tents on safari and a two-bedroom beach villa."
+      },
+      {
+        "tier": "Boutique",
+        "description": "Small safari camps and a boutique Stone Town or beach hotel."
+      }
+    ],
+    "activities": [
+      "Game drives in Tarangire, the Serengeti and the crater",
+      "Stone Town walking tour",
+      "Dhow sailing and sunset cruises",
+      "Reef snorkelling and diving",
+      "Spice farm visit",
+      "Optional balloon safari over the Serengeti"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Honeymoons and long-haul trips that want safari plus a real beach",
+    "startsFrom": "Arusha",
+    "travelStyle": "Private safari with a coastal stay",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "bwindi-gorilla-trekking",
+    "slug": "bwindi-gorilla-trekking",
+    "title": "Bwindi Mountain Gorilla Trekking",
+    "shortTitle": "Bwindi Gorilla Trekking",
+    "group": "Uganda Safaris",
+    "country": "Uganda",
+    "destinationName": "Bwindi Impenetrable Forest",
+    "destinationSlug": "bwindi-impenetrable-forest",
+    "destinationOverview": "Bwindi Impenetrable National Park is a biological masterpiece and UNESCO World Heritage Site in southwestern Uganda. Covering 321 square kilometers of rugged, tangled ancient montane and lowland rainforest, Bwindi is one of Africa's oldest and most diverse ecosystems, surviving through the last Ice Age.\n\nBwindi's greatest treasure is that it shelters nearly half of the world's surviving endangered Mountain Gorillas. Trekking through steep, misty valleys draped in moss and giant ferns to spend an unforgettable hour sitting quietly with a habituated gorilla family—watching massive silverbacks, playful infants, and tender mothers—is universally recognized as one of humanity's most profound wildlife encounters.",
+    "regions": [
+      "Bwindi Impenetrable Forest"
+    ],
+    "duration": "4 Days / 3 Nights",
+    "durationDays": 4,
+    "durationBucket": "4-6 Days",
+    "safariType": "Primates & Gorillas",
+    "luxuryLevel": "Mid-range",
+    "tagline": "One hour with a gorilla family, and a very long walk to get there",
+    "summary": "Bwindi is a 25,000-year-old forest on the Albertine rift, and the trek to a habituated gorilla family can take anywhere from two to eight hours depending on where they nested the night before. You get one hour with them when you arrive. This itinerary keeps a spare day in Bwindi so a permit day is not lost to a travel delay, and pairs the trek with Lake Bunyonyi on the way out.",
+    "cardSummary": "A gorilla family in Bwindi, with a spare day built in around the trek.",
+    "heroImage": "/assets/images/destinations/uganda-gorilla.jpg",
+    "cardImage": "/assets/images/destinations/uganda-gorilla.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/uganda-gorilla.jpg",
+        "caption": "Mountain gorilla in the Bwindi forest"
+      },
+      {
+        "url": "/assets/images/destinations/uganda-gorilla-card.jpg",
+        "caption": "Gorilla family in the Impenetrable Forest"
+      },
+      {
+        "url": "/assets/images/destinations/rwanda-hills.jpg",
+        "caption": "The Albertine rift highlands"
+      }
+    ],
+    "highlights": [
+      "A permit-secured trek to a habituated mountain gorilla family",
+      "One hour with the family, with porters and rangers throughout",
+      "The Buhoma or Nkuringo trailheads, matched to fitness and permit availability",
+      "Lake Bunyonyi for the final night",
+      "A spare day so a travel delay does not cost the trek"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Entebbe to Bwindi",
+        "detail": "Early start from Entebbe or Kampala for the long drive southwest through Mbarara and Kabale, arriving in Bwindi in the evening. Alternatively fly to Kihihi and drive in."
+      },
+      {
+        "day": "Day 2",
+        "title": "Gorilla trekking",
+        "detail": "Briefing at the park headquarters, then trekking with rangers and trackers. One hour with the family, then back to the lodge for a late lunch and a quiet afternoon."
+      },
+      {
+        "day": "Day 3",
+        "title": "Bwindi to Lake Bunyonyi",
+        "detail": "A community or coffee experience in the morning, then the drive to Lake Bunyonyi for the afternoon and night."
+      },
+      {
+        "day": "Day 4",
+        "title": "Return to Entebbe",
+        "detail": "Drive back to Entebbe with a stop in Mbarara, arriving in the evening for your onward flight."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Forest-edge lodges with private decks near the trailhead, full board."
+      },
+      {
+        "tier": "Mid-range",
+        "description": "Comfortable lodges close to the park headquarters, full board."
+      },
+      {
+        "tier": "Lakeside",
+        "description": "Lake Bunyonyi cottages for the final night, bed and breakfast."
+      }
+    ],
+    "activities": [
+      "Mountain gorilla trekking with rangers and trackers",
+      "Community or coffee experience near the park",
+      "Lake Bunyonyi boat trip",
+      "Forest birding along the trailheads",
+      "Optional second trek if permits allow",
+      "Optional Batwa cultural experience arranged locally"
+    ],
+    "inclusions": [
+      "Private 4x4 vehicle with driver-guide throughout",
+      "Three nights accommodation as per the itinerary, full board in Bwindi",
+      "Gorilla permit secured on your behalf (permit fee quoted at the official rate)",
+      "Community or coffee experience",
+      "Bottled drinking water in the vehicle throughout",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights",
+      "Uganda visa",
+      "Travel insurance",
+      "Gorilla permit fee itself (quoted separately at the official rate)",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Gratuities for guides, trackers and lodge staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "Gorilla permits are limited and are secured against a confirmed trek date. Permit fees are quoted at the official rate.",
+      "Trekking can last from two to eight hours on uneven, often wet forest ground. A reasonable level of fitness helps.",
+      "Porters can be hired locally to carry bags; this is arranged at the trailhead.",
+      "One hour with the gorilla family is the park rule, and it is enforced by the rangers.",
+      "The drive from Entebbe is long. Flying to Kihihi shortens it and can be quoted instead."
+    ],
+    "bestFor": "Travellers whose main reason for the trip is seeing mountain gorillas",
+    "startsFrom": "Entebbe",
+    "travelStyle": "Private 4x4 safari",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "queen-elizabeth-national-park",
+    "slug": "queen-elizabeth-national-park",
+    "title": "Queen Elizabeth National Park Safari",
+    "shortTitle": "Queen Elizabeth Safari",
+    "group": "Uganda Safaris",
+    "country": "Uganda",
+    "destinationName": "Queen Elizabeth National Park",
+    "destinationSlug": "uganda",
+    "destinationOverview": "Dubbed the 'Pearl of Africa' by Winston Churchill in 1908, Uganda is an astonishingly fertile, green, and biodiversity-rich jewel in East Africa. Dominated by Lake Victoria, snow-capped Rwenzori 'Mountains of the Moon', and the birthplace of the mighty River Nile at Jinja, Uganda offers unmatched safari diversity.\n\nAt Murchison Falls National Park, the entire Nile River explodes through a tiny seven-meter cleft in the Rift Valley escarpment with unimaginable force before flowing calmly into Lake Albert. In Kibale Forest National Park, travelers track some of the world's highest concentrations of primates, including over 1,500 habituated wild chimpanzees.",
+    "regions": [
+      "Queen Elizabeth National Park"
+    ],
+    "duration": "4 Days / 3 Nights",
+    "durationDays": 4,
+    "durationBucket": "4-6 Days",
+    "safariType": "Big Five Wildlife",
+    "luxuryLevel": "Mid-range",
+    "tagline": "Kazinga Channel, tree-climbing lions and crater lakes",
+    "summary": "Uganda's most visited park earns it with variety: the Kazinga Channel boat trip past hippo and buffalo, lion in the Ishasha sector that habitually rest in fig trees, and a chain of explosion craters east of the park. Four days also leaves room for the Kyambura gorge and the park's remarkable bird list, which passes 600 species.",
+    "cardSummary": "A Kazinga Channel boat, Ishasha's tree lions and crater country.",
+    "heroImage": "/assets/images/destinations/queen-elizabeth.jpg",
+    "cardImage": "/assets/images/destinations/queen-elizabeth.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/queen-elizabeth.jpg",
+        "caption": "Lioness at first light in Queen Elizabeth National Park"
+      },
+      {
+        "url": "/assets/images/destinations/queen-elizabeth-kob.jpg",
+        "caption": "Ugandan kob on the park's grasslands"
+      },
+      {
+        "url": "/assets/images/destinations/rwanda-hills.jpg",
+        "caption": "The Albertine rift highlands"
+      }
+    ],
+    "highlights": [
+      "Kazinga Channel boat safari past hippo, buffalo and elephant",
+      "Tree-climbing lion in the Ishasha sector",
+      "The explosion crater drive east of the park",
+      "Kyambura gorge and its chimpanzee population",
+      "Birding across grassland, wetland and forest habitat"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Entebbe or Kampala to Queen Elizabeth",
+        "detail": "Drive west through Fort Portal and Kasese, arriving at the park in the afternoon. Evening drive on the northern tracks."
+      },
+      {
+        "day": "Day 2",
+        "title": "Kazinga Channel and the craters",
+        "detail": "Morning game drive, then the Kazinga Channel boat trip, then the crater drive in the late afternoon."
+      },
+      {
+        "day": "Day 3",
+        "title": "Ishasha sector",
+        "detail": "Full day south to Ishasha for tree-climbing lion, with a picnic lunch in the sector."
+      },
+      {
+        "day": "Day 4",
+        "title": "Kyambura and return",
+        "detail": "Morning at Kyambura gorge or a final game drive, then the drive back to Entebbe, arriving in the evening."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Lodges on the channel with private decks, full board."
+      },
+      {
+        "tier": "Mid-range",
+        "description": "Safari lodges and tented camps inside the park, full board."
+      },
+      {
+        "tier": "Comfort",
+        "description": "Guesthouses near the park gate, dinner, bed and breakfast."
+      }
+    ],
+    "activities": [
+      "Kazinga Channel boat safari",
+      "Game drives on the northern tracks",
+      "Ishasha tree-lion drive",
+      "Explosion crater drive",
+      "Kyambura gorge walk",
+      "Birding across the park's habitats"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Travellers combining gorillas with a savannah park in Uganda",
+    "startsFrom": "Entebbe",
+    "travelStyle": "Private 4x4 safari with a boat excursion",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "murchison-falls",
+    "slug": "murchison-falls",
+    "title": "Murchison Falls Wildlife Adventure",
+    "shortTitle": "Murchison Falls",
+    "group": "Uganda Safaris",
+    "country": "Uganda",
+    "destinationName": "Murchison Falls National Park",
+    "destinationSlug": null,
+    "destinationOverview": "Uganda's largest park is built around the Nile, which forces itself through a narrow gorge in a roar you can feel. The boat trip upriver to the falls is the centrepiece, with hippo, crocodile and waterbuck on the banks, and the northern bank adds lion, elephant, giraffe and a very good chance of shoebill in the papyrus.",
+    "regions": [
+      "Murchison Falls National Park"
+    ],
+    "duration": "4 Days / 3 Nights",
+    "durationDays": 4,
+    "durationBucket": "4-6 Days",
+    "safariType": "Big Five Wildlife",
+    "luxuryLevel": "Mid-range",
+    "tagline": "The Nile squeezed through a seven-metre gap, and the plains around it",
+    "summary": "Uganda's largest park is built around the Nile, which forces itself through a narrow gorge in a roar you can feel. The boat trip upriver to the falls is the centrepiece, with hippo, crocodile and waterbuck on the banks, and the northern bank adds lion, elephant, giraffe and a very good chance of shoebill in the papyrus.",
+    "cardSummary": "A boat up the Nile to the falls, then game drives on the northern bank.",
+    "heroImage": "/assets/images/destinations/murchison-falls.jpg",
+    "cardImage": "/assets/images/destinations/murchison-falls.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/murchison-falls.jpg",
+        "caption": "The Nile forcing through Murchison Falls"
+      },
+      {
+        "url": "/assets/images/destinations/murchison-nile.jpg",
+        "caption": "The Nile at Murchison Falls National Park"
+      },
+      {
+        "url": "/assets/images/destinations/queen-elizabeth-kob.jpg",
+        "caption": "Ugandan kob on the northern bank"
+      }
+    ],
+    "highlights": [
+      "Boat trip up the Nile to the base of the falls",
+      "A walk to the top of the falls where the river narrows",
+      "Lion, elephant and giraffe on the northern bank",
+      "Shoebill search in the papyrus on the Victoria Nile delta",
+      "Nile perch and tigerfish country for anyone who fishes"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Entebbe to Murchison Falls",
+        "detail": "Drive north through Ziwa and Masindi, entering the park in the afternoon. Evening drive on the northern bank."
+      },
+      {
+        "day": "Day 2",
+        "title": "Northern bank and the falls",
+        "detail": "Morning game drive, then the afternoon boat trip upriver, with the optional walk to the top of the falls."
+      },
+      {
+        "day": "Day 3",
+        "title": "Delta and shoebill",
+        "detail": "Early boat toward the Nile delta to look for shoebill, then a relaxed afternoon and a night drive where permitted."
+      },
+      {
+        "day": "Day 4",
+        "title": "Morning drive and return",
+        "detail": "Final game drive, breakfast, then the drive back to Entebbe, arriving in the evening."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "River-facing lodges with private decks, full board."
+      },
+      {
+        "tier": "Mid-range",
+        "description": "Safari lodges on the southern and northern banks, full board."
+      },
+      {
+        "tier": "Comfort",
+        "description": "Guesthouses near the park gate, dinner, bed and breakfast."
+      }
+    ],
+    "activities": [
+      "Nile boat safari to the falls",
+      "Top-of-the-falls walk",
+      "Northern bank game drives",
+      "Shoebill search in the delta",
+      "Night drive where permitted",
+      "Optional sport fishing for Nile perch"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Travellers who want a boat-based safari and Uganda's biggest waterfall",
+    "startsFrom": "Entebbe",
+    "travelStyle": "Private 4x4 safari with boat excursions",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "rwanda-gorilla-trekking",
+    "slug": "rwanda-gorilla-trekking",
+    "title": "Rwanda Gorilla Trekking Experience",
+    "shortTitle": "Rwanda Gorilla Trekking",
+    "group": "Rwanda Safaris",
+    "country": "Rwanda",
+    "destinationName": "Volcanoes National Park",
+    "destinationSlug": "volcanoes-national-park",
+    "destinationOverview": "Volcanoes National Park (Parc National des Volcans) covers 160 square kilometers of dramatic montane ecosystem in northwestern Rwanda. It encompasses five of the eight magnificent volcanoes in the Virunga chain: Karisimbi, Bisoke, Muhabura, Gahinga, and Sabyinyo, cloaked in bamboo and rainforest.\n\nThis was the legendary base of zoologist Dian Fossey, who devoted twenty years of her life to studying and protecting mountain gorillas. Today, Rwanda is the world's premier luxury gorilla trekking destination, where travelers stay at world-class eco-lodges and trek through misty bamboo slopes to encounter wild gorilla families and playful golden monkeys.",
+    "regions": [
+      "Volcanoes National Park"
+    ],
+    "duration": "3 Days / 2 Nights",
+    "durationDays": 3,
+    "durationBucket": "2-3 Days",
+    "safariType": "Primates & Gorillas",
+    "luxuryLevel": "Luxury",
+    "tagline": "Kigali to the Virunga foothills in one afternoon",
+    "summary": "Rwanda's version of the gorilla trek is the shortest and most polished: a drive from Kigali to the Virunga foothills in a few hours, an early briefing at the park headquarters, and a trek into the bamboo and hagenia forest above the farmland. Three days is realistic, and it leaves a morning for Kigali's genocide memorial before the flight home.",
+    "cardSummary": "Three days from Kigali to a gorilla family in the Virunga foothills.",
+    "heroImage": "/assets/images/destinations/rwanda-gorilla.jpg",
+    "cardImage": "/assets/images/destinations/rwanda-gorilla.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/rwanda-gorilla.jpg",
+        "caption": "Mountain gorilla mother and baby"
+      },
+      {
+        "url": "/assets/images/destinations/rwanda-hills.jpg",
+        "caption": "The Virunga volcanoes above the foothills"
+      },
+      {
+        "url": "/assets/images/destinations/uganda-gorilla.jpg",
+        "caption": "Gorilla in the bamboo zone"
+      }
+    ],
+    "highlights": [
+      "Gorilla trekking in Volcanoes National Park with park rangers",
+      "A short drive from Kigali, with no long transfer days",
+      "Virunga volcano scenery from the lodge garden",
+      "Optional golden monkey trek on the second morning",
+      "Kigali Genocide Memorial visit before departure"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Kigali to Volcanoes National Park",
+        "detail": "Met at the airport or your hotel and driven northwest through Musanze to the park area, arriving in the afternoon. Evening briefing at the lodge."
+      },
+      {
+        "day": "Day 2",
+        "title": "Gorilla trekking",
+        "detail": "Early briefing at the park headquarters, then trekking with rangers. One hour with the family, then back for a late lunch. Afternoon at leisure."
+      },
+      {
+        "day": "Day 3",
+        "title": "Golden monkeys and Kigali",
+        "detail": "Optional golden monkey trek or a community visit in the morning, then the drive back to Kigali, with the Genocide Memorial if time allows and an airport transfer."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Foothill lodges with volcano views and full board."
+      },
+      {
+        "tier": "Mid-range",
+        "description": "Comfortable lodges near Musanze, full board."
+      },
+      {
+        "tier": "Boutique",
+        "description": "Small guesthouses with hosted dining near the park."
+      }
+    ],
+    "activities": [
+      "Mountain gorilla trekking",
+      "Optional golden monkey trek",
+      "Community and cultural visits arranged locally",
+      "Volcano-view walks from the lodge",
+      "Kigali Genocide Memorial visit",
+      "Optional Dian Fossey grave hike"
+    ],
+    "inclusions": [
+      "Private vehicle and driver-guide from Kigali and back",
+      "Two nights accommodation as per the itinerary, full board",
+      "Gorilla permit secured on your behalf (permit fee quoted at the official rate)",
+      "Park briefing and ranger fees",
+      "Bottled drinking water in the vehicle throughout",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights",
+      "Rwanda visa",
+      "Travel insurance",
+      "Gorilla permit fee itself (quoted separately at the official rate)",
+      "Golden monkey permit unless added",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Gratuities for guides, trackers and lodge staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "Gorilla permits are limited and are secured against a confirmed trek date. Permit fees are quoted at the official rate.",
+      "Trekking can last several hours on steep, often muddy ground. Porters can be hired locally.",
+      "One hour with the gorilla family is the park rule and is enforced by the rangers.",
+      "Rwanda requires a visa for some nationalities; check the current rule before booking flights.",
+      "Golden monkey trekking is a separate permit and is quoted on request."
+    ],
+    "bestFor": "Travellers with three days who want the shortest route to a gorilla family",
+    "startsFrom": "Kigali",
+    "travelStyle": "Private 4x4 safari",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
+  },
+  {
+    "id": "rwanda-akagera-big-five",
+    "slug": "rwanda-akagera-big-five",
+    "title": "Rwanda Akagera Big Five Safari",
+    "shortTitle": "Akagera Big Five",
+    "group": "Rwanda Safaris",
+    "country": "Rwanda",
+    "destinationName": "Akagera National Park",
+    "destinationSlug": null,
+    "destinationOverview": "Akagera was restocked with lion and rhino after years of decline and now holds the Big Five again, in a landscape of papyrus lakes, acacia woodland and rolling hills along the Tanzanian border. It is a fraction of the Serengeti's size and sees a fraction of its visitors. Four days allows the northern lakes, the southern savannah and a boat trip on Lake Ihema.",
+    "regions": [
+      "Akagera National Park"
+    ],
+    "duration": "4 Days / 3 Nights",
+    "durationDays": 4,
+    "durationBucket": "4-6 Days",
+    "safariType": "Big Five Wildlife",
+    "luxuryLevel": "Mid-range",
+    "tagline": "Lion, rhino and a lake-and-wetland park in the east",
+    "summary": "Akagera was restocked with lion and rhino after years of decline and now holds the Big Five again, in a landscape of papyrus lakes, acacia woodland and rolling hills along the Tanzanian border. It is a fraction of the Serengeti's size and sees a fraction of its visitors. Four days allows the northern lakes, the southern savannah and a boat trip on Lake Ihema.",
+    "cardSummary": "Lion, rhino and papyrus lakes in Rwanda's quiet eastern park.",
+    "heroImage": "/assets/images/destinations/akagera-giraffes.jpg",
+    "cardImage": "/assets/images/destinations/akagera-giraffes.jpg",
+    "gallery": [
+      {
+        "url": "/assets/images/destinations/akagera-giraffes.jpg",
+        "caption": "Giraffe in Akagera National Park"
+      },
+      {
+        "url": "/assets/images/destinations/akagera.jpg",
+        "caption": "Lakes and wetlands in Akagera"
+      },
+      {
+        "url": "/assets/images/destinations/rwanda-hills.jpg",
+        "caption": "Rwanda's rolling hill country"
+      }
+    ],
+    "highlights": [
+      "Big Five game drives in a park that sees few visitors",
+      "Lion and rhino, both reintroduced and closely monitored",
+      "Lake Ihema boat trip past hippo and crocodile",
+      "Papyrus wetlands with shoebill and other waterbirds",
+      "Northern lakes and southern savannah in a single trip"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Kigali to Akagera",
+        "detail": "Drive east through Rwamagana to the park, arriving for lunch. Afternoon game drive on the southern tracks."
+      },
+      {
+        "day": "Day 2",
+        "title": "Northern Akagera",
+        "detail": "Full day north through the lakes and woodland, looking for lion, elephant and giraffe, with a picnic lunch."
+      },
+      {
+        "day": "Day 3",
+        "title": "Lake Ihema and the south",
+        "detail": "Morning boat trip on Lake Ihema, then an afternoon drive on the southern plains for rhino and buffalo."
+      },
+      {
+        "day": "Day 4",
+        "title": "Morning drive and return",
+        "detail": "Final early game drive, breakfast, then the drive back to Kigali for your afternoon or evening flight."
+      }
+    ],
+    "accommodation": [
+      {
+        "tier": "Luxury",
+        "description": "Lakeside lodges with private decks, full board."
+      },
+      {
+        "tier": "Mid-range",
+        "description": "Park camps and lodges, full board."
+      },
+      {
+        "tier": "Comfort",
+        "description": "Guesthouses near the park boundary, dinner, bed and breakfast."
+      }
+    ],
+    "activities": [
+      "Big Five game drives",
+      "Lake Ihema boat safari",
+      "Northern lakes circuit",
+      "Birding for shoebill and waterbirds",
+      "Night drive where permitted",
+      "Optional community visits arranged locally"
+    ],
+    "inclusions": [
+      "Private safari vehicle with pop-up roof and professional driver-guide",
+      "Accommodation on the nights shown, full board unless the day plan says otherwise",
+      "All park and conservancy entry fees for the itinerary as drawn",
+      "Game drives and activities listed in the day-by-day plan",
+      "Bottled drinking water in the vehicle throughout",
+      "Round-trip road transfers from Nairobi unless the plan starts elsewhere",
+      "24/7 WhatsApp support from your Horizon Legacy consultant"
+    ],
+    "exclusions": [
+      "International flights and any domestic flight unless quoted",
+      "Visas, eTA and travel insurance",
+      "Alcoholic drinks, premium beverages and laundry",
+      "Optional extras marked as optional in the day plan",
+      "Gratuities for guides and camp staff",
+      "Any item not listed under inclusions"
+    ],
+    "travelInfo": [
+      "This is a suggested outline. Dates, pace, lodges and road-versus-fly legs are all set at quotation.",
+      "Wildlife sightings are never guaranteed. Guides pace each day around what is actually moving.",
+      "Park fees, permits and concession fees are quoted at the official rate current at the time of booking.",
+      "Dry seasons (roughly January-February and June-October) usually give the easiest game viewing; the itinerary itself runs year-round."
+    ],
+    "bestFor": "Travellers adding a savannah park to a Rwanda gorilla trip",
+    "startsFrom": "Kigali",
+    "travelStyle": "Private 4x4 safari with a boat excursion",
+    "season": "Year-round - quoted for your dates",
+    "validity": "Year-round - quoted for your dates",
+    "price": null,
+    "priceNote": "Price on request",
+    "status": "published",
+    "detailPath": null
   }
 ];
 

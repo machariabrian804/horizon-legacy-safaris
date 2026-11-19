@@ -383,6 +383,74 @@ def package_card(pkg):
 
 
 # -----------------------------------------------------------------------------
+# SAMPLE ITINERARY SECTION
+# -----------------------------------------------------------------------------
+def sample_itineraries_section():
+    sections = []
+    for it in SAMPLE_ITINERARIES:
+        route_html = "\n".join(
+            f'<span class="pkg-sample-route-stop">{html.escape(stop)}</span>'
+            + ('<span class="pkg-sample-route-arrow" aria-hidden="true">&rarr;</span>' if i < len(it["route"]) - 1 else "")
+            for i, stop in enumerate(it["route"])
+        )
+        stops_html = ""
+        for stop in it["stops"]:
+            transfer = stop.get("transfer")
+            transfer_html = (
+                f'<p class="pkg-sample-transfer"><strong>Transfer:</strong> {html.escape(transfer)}</p>'
+                if transfer else ""
+            )
+            img = stop.get("image")
+            img_html = (
+                f'<div class="pkg-sample-stop-media"><img src="{html.escape(img)}" alt="{html.escape(stop["destination"])}" loading="lazy"></div>'
+                if img else ""
+            )
+            stops_html += f"""
+        <li class="pkg-sample-stop">
+          {img_html}
+          <div class="pkg-sample-stop-body">
+            <div class="pkg-sample-stop-head">
+              <span class="pkg-sample-day">{html.escape(stop['day'])}</span>
+              <span class="pkg-sample-dest">{html.escape(stop['destination'])}</span>
+            </div>
+            <h3 class="pkg-sample-stop-title">{html.escape(stop['title'])}</h3>
+            <p class="pkg-sample-stop-text">{html.escape(stop['detail'])}</p>
+            <p class="pkg-sample-stay"><strong>Stay:</strong> {html.escape(stop.get('stay', ''))}</p>
+            {transfer_html}
+          </div>
+        </li>"""
+        notes_html = "\n".join(
+            f'<li>{html.escape(n)}</li>' for n in it.get("notes", [])
+        )
+        sections.append(f"""
+  <section class="dest-content-section pkg-sample-section" id="sample-itineraries">
+    <div class="container">
+      <span class="pkg-eyebrow">{html.escape(it.get('kicker', 'Sample Itinerary'))}</span>
+      <h2 class="dest-section-title">{html.escape(it['title'])}</h2>
+      <p class="dest-section-subtitle">{html.escape(it['summary'])}</p>
+      <p class="pkg-sample-meta"><strong>Duration:</strong> {html.escape(it['duration'])}</p>
+      <div class="pkg-sample-route" aria-label="Route">
+        {route_html}
+      </div>
+      <ol class="pkg-sample-timeline">
+{stops_html}
+      </ol>
+      <div class="pkg-sample-notes">
+        <h3 class="pkg-panel-title">Please note</h3>
+        <ul class="pkg-list">
+{notes_html}
+        </ul>
+      </div>
+      <div class="pkg-cta-actions" style="margin-top: 24px;">
+        <a href="{wa_link('Hello Horizon Legacy Safaris, I would like to discuss the seven-day Best of Kenya sample itinerary.')}" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp-solid">Discuss This Route</a>
+        <button class="btn btn-primary" onclick="openBookingModal('7-Day Best of Kenya Sample Itinerary')">Request a Quotation</button>
+      </div>
+    </div>
+  </section>""")
+    return "\n".join(sections)
+
+
+# -----------------------------------------------------------------------------
 # 1. CATALOGUE PAGE  /safari-packages/
 # -----------------------------------------------------------------------------
 def build_catalogue():
@@ -613,6 +681,14 @@ def build_detail(pkg):
         for a in pkg["accommodation"]
     )
 
+    activities_html = "\n".join(
+        f'<span class="activity-tag-card">{html.escape(a)}</span>' for a in pkg.get("activities", [])
+    )
+    travel_info_html = "\n".join(
+        f'<li>{html.escape(t)}</li>' for t in pkg.get("travelInfo", [])
+    )
+    destination_overview = html.escape(pkg.get("destinationOverview") or pkg.get("summary", ""))
+
     inclusions_html = "\n".join(
         f'<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>{html.escape(i)}</span></li>'
         for i in pkg["inclusions"]
@@ -752,6 +828,14 @@ def build_detail(pkg):
     </div>
   </section>
 
+  <section class="dest-content-section" id="destination">
+    <div class="container">
+      <span class="pkg-eyebrow">Destination</span>
+      <h2 class="dest-section-title">About {html.escape(pkg['destinationName'])}</h2>
+      <p class="pkg-lead">{destination_overview}</p>
+    </div>
+  </section>
+
   <section class="dest-content-section" id="itinerary" style="background-color: #ffffff;">
     <div class="container">
       <span class="pkg-eyebrow">Day by Day</span>
@@ -770,6 +854,17 @@ def build_detail(pkg):
       <p class="dest-section-subtitle">We match the property to your budget band and confirm current availability at the time of quotation. Property names are shared with your quote.</p>
       <div class="accomm-grid">
 {accomm_html}
+      </div>
+    </div>
+  </section>
+
+  <section class="dest-content-section" id="activities">
+    <div class="container">
+      <span class="pkg-eyebrow">Experiences</span>
+      <h2 class="dest-section-title">What you will do</h2>
+      <p class="dest-section-subtitle">Activities and encounters typical of this itinerary. The exact mix is set at quotation.</p>
+      <div class="activities-tag-grid">
+{activities_html}
       </div>
     </div>
   </section>
@@ -796,6 +891,16 @@ def build_detail(pkg):
     </div>
   </section>
 
+  <section class="dest-content-section" id="travel-info" style="background-color: #ffffff;">
+    <div class="container">
+      <span class="pkg-eyebrow">Practical notes</span>
+      <h2 class="dest-section-title">Travel information</h2>
+      <ul class="pkg-list">
+{travel_info_html}
+      </ul>
+    </div>
+  </section>
+
   <section class="dest-content-section" id="gallery">
     <div class="container">
       <span class="pkg-eyebrow">Visual Journey</span>
@@ -804,6 +909,70 @@ def build_detail(pkg):
       <div class="dest-gallery-grid">
 {gallery_html}
       </div>
+    </div>
+  </section>
+
+  <section class="dest-content-section pkg-enquiry-section" id="enquiry">
+    <div class="container">
+      <span class="pkg-eyebrow">Enquire</span>
+      <h2 class="dest-section-title">Request a quotation</h2>
+      <p class="dest-section-subtitle">Fill in the details below and we will reply on WhatsApp with a written quotation for {html.escape(pkg['title'])}.</p>
+      <form class="pkg-enquiry-form" id="pkgEnquiryForm" data-package="{html.escape(pkg['title'])}" data-wa="{WA_PHONE}" onsubmit="return false;">
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="pe-fullName">Full Name *</label>
+            <input type="text" id="pe-fullName" required placeholder="e.g. Dennis Mwangi">
+          </div>
+          <div class="form-group">
+            <label for="pe-phoneNumber">WhatsApp / Phone Number *</label>
+            <input type="tel" id="pe-phoneNumber" required placeholder="e.g. +254 700 000 000">
+          </div>
+          <div class="form-group">
+            <label for="pe-emailAddress">Email Address</label>
+            <input type="email" id="pe-emailAddress" placeholder="e.g. dennis@example.com">
+          </div>
+          <div class="form-group">
+            <label for="pe-travelDate">Preferred Travel Date *</label>
+            <input type="date" id="pe-travelDate" required>
+          </div>
+          <div class="form-group">
+            <label for="pe-transportPreference">Travel Style *</label>
+            <select id="pe-transportPreference" required>
+              <option value="4x4 Safari Land Cruiser">4x4 Safari Land Cruiser + Guide</option>
+              <option value="Scenic Flight / Fly-in Safari">Scenic Flight / Fly-in Package</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="pe-adultsCount">Adults (12+ yrs)</label>
+            <select id="pe-adultsCount">
+              <option value="1 Adult">1 Adult</option>
+              <option value="2 Adults" selected>2 Adults</option>
+              <option value="3 Adults">3 Adults</option>
+              <option value="4 Adults">4 Adults</option>
+              <option value="5+ Adults">5+ Adults (Group)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="pe-childrenCount">Children (Below 12 yrs)</label>
+            <select id="pe-childrenCount">
+              <option value="0 Children" selected>0 Children</option>
+              <option value="1 Child">1 Child</option>
+              <option value="2 Children">2 Children</option>
+              <option value="3+ Children">3+ Children</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="pe-specialRequests">Notes / Custom Preferences</label>
+          <textarea id="pe-specialRequests" rows="3" placeholder="e.g. Honeymoon setup, dietary requirements, or flight transfer requests..."></textarea>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-whatsapp-submit" id="pe-submitBtn">
+            <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.588-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.698.077-1.134-.063-.275-.088-.63-.205-1.178-.444-2.336-1.019-3.844-3.394-3.96-3.551-.116-.157-.945-1.258-.945-2.4 0-1.141.597-1.701.81-1.932.213-.23.465-.288.621-.288.155 0 .31.002.446.009.144.007.336-.055.525.4.195.469.664 1.62.723 1.738.058.118.098.257.02.413-.078.156-.118.256-.234.394-.117.137-.246.307-.352.413-.118.118-.241.246-.104.482.138.236.611 1.008 1.309 1.63.898.799 1.656 1.047 1.892 1.164.236.117.373.103.51-.055.138-.157.588-.686.744-.922.157-.236.314-.196.529-.118.216.079 1.372.647 1.607.765.236.118.393.177.451.275.059.098.059.57-.085.975z"/></svg>
+            <span>Send WhatsApp Inquiry</span>
+          </button>
+        </div>
+      </form>
     </div>
   </section>
 
@@ -837,6 +1006,7 @@ def build_detail(pkg):
     </div>
   </section>
 """
+    page += '<script src="/assets/js/package-enquiry.js" defer></script>\n'
     page += footer()
     page += floating_whatsapp(wa_text)
     page += booking_modal(pkg["title"])
